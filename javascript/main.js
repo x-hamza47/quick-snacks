@@ -76,34 +76,18 @@ const textType = () => {
 }
 textType();
 
-// const txt_bx = document.querySelector("#sec-txt");
-// const words = ["Web Developer", "UI/UX Designer"];
-// let cur_let_in = 0;
-// let cur_wrd_in = 0;
-// let type_direction = "forward";
 
-// function textType() {
-//   const word = words[cur_wrd_in];
-//   if (type_direction == "forward") {
-//     if (cur_let_in <= word.length) {
-//       txt_bx.textContent = word.slice(0, cur_let_in);
-//       cur_let_in++;
-//       setTimeout(textType, 200);
-//     } else {
-//       type_direction = "backward";
-//       setTimeout(textType, 1000);
-//     }
-//   } else if (type_direction == "backward") {
-//     if (cur_let_in >= 0) {
-//       txt_bx.textContent = word.slice(0, cur_let_in);
-//       cur_let_in--;
-//       setTimeout(textType, 80);
-//     } else {
-//       cur_let_in = 0;
-//       type_direction = "forward";
-//       cur_wrd_in = (cur_wrd_in + 1) % words.length;
-//       textType();
-//     }
-//   }
-// }
-// textType();
+const form = document.querySelector("form");
+
+form.addEventListener("change", (event) => {
+  const target = event.target;
+
+  if (target.matches(".inp_grp input") || target.matches(".msg_grp textarea")) {
+    if (target.value !== "") {
+      target.classList.add("filled");
+    } else {
+      target.classList.remove("filled");
+    }
+  }
+});
+
