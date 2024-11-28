@@ -489,7 +489,7 @@ line-height: 1.7;
 }
 
 .inp_grp,.msg_grp{
-  margin: 1% 0;
+  margin: .5rem 0;
   position: relative;
   width: 90%;
 }
@@ -590,8 +590,6 @@ textarea{
   top: 0;
   left: 1%;
   color: var(--primary-color);
-  /* background-color: #1E1E1E; */
-
   & + i{
     color: var(--primary-color);
     transition-delay: .45s;
@@ -605,9 +603,6 @@ textarea{
 }
 
 .inp_grp i{
-  position: absolute;
-  top: 50%;
-  right: 0;
   transform: translateY(-50%);
   color: rgba(204, 204, 204, 0.612);
   font-size: clamp(18px,1.53vw,55px);
@@ -649,25 +644,8 @@ textarea{
   cursor: text;
 }
 
-form .sub-btn{
-  display: flex;
-  justify-content: center;
-
-
-  button{
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+form .sub-btn button{
     background: rgba(239, 120, 60, 0.6) !important;
-    transition: all .3s ease;
-    gap: 10px;
-
-    /* &:hover{
-      box-shadow: 1px 0 8px #f89f60;
-      background-color: var(--primary-color);
-    } */
-  }
 }
 
 /* Info: Footer Css */
