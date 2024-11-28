@@ -294,10 +294,12 @@ header:hover:before{
         height: 100%;
     }
 }
-.hero-btn .btn{
+.hero-btn .btn,
+.contact-container .form_container .sub-btn button{
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     outline: 2px solid var(--primary-color);
+    cursor: pointer;
     transition: all .3s ease;
 
     &:hover{
@@ -507,7 +509,7 @@ textarea:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 textarea{
-  padding: 15px .5vw 7px max(8px,.5vw);
+  padding: 20px .5vw 7px max(8px,.5vw);
   width: 100%;
   height: clamp(160px,14vw,665px) !important;
   font-size: clamp(14px,1.2vw,57px);
@@ -588,7 +590,7 @@ textarea{
   top: 0;
   left: 1%;
   color: var(--primary-color);
-  background-color: #1E1E1E;
+  /* background-color: #1E1E1E; */
 
   & + i{
     color: var(--primary-color);
@@ -607,10 +609,8 @@ textarea{
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  /* background: #1E1E1E; */
-  color: #ccc;
+  color: rgba(204, 204, 204, 0.612);
   font-size: clamp(18px,1.53vw,55px);
-  /* color: var(--secondary-color); */
   padding: .6vw;
 }
 
@@ -638,12 +638,11 @@ textarea{
 
  label{
   position: absolute;
-  /* color:rgba(83, 90, 96, 0.658) ; */
-  color: var(--accent-color);
+  color: rgba(204, 204, 204, 0.612);
   top: 50%;
   left: 10px;
   transform: translateY(-50%);
-  font-size: clamp(16px,1.3vw,57px);
+  font-size: clamp(14px,1.1vw,57px);
   font-weight: 500;
   transition: all .3s ease;
   user-select: none;
@@ -651,33 +650,23 @@ textarea{
 }
 
 form .sub-btn{
-  width: 90%;
   display: flex;
   justify-content: center;
 
 
   button{
-    width: 40%;
-    padding: max(10px,.9vw) 0;
     border-radius: 50px;
-    font-size: clamp(16px,1.3vw,57px);
-    text-align: center;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    color: var(--accent-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: var(--primary-color); */
-    background: rgba(239, 120, 60, 0.6);
+    background: rgba(239, 120, 60, 0.6) !important;
     transition: all .3s ease;
     gap: 10px;
 
-    &:hover{
+    /* &:hover{
       box-shadow: 1px 0 8px #f89f60;
       background-color: var(--primary-color);
-    }
+    } */
   }
 }
 
