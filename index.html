@@ -28,35 +28,35 @@
                 <li><a href="#">Recipes</a></li>
                 <li><a href="#">Categories</a></li>
                 <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
            </ul>
         </nav>
     </header>
     <!-- Info:------------------ Hero Section Start --------------------->
     <section class="hero-section d-flex align-items-center" id="home">
-    <div class="container w-100 d-flex flex-wrap align-items-center justify-content-center my-3">
-    <div class="hero-content sec w-50 d-flex flex-column text-white gap-3">
-        <h1 class="fw-bold">Fuel Your Day With Something <span id="anim-words" class="h1 fw-bold">dfsdf</span></h1> 
-        <p>Discover snacks that are quick, delicious, and perfect for any time of the day. Whether you're craving something light or indulgent, our selection is made to keep you energized and satisfied.</p>
-        <div class="hero-btn">
-            <button class="btn fw-semibold px-5 py-2 text-white">Sign up</button>
-        </div>
-        <div>Do you have account? 
-            <a href="#" class="text-decoration-none" style="color: var(--primary-color);">Login</a>
-        </div>
-    </div>
+        <div class="container w-100 d-flex flex-wrap align-items-center justify-content-center my-3">
+            <div class="hero-content sec w-50 d-flex flex-column text-white gap-3">
+                <h1 class="fw-bold">Fuel Your Day With Something <span id="anim-words" class="h1 fw-bold">dfsdf</span></h1> 
+                <p>Discover snacks that are quick, delicious, and perfect for any time of the day. Whether you're craving something light or indulgent, our selection is made to keep you energized and satisfied.</p>
+                <div class="hero-btn">
+                    <button class="btn fw-semibold px-5 py-2 text-white">Sign up</button>
+                </div>
+                <div>Do you have account? 
+                    <a href="#" class="text-decoration-none" style="color: var(--primary-color);">Login</a>
+                </div>
+            </div>
 
-    <div class="hero-img-wrp sec  d-flex justify-content-evenly align-items-center p-3 overflow-hidden">
-        <img src="./assets/images/blob2.png" class="blob position-absolute z-n1  end-0" alt="">
-        <img class="w-100 pizza"
-        src="./assets/images/pizza2.png"
-        alt="">
-    </div>
-</div>
+            <div class="hero-img-wrp sec  d-flex justify-content-evenly align-items-center p-3 overflow-hidden">
+                <img src="./assets/images/blob2.png" class="blob position-absolute z-n1  end-0" alt="">
+                <img class="w-100 pizza"
+                src="./assets/images/pizza2.png"
+                alt="">
+            </div>
+        </div>
     </section>
     <!-- !------------------Hero Section End--------------------->
 
-     <!-- Info:----------------- Trending Section Start --------------------->
+    <!-- Info:----------------- Trending Section Start --------------------->
     <section id="trending">
         <div class="container py-5 d-flex flex-column gap-3">
             <h2 class="trend-head fs-1 text-center fw-bold">Trending<span style="color: var(--primary-color);"> Recipes</span></h2>
@@ -608,7 +608,7 @@
     <!-- !------------------ Explore Section End --------------------->
 
     <!-- Info:-------------- Categories Section Start ------------------>
-    <section id="categories">
+    <section id="categories" class="position-relative d-flex justify-content-center align-items-center overflow-hidden">
         <div class="container py-5 d-flex flex-column gap-3">
             <h2 class="cat-head fs-1 text-center fw-bold">Popular<span style="color: var(--primary-color);"> Categories</span></h2>
             <div class="categories-container w-100 d-flex flex-wrap justify-content-center gap-4">
@@ -684,59 +684,58 @@
     <!-- !----------------- Categories Section End -------------------->
 
     <!-- Info:-------------- Contact Section Start-------------------->
+    <section class="contact_section d-flex flex-column gap-3" id="contact">
 
-<section class="contact_section" id="contact">
+    <div class="contact-heading">
+        <h2 class="fs-1 text-center fw-bold">Contact<span style="color: var(--primary-color);"> Us</span>
+        </h2>
+    </div>
+    <div class="contact-container">
 
-  <div class="contact-heading">
-    <h2 class="fs-1 text-center fw-bold">Contact<span style="color: var(--primary-color);"> Us</span>
-    </h2>
-  </div>
-  <div class="contact-container">
+        <div class="form_container">
 
-    <div class="form_container">
+        <!-- form -->
+        <form id="contact_form">
+            <div class="inp_grp">
+            <input type="text" id="name" name="name" autocomplete="off">
+            <label for="name">*Name</label>
+            <i class='bx bxs-user position-absolute top-50 end-0'></i>
+            </div>
+            <div class="inp_grp">
+            <input type="email" id="email" name="email" autocomplete="off">
+            <label for="email">*Email</label>
+            <i class='bx bxs-envelope position-absolute top-50 end-0' ></i>
+            </div>
+            <div class="inp_grp">
+            <input type="text" id="phone" name="phone" autocomplete="off">
+            <label for="phone">Phone</label>
+            <i class='bx bxs-phone position-absolute top-50 end-0' ></i>
+            </div>
+            <div class="msg_grp">
+            <textarea name="msg" id="msg" autocomplete="off"></textarea>
+            <label>*Message</label>
+            </div>
 
-      <!-- form -->
-      <form id="contact_form">
-        <div class="inp_grp">
-          <input type="text" id="name" name="name" autocomplete="off">
-          <label for="name">*Name</label>
-          <i class='bx bxs-user position-absolute top-50 end-0'></i>
-        </div>
-        <div class="inp_grp">
-          <input type="email" id="email" name="email" autocomplete="off">
-          <label for="email">*Email</label>
-          <i class='bx bxs-envelope position-absolute top-50 end-0' ></i>
-        </div>
-        <div class="inp_grp">
-          <input type="text" id="phone" name="phone" autocomplete="off">
-          <label for="phone">Phone</label>
-          <i class='bx bxs-phone position-absolute top-50 end-0' ></i>
-        </div>
-        <div class="msg_grp">
-          <textarea name="msg" id="msg" autocomplete="off"></textarea>
-          <label>*Message</label>
+            <div class="sub-btn">
+            <button id="send" type="submit" class="btn fw-semibold px-5 py-2 text-white d-flex justify-content-center align-items-center rounded gap-2">
+                <i class='bx bxs-send' ></i>
+                Send
+            </button>
+            </div>
+        </form>
+        <!-- form end -->
         </div>
 
-        <div class="sub-btn">
-          <button id="send" type="submit" class="btn fw-semibold px-5 py-2 text-white d-flex justify-content-center align-items-center rounded gap-2">
-            <i class='bx bxs-send' ></i>
-            Send
-          </button>
+
+        <!-- google map -->
+        <div class="g-map" id='map'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192857.4618731065!2d17.043883546802228!3d40.9508626281328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1346352fa3627447%3A0xfb97acffdf770db1!2sQuick%20Snack%20H24%20-%20Monopoli!5e0!3m2!1sen!2s!4v1732795476141!5m2!1sen!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" crossorigin="anonymous"></iframe>
         </div>
-      </form>
-      <!-- form end -->
+
     </div>
 
-
-    <!-- google map -->
-    <div class="g-map" id='map'>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192857.4618731065!2d17.043883546802228!3d40.9508626281328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1346352fa3627447%3A0xfb97acffdf770db1!2sQuick%20Snack%20H24%20-%20Monopoli!5e0!3m2!1sen!2s!4v1732795476141!5m2!1sen!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" crossorigin="anonymous"></iframe>
-    </div>
-
-  </div>
-
-</section>
-<!-- !--------------- Contact Section End ------------------->
+    </section>
+    <!-- !--------------- Contact Section End ------------------->
 
     <!-- Info:------------------ Footer Start --------------------->
     <footer class="w-100 text-white ">
