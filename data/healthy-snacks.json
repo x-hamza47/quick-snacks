@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "name": "Avocado Toast with Tomato",
+    "description": "A simple and nutritious avocado toast topped with fresh tomatoes, perfect for a healthy snack.",
+    "ingredients": [
+      "1 ripe avocado",
+      "2 slices whole grain bread",
+      "1 tomato, sliced",
+      "Salt and pepper to taste",
+      "1 tablespoon olive oil"
+    ],
+    "instructions": [
+      "Toast the whole grain bread slices.",
+      "Mash the avocado and spread it evenly over the toast.",
+      "Top with tomato slices, and season with salt and pepper.",
+      "Drizzle with olive oil before serving."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "230-250 ",
+      "Carbs": "30-35g",
+      "Fat": "12-15g",
+      "Protein": "3-5g",
+      "Fiber": "6-8g",
+      "Net Carbs": "22-25g",
+      "Sodium": "100-150mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "For extra flavor, add a pinch of red pepper flakes or a squeeze of lemon juice."
+  },
+  {
+    "id": 2,
+    "name": "Chia Pudding with Berries",
+    "description": "A creamy chia pudding topped with fresh berries for a delicious and healthy snack.",
+    "ingredients": [
+      "3 tablespoons chia seeds",
+      "1 cup almond milk",
+      "1 tablespoon honey",
+      "1/4 cup mixed berries",
+      "1 teaspoon vanilla extract"
+    ],
+    "instructions": [
+      "Combine chia seeds, almond milk, honey, and vanilla extract in a bowl.",
+      "Stir well, cover, and refrigerate for at least 2 hours or overnight.",
+      "Top with mixed berries before serving."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 3,
+    "recipe_facts": {
+      "Calories": "180-210 kcal",
+      "Carbs": "20-25g",
+      "Fat": "10-12g",
+      "Protein": "6-7g",
+      "Fiber": "8-10g",
+      "Net Carbs": "12-15g",
+      "Sodium": "50-100mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "This pudding can be prepared the night before for an easy breakfast or snack."
+  },
+  {
+    "id": 3,
+    "name": "Hummus and Veggie Sticks",
+    "description": "A tasty and filling snack with hummus and a variety of fresh vegetable sticks.",
+    "ingredients": [
+      "1 cup hummus",
+      "1 carrot, sliced into sticks",
+      "1 cucumber, sliced into sticks",
+      "1 bell pepper, sliced into sticks",
+      "1 celery stalk, sliced into sticks"
+    ],
+    "instructions": [
+      "Arrange the vegetable sticks on a plate.",
+      "Serve with hummus for dipping."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "recipe_facts": {
+      "Calories": "150-180 kcal",
+      "Carbs": "15-20g",
+      "Fat": "8-10g",
+      "Protein": "5-6g",
+      "Fiber": "4-6g",
+      "Net Carbs": "10-15g",
+      "Sodium": "250-300mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "You can substitute hummus with guacamole or yogurt dip for variety."
+  },
+  {
+    "id": 4,
+    "name": "Greek Yogurt with Honey and Almonds",
+    "description": "A healthy snack combining creamy Greek yogurt, honey, and crunchy almonds.",
+    "ingredients": [
+      "1/2 cup Greek yogurt",
+      "1 tablespoon honey",
+      "1/4 cup sliced almonds",
+      "1/4 teaspoon cinnamon (optional)"
+    ],
+    "instructions": [
+      "Scoop Greek yogurt into a bowl.",
+      "Drizzle with honey, and top with sliced almonds.",
+      "Sprinkle with cinnamon if desired."
+    ],
+    "prepTimeMinutes": 3,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "200-230 kcal",
+      "Carbs": "18-22g",
+      "Fat": "12-14g",
+      "Protein": "10-12g",
+      "Fiber": "2-3g",
+      "Net Carbs": "15-18g",
+      "Sodium": "50-100mg",
+      "Cholesterol": "5-10mg"
+    },
+    "cookingNote": "For added flavor, you can use maple syrup instead of honey or add fresh fruit on top."
+  },
+  {
+    "id": 5,
+    "name": "Apple Slices with Almond Butter",
+    "description": "A quick and satisfying snack with crunchy apple slices and creamy almond butter.",
+    "ingredients": [
+      "1 apple, sliced",
+      "2 tablespoons almond butter",
+      "1 teaspoon cinnamon (optional)"
+    ],
+    "instructions": [
+      "Slice the apple into rounds.",
+      "Spread almond butter on each slice.",
+      "Sprinkle with cinnamon if desired."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "180-210 kcal",
+      "Carbs": "20-25g",
+      "Fat": "12-14g",
+      "Protein": "4-6g",
+      "Fiber": "5-6g",
+      "Net Carbs": "15-18g",
+      "Sodium": "50-100mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "You can also use peanut butter instead of almond butter for a different taste."
+  }
+]

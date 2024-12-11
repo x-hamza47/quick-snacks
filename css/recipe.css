@@ -1,0 +1,196 @@
+#recipe{
+    background: #292929 url("../assets/images/bg-2.jpg") no-repeat center center / cover fixed;
+    background-blend-mode: overlay;
+    padding: 70px 35px;
+}
+.rec-img{
+  flex: 1 1 500px;
+}
+.recipe-thumbnail{
+  /* width: 280px; */
+  height: calc(30vw + 100px);
+  min-height: 250px;
+  max-height: 450px;
+  outline: 3px solid var(--primary-color);
+  img{
+    object-fit: cover;
+  }
+}
+.recipe-about {
+  flex: 1 1 200px;
+  min-width: 280px;
+
+  h4 {
+    color: var(--accent-color);
+  }
+  ul > li {
+      /* background: rgba(255, 255, 255, 0.2); */
+    color: var(--accent-color);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.199);
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    /* span {
+      text-align: right;
+    } */
+  }
+}
+
+.rec-details > span,.card-rating span {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  color: var(--accent-color);
+  i {
+    color: var(--primary-color);
+  }
+}
+i {
+  color: var(--primary-color);
+}
+
+.recipe .recipe-container .prep .detail-box {
+  color: var(--accent-color);
+  position: relative;
+}
+.prep{
+  backdrop-filter: blur(6px);
+}
+.detail-box:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #fff, transparent);
+    opacity: 0.6; /* Make it lighter */
+}
+
+.recipe-container,
+.ingredients-container,
+.instruction-container,
+.note-container,
+.comment-container {
+  padding: 20px 0;
+}
+.checks,.inst-wrapper,.comments-wrapper{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.checks > span {
+  display: flex;
+  color: var(--accent-color);
+  input {
+    margin-right: 8px;
+    width: 19px;
+    height: 19px;
+    appearance: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  label{
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    text-wrap: nowrap;
+  }
+  label::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: var(--primary-color);
+    transform: translateY(-50%);
+    transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+  }
+  label.checked{
+    color: #8d8d8d;
+  }
+  label.checked::before{
+    width: 100%;
+  }
+
+  input[type="checkbox"]:checked {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input[type="checkbox"]:checked::after {
+    content: "✔";
+    font-size: 15px;
+    color: #fff;
+  }
+}
+
+
+.instruction-container .inst-wrapper .inst-step .inst-badge {
+  background: var(--primary-color);
+  min-width: 20px;
+  max-height: 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.instruction-container .inst-wrapper .inst-step{
+  font-size: 16px;
+}
+
+.divider {
+  width: 100%;
+  background: var(--primary-color);
+  padding: 3px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.for-img {
+  width: 50px;
+  outline: 2px solid var(--primary-color);
+  border-radius: 50%;
+}
+
+
+
+.nutritional-bar {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    color: rgb(245, 145, 31);
+  }
+.nutritional-bar li{
+  position: relative;
+  overflow: hidden;
+}
+.nutritional-bar li::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background: rgba(var(--bg-color),.1); */
+  background: rgba(255, 255, 255, 0.1);
+  width: var(--bar-width);
+  height: 100%;
+  z-index: -1;
+}
+@media screen and (max-width:1024px) {
+  .recipe .recipe-container .prep .detail-box,
+  .recipe-container .prep .detail-box i{
+    font-size: 12px;
+  }
+}

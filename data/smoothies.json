@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "name": "Strawberry Banana Smoothie",
+    "description": "A refreshing smoothie made with ripe bananas, fresh strawberries, and a touch of honey.",
+    "ingredients": [
+      "1 banana",
+      "1/2 cup strawberries",
+      "1/2 cup Greek yogurt",
+      "1/2 cup almond milk",
+      "1 tablespoon honey"
+    ],
+    "instructions": [
+      "Place all ingredients in a blender.",
+      "Blend until smooth and creamy.",
+      "Serve chilled."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "150-180 kcal",
+      "Carbs": "30-35g",
+      "Fat": "2-3g",
+      "Protein": "6-8g",
+      "Fiber": "3-4g",
+      "Net Carbs": "25-30g",
+      "Sodium": "50-60mg",
+      "Cholesterol": "5-10mg"
+    },
+    "cookingNote": "For a thicker texture, add more frozen strawberries or ice cubes."
+  },
+  {
+    "id": 2,
+    "name": "Mango Pineapple Smoothie",
+    "description": "A tropical smoothie with a burst of mango and pineapple flavors, perfect for a refreshing snack.",
+    "ingredients": [
+      "1 cup mango chunks",
+      "1/2 cup pineapple chunks",
+      "1/2 cup coconut water",
+      "1/2 cup Greek yogurt",
+      "1 teaspoon lime juice"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 3,
+    "recipe_facts": {
+      "Calories": "170-200 kcal",
+      "Carbs": "35-40g",
+      "Fat": "1-2g",
+      "Protein": "5-6g",
+      "Fiber": "4-5g",
+      "Net Carbs": "30-35g",
+      "Sodium": "40-50mg",
+      "Cholesterol": "5-10mg"
+    },
+    "cookingNote": "Add a little ice if you prefer a colder smoothie."
+  },
+  {
+    "id": 3,
+    "name": "Green Detox Smoothie",
+    "description": "A healthy green smoothie made with spinach, apple, and chia seeds for a detox boost.",
+    "ingredients": [
+      "1 cup spinach",
+      "1 green apple, chopped",
+      "1/2 cucumber, chopped",
+      "1 tablespoon chia seeds",
+      "1/2 cup coconut water",
+      "1 teaspoon lemon juice"
+    ],
+    "instructions": [
+      "Blend spinach, apple, cucumber, chia seeds, coconut water, and lemon juice.",
+      "Process until smooth and creamy.",
+      "Serve immediately."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "120-150 kcal",
+      "Carbs": "25-30g",
+      "Fat": "4-5g",
+      "Protein": "2-3g",
+      "Fiber": "6-7g",
+      "Net Carbs": "18-22g",
+      "Sodium": "40-50mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "For added sweetness, try adding a few dates or honey."
+  },
+  {
+    "id": 4,
+    "name": "Berry Protein Smoothie",
+    "description": "A protein-packed smoothie made with mixed berries, protein powder, and almond milk.",
+    "ingredients": [
+      "1/2 cup mixed berries",
+      "1 scoop protein powder",
+      "1/2 cup almond milk",
+      "1/2 banana",
+      "1 tablespoon flaxseeds"
+    ],
+    "instructions": [
+      "Place all ingredients in a blender.",
+      "Blend until smooth and creamy.",
+      "Serve and enjoy as a post-workout drink."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "200-250 kcal",
+      "Carbs": "25-30g",
+      "Fat": "8-10g",
+      "Protein": "20-25g",
+      "Fiber": "5-6g",
+      "Net Carbs": "20-25g",
+      "Sodium": "100-120mg",
+      "Cholesterol": "10-15mg"
+    },
+    "cookingNote": "Add more almond milk if you prefer a thinner consistency."
+  },
+  {
+    "id": 5,
+    "name": "Peanut Butter Banana Smoothie",
+    "description": "A rich and creamy smoothie with the delicious combination of peanut butter and banana.",
+    "ingredients": [
+      "1 banana",
+      "1 tablespoon peanut butter",
+      "1/2 cup Greek yogurt",
+      "1/2 cup almond milk",
+      "1 teaspoon honey"
+    ],
+    "instructions": [
+      "Add all ingredients into a blender.",
+      "Blend until smooth and creamy.",
+      "Serve chilled."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "250-300 kcal",
+      "Carbs": "30-35g",
+      "Fat": "12-15g",
+      "Protein": "10-12g",
+      "Fiber": "3-4g",
+      "Net Carbs": "25-30g",
+      "Sodium": "150-200mg",
+      "Cholesterol": "10-20mg"
+    },
+    "cookingNote": "For a vegan version, substitute the Greek yogurt with a plant-based yogurt."
+  }
+]

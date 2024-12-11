@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Info: Title -->
+    <title>Quick-Snacks Recipe</title>
+    <!-- Info: Boxicons Cdn -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Info: Bootstrap 5 Cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Info: Custom Css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/recipe.css" />
+  </head>
+  <body>
+    <!-- Info: Header -->
+    <header>
+      <a href="index.html" id="logo">
+        <img
+          src="./assets/images/logo.png"
+          alt="Navbar Logo"
+          class="logo me-2"
+        />
+        Quick<span style="color: var(--primary-color)">Snacks</span>
+      </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <ul class="nav__links m-0">
+          <li><a href="index.html" target="_self">Home</a></li>
+          <li><a href="recipe.html">Recipes</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Info:---------------- Recipe Section Start ------------->
+    <section class="recipe" id="recipe">
+      <div class="recipe-container mt-3">
+        <div class="d-flex flex-column">
+          <h2 class="explore-head fs-1 text-left fw-bold text-light">
+            Recipe:
+            <span style="color: var(--primary-color)"> Mango Smoothie</span>
+          </h2>
+          <div class="w-100 d-flex flex-wrap justify-content-center gap-3">
+            <div class="rec-img">
+              <div
+                class="rec-details d-flex flex-wrap justify-content-between align-items-center my-1"
+              >
+                <span
+                  ><i class="bx bxs-user-circle fs-6"></i>Author: Abdul
+                  Moiz</span
+                >
+                <span
+                  ><i class="bx bxs-calendar fs-6"></i>Created on: 02/2004</span
+                >
+                <span
+                  ><i class="bx bx-message-rounded-dots fs-6"></i>Comments</span
+                >
+                <span><i class="bx bx-bookmark fs-6"></i>Save</span>
+                <div class="card-rating px-2 d-flex fs-6">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bx-star"></i>
+                  <span>(4.5/5)</span>
+                </div>
+              </div>
+              <!-- ! Thumbnail -->
+              <div class="recipe-thumbnail rounded my-2">
+                <img
+                  class="w-100 h-100 rounded"
+                  src="../assets/images/mango-smoothie.jpeg"
+                  alt="recipe-image"
+                />
+              </div>
+              <!-- ? Preparation Details -->
+              <div
+                class="prep detail-bx d-flex w-100 justify-content-center my-2 rounded"
+              >
+                <div
+                  class="detail-box flex-fill d-flex flex-column px-xl-5 py-2 px-sm-2 px-md-3 px-2 text-center"
+                >
+                  Prep Time
+                  <span
+                    class="d-flex align-items-center justify-content-center gap-1"
+                    ><i class="bx bx-restaurant fs-5"></i>2Hrs</span
+                  >
+                </div>
+                <div
+                  class="detail-box flex-fill d-flex flex-column px-xl-5 py-2 px-sm-2 px-md-3 px-2 text-center"
+                >
+                  Cook Time
+                  <span
+                    class="d-flex align-items-center justify-content-center gap-1"
+                    ><i class="bx bx-time fs-5"></i> 1Hr</span
+                  >
+                </div>
+                <div
+                  class="detail-box flex-fill d-flex flex-column px-xl-5 py-2 px-sm-2 px-md-3 px-2 text-center"
+                >
+                  Serving
+                  <span
+                    class="d-flex align-items-center justify-content-center gap-1"
+                    ><i class="bx bx-group fs-5"></i> 1</span
+                  >
+                </div>
+              </div>
+              <p class="text-light">
+                This Mango Smoothie is a delicious, refreshing treat that’s
+                perfect for any time of the day, especially during the summer
+                months. Packed with natural sweetness from the mango and a
+                creamy texture from the yogurt and milk, it’s a healthy and
+                satisfying option for a quick breakfast, snack, or dessert. You
+                can customize it by adding other fruits like banana or berries,
+                or making it dairy-free by using plant-based milk and yogurt.
+                Enjoy this tropical delight for a burst of flavor and energy!
+              </p>
+              <!-- Info: Ingredients -->
+              <div class="ingredients-container my-5">
+                <div class="container">
+                  <h2 class="explore-head fs-1 text-left fw-bold text-light">
+                    Ingredients
+                    <span style="color: var(--primary-color)">List</span>
+                  </h2>
+                  <div
+                    class="checks d-flex flex-column gap-3 mt-3 px-3 py-4 rounded"
+                  >
+                    <span>
+                      <input type="checkbox" class="checkbox" id="checkbox1" />
+                      <label for="checkbox1">1 ripe mango</label>
+                    </span>
+                    <span>
+                      <input type="checkbox" class="checkbox" id="checkbox2" />
+                      <label for="checkbox2">1/2 cup of yogurt</label>
+                    </span>
+                    <span>
+                      <input type="checkbox" class="checkbox" id="checkbox3" />
+                      <label for="checkbox3">1/2 cup of milk</label>
+                    </span>
+                    <span>
+                      <input type="checkbox" class="checkbox" id="checkbox4" />
+                      <label for="checkbox4"
+                        >1 tablespoon of honey or sugar</label
+                      >
+                    </span>
+                    <span>
+                      <input
+                        type="checkbox"
+                        class="checkbox checkbox5"
+                        id="checkbox5"
+                      />
+                      <label for="checkbox5">1/2 cup of ice cubes</label>
+                    </span>
+                    <span>
+                      <input type="checkbox" class="checkbox" id="checkbox6" />
+                      <label for="checkbox6"
+                        >1/4 teaspoon of vanilla extract</label
+                      >
+                    </span>
+                    <span>
+                      <input type="checkbox" class="checkbox" id="checkbox7" />
+                      <label for="checkbox7">A pinch of salt</label>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- Info: Instructions -->
+              <div class="instruction-container my-5">
+                <div class="container text-light">
+                  <h2 class="explore-head fs-1 text-left fw-bold text-light">
+                    Instructions
+                    <span style="color: var(--primary-color)"
+                      >Step by Step</span
+                    >
+                  </h2>
+                  <!-- ! Instruction Wrapper -->
+                  <div class="inst-wrapper mt-3 px-3 py-4 rounded">
+                    <div class="inst-step d-flex align-items-baseline">
+                      <span
+                        class="inst-badge d-flex align-items-center justify-content-center fw-bold"
+                        >1</span
+                      >
+                      <p>
+                        Prepare the Mango: Peel and chop the ripe mango into
+                        small chunks, discarding the seed.
+                      </p>
+                    </div>
+                    <div class="inst-step d-flex align-items-baseline">
+                      <span
+                        class="inst-badge d-flex align-items-center justify-content-center fw-bold"
+                        >2</span
+                      >
+                      <p>
+                        Blend the Ingredients: In a blender, add the chopped
+                        mango, yogurt, milk, honey (or sugar), and vanilla
+                        extract (if using).
+                      </p>
+                    </div>
+                    <div class="inst-step d-flex align-items-baseline">
+                      <span
+                        class="inst-badge d-flex align-items-center justify-content-center fw-bold"
+                        >3</span
+                      >
+                      <p>
+                        Add Ice: Add the ice cubes to the blender to make the
+                        smoothie cold and refreshing.
+                      </p>
+                    </div>
+                    <div class="inst-step d-flex align-items-baseline">
+                      <span
+                        class="inst-badge d-flex align-items-center justify-content-center fw-bold"
+                        >4</span
+                      >
+                      <p>
+                        Blend Until Smooth: Blend all the ingredients on high
+                        speed until smooth and creamy.
+                      </p>
+                    </div>
+                    <div class="inst-step d-flex align-items-baseline">
+                      <span
+                        class="inst-badge d-flex align-items-center justify-content-center fw-bold"
+                        >5</span
+                      >
+                      <p>
+                        Taste and Adjust: Taste the smoothie and adjust
+                        sweetness by adding more honey or sugar if needed.
+                      </p>
+                    </div>
+                    <div class="inst-step d-flex align-items-baseline">
+                      <span
+                        class="inst-badge d-flex align-items-center justify-content-center fw-bold"
+                        >6</span
+                      >
+                      <p>
+                        Serve: Pour the smoothie into a glass and enjoy
+                        immediately!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Info: Cooking Note -->
+              <div class="note-container">
+                <div class="container text-light">
+                  <h2 class="explore-head fs-1 text-left fw-bold text-light">
+                    Cooking
+                    <span style="color: var(--primary-color)"
+                      >Note</span
+                    >
+                  </h2>
+                  <div class="w-100">
+                    <div>
+                      To get the best flavor and texture, ensure your mango is
+                      fully ripe. A ripe mango will have a sweet, fragrant aroma
+                      and will yield slightly to gentle pressure when squeezed.
+                      If you prefer a thicker smoothie, you can freeze the mango
+                      chunks before blending. Additionally, for a richer taste,
+                      consider adding a tablespoon of coconut milk or cream. If
+                      the smoothie turns out too thick, simply add a bit more
+                      milk to reach your desired consistency. Enjoy the
+                      freshness of this tropical drink anytime!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="recipe-about">
+              <h4 class="text-center">
+                Nutritious
+                <span style="color: var(--primary-color)"> Facts</span>
+              </h4>
+              <ul class="nutritional-bar w-100 py-4 px-3 rounded">
+                <li style="--bar-width: 75%; --bg-color: 245, 145, 31">
+                  Calories <span class="fw-semibold">250-300 kcal</span>
+                </li>
+                <li style="--bar-width: 15%; --bg-color: 0, 128, 0">
+                  Carbs <span class="fw-semibold">45-55g</span>
+                </li>
+                <li style="--bar-width: 45%; --bg-color: 227, 248, 34">
+                  Fat <span class="fw-semibold">4-6g</span>
+                </li>
+                <li style="--bar-width: 5%; --bg-color: 0, 128, 0">
+                  Protein <span class="fw-semibold">6-8g</span>
+                </li>
+                <li style="--bar-width: 68%; --bg-color: 227, 248, 34">
+                  Fiber <span class="fw-semibold">3-5g</span>
+                </li>
+                <li style="--bar-width: 29%; --bg-color: 0, 128, 0">
+                  Net Carbs <span class="fw-semibold">40-50g</span>
+                </li>
+                <li style="--bar-width: 95%; --bg-color: 255, 0, 0">
+                    Sodium <span class="fw-semibold">50-80mg</span>
+                </li>
+                <li style="--bar-width: 55%; --bg-color: 227, 248, 34">
+                    Cholestrol <span class="fw-semibold">10-20mg</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<!-- ?? Divider -->
+ <div class="container">
+     <hr class="divider">
+ </div>
+<!-- Info: Comment Section -->
+<section class="comment-section" id="comment">
+          <div class="comment-container">
+              <div class="container text-light">
+                  <h1 class="explore-head fs-1 text-left fw-bold">Comments</h1>
+              </div>
+              <div class="comments-wrapper d-flex flex-column gap-5 mt-4 py-4 rounded">
+                  <div class="comment">
+                      <div class="container d-flex justify-content-between text-light">
+                          <div class="d-flex">
+                              <div class="for-img me-3">
+                                  <img src="https://hips.hearstapps.com/hmg-prod/images/tom-cruise-attends-the-australian-premiere-of-mission-news-photo-1723493931.jpg?crop=0.668xw:1.00xh;0.177xw,0&resize=640:*"
+                                      class="w-100 rounded-circle" alt="">
+                              </div>
+                              <div class="name d-flex flex-column">
+                                  <span class="fw-bold">Tom Cruise</span>
+                                  <span class="text-secondary"><small>40min Ago</small></span>
+                              </div>
+                          </div>
+                          <div class="options">
+                              <div class="btn text-light fw-bold">. . .</div>
+                          </div>
+                      </div>
+                      <div class="container m-2">
+                          <div class="container text-light ">
+                              <p>Love this site! The recipes are so easy to follow, and the suggestions are spot on. Perfect for
+                                  quick, tasty snacks!</p>
+                              <div class="d-flex align-items-center gap-1">
+                                  <i class='bx bxs-message-dots'></i> Reply
+                                  <i class='bx bxs-message-dots ms-5'></i> 521
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="comment">
+                      <div class="container d-flex justify-content-between text-light">
+                          <div class="d-flex">
+                              <div class="for-img me-3">
+                                  <img src="https://bookingagentinfo.com/wp-content/uploads/2022/08/Jackie-Chan-2-1.png"
+                                      class="w-100 rounded-circle" alt="">
+                              </div>
+                              <div class="name d-flex flex-column">
+                                  <span class="fw-bold">Jackie chan</span>
+                                  <span class="text-secondary"><small>2hrs Ago</small></span>
+                              </div>
+                          </div>
+                          <div class="options">
+                              <div class="btn text-light fw-bold">. . .</div>
+                          </div>
+                      </div>
+                      <div class="container m-2 m-2">
+                          <div class="container text-light">
+                              <p>各种各样的小吃创意！这些食谱又快又美味，我总能找到新的尝试。
+                                  这个网站改变了我的零食游戏。简单的食谱和有用的建议让准备美味佳肴变得如此容易。</p>
+                              <div class="d-flex align-items-center gap-1">
+                                  <i class='bx bxs-message-dots'></i> Reply
+                                  <i class='bx bxs-message-dots ms-5'></i> 26
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="comment">
+                      <div class="container d-flex justify-content-between text-light">
+                          <div class="d-flex">
+                              <div class="for-img me-3">
+                                  <img src="https://i.pinimg.com/550x/45/de/42/45de424a29a8000a65787ec74440799c.jpg"
+                                      class="w-100 rounded-circle" alt="">
+                              </div>
+                              <div class="name d-flex flex-column">
+                                  <span class="fw-bold">Robert Downey Jr.</span>
+                                  <span class="text-secondary"><small>5mins Ago</small></span>
+                              </div>
+                          </div>
+                          <div class="options">
+                              <div class="btn text-light fw-bold">. . .</div>
+                          </div>
+                      </div>
+                      <div class="container m-2">
+                          <div class="container text-light">
+                              <p>QuickSnacks has saved me countless times when I'm in need of a fast and tasty snack. Highly
+                                  recommend for busy days!</p>
+                              <div class="d-flex align-items-center gap-1">
+                                  <i class='bx bxs-message-dots'></i> Reply
+                                  <i class='bx bxs-message-dots ms-5'></i> 541
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="comment">
+                      <div class="container d-flex justify-content-between text-light">
+                          <div class="d-flex">
+                              <div class="for-img me-3">
+                                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUNjojoBXh_Mmq-aB0TPhpfj2y9Quh2tQlHA&s"
+                                      class="w-100 rounded-circle" alt="">
+                              </div>
+                              <div class="name d-flex flex-column">
+                                  <span class="fw-bold">Deadpool</span>
+                                  <span class="text-secondary"><small>2years Ago</small></span>
+                              </div>
+                          </div>
+                          <div class="options">
+                              <div class="btn text-light fw-bold">. . .</div>
+                          </div>
+                      </div>
+                      <div class="container m-2">
+                          <div class="container text-light">
+                              <p>Fantastic site for quick and easy snack recipes. The suggestions are creative and perfect for
+                                  when I'm in a rush! I've tried a few recipes here and they’ve all turned out amazing. A great
+                                  place for quick snack ideas that satisfy!</p>
+                              <div class="d-flex align-items-center gap-1">
+                                  <i class='bx bxs-message-dots'></i> Reply
+                                  <i class='bx bxs-message-dots ms-5'></i> 98
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </section>
+    
+
+    <!-- !---------------- Recipe Section End ------------->
+
+    <!-- Info:------------------ Footer Start --------------------->
+    <footer class="w-100 text-white">
+      <div
+        class="footer-container d-flex flex-wrap justify-content-around gap-5 py-5 px-4"
+      >
+        <div class="footer-sec d-flex flex-column">
+          <h3 class="fw-bold">
+            Quick<span style="color: var(--primary-color)">Snacks</span>
+          </h3>
+          <p class="footer-p-tag">
+            Your go-to destination for fast, delicious, and healthy recipes.
+            Fuel your day with easy-to-make snacks that fit every lifestyle.
+            Stay connected and snack smarter!
+          </p>
+        </div>
+        <div class="footer-sec mx-3">
+          <h5 class="fw-bold" style="color: var(--primary-color)">
+            Quick Links
+          </h5>
+          <ul class="list-unstyled">
+            <li>Home</li>
+            <li>Recipes</li>
+            <li>Categories</li>
+            <li>Gallery</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-sec mx-3">
+          <h5 class="fw-bold" style="color: var(--primary-color)">Legal</h5>
+          <ul class="list-unstyled">
+            <li>Terms & Conditions</li>
+            <li>Privacy & Cookies</li>
+            <li>Sitemap</li>
+          </ul>
+        </div>
+        <div
+          class="footer-sec d-flex flex-column align-items-center mx-3 gap-1"
+        >
+          <h5 class="fw-bold">Newsletter</h5>
+          <p class="text-center">
+            Subscribe to our newsletter to get more free tips
+          </p>
+          <input
+            type="text"
+            placeholder="Enter your Email"
+            class="px-3 py-1 w-100 border-warning border-1 rounded-1"
+          />
+          <button
+            class="btn w-100 text-white"
+            style="background-color: var(--primary-color)"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+      <div
+        class="footer-copyright w-100 d-flex justify-content-between align-items-center px-5 py-2"
+      >
+        <div class="copyright fw-semibold">
+          © 2024 Souls | All Right Reserved
+        </div>
+        <div class="copyright-links fs-3 text-dark d-flex gap-2">
+          <i class="bx bxl-github"></i>
+          <i class="bx bxl-facebook-circle"></i>
+          <i class="bx bxl-instagram-alt"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- !------------------ Footer End --------------------->
+  </body>
+  <script src="./javascript/main.js"></script>
+  <script src="./javascript/recipe.js"></script>
+</html>

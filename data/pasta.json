@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Aglio e Olio",
+    "description": "A simple and flavorful pasta dish made with garlic, olive oil, and chili flakes, perfect for quick meals.",
+    "ingredients": [
+      "200g spaghetti",
+      "4 garlic cloves, thinly sliced",
+      "1/4 cup olive oil",
+      "1/2 teaspoon red chili flakes",
+      "Fresh parsley, chopped",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Cook spaghetti according to package instructions.",
+      "In a large pan, heat olive oil over medium heat and add garlic.",
+      "Sauté garlic until golden brown, then add chili flakes.",
+      "Toss the cooked spaghetti in the garlic oil mixture.",
+      "Garnish with fresh parsley and serve."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 10,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "300-350 kcal",
+      "Carbs": "50-55g",
+      "Fat": "15-18g",
+      "Protein": "7-8g",
+      "Fiber": "2-3g",
+      "Net Carbs": "45-50g",
+      "Sodium": "250-300mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "Aglio e Olio is a quick and easy dish that requires only a few ingredients but is packed with flavor. Add more chili flakes for extra spice!"
+  },
+  {
+    "id": 2,
+    "name": "Penne alla Vodka",
+    "description": "A creamy and tangy pasta made with vodka, tomato sauce, and cream, offering a perfect balance of flavors.",
+    "ingredients": [
+      "200g penne pasta",
+      "1 tablespoon olive oil",
+      "1 small onion, chopped",
+      "2 garlic cloves, minced",
+      "1/4 cup vodka",
+      "1 cup tomato sauce",
+      "1/2 cup heavy cream",
+      "Fresh basil, chopped",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook penne according to package instructions.",
+      "In a pan, heat olive oil and sauté onion and garlic until soft.",
+      "Add vodka and cook for 1-2 minutes.",
+      "Stir in tomato sauce and heavy cream, and simmer for 5-7 minutes.",
+      "Toss the cooked penne in the sauce and garnish with fresh basil."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "servings": 3,
+    "recipe_facts": {
+      "Calories": "400-450 kcal",
+      "Carbs": "50-55g",
+      "Fat": "18-20g",
+      "Protein": "10-12g",
+      "Fiber": "3-4g",
+      "Net Carbs": "45-50g",
+      "Sodium": "350-400mg",
+      "Cholesterol": "60-70mg"
+    },
+    "cookingNote": "Vodka adds a unique tang to the creamy sauce, making this dish rich yet smooth. Make sure to cook the alcohol off to avoid strong flavor."
+  },
+  {
+    "id": 3,
+    "name": "Lasagna with Meat Sauce",
+    "description": "A hearty lasagna made with rich meat sauce, cheese, and layers of pasta, perfect for family dinners.",
+    "ingredients": [
+      "9 lasagna noodles",
+      "1 lb ground beef",
+      "1 small onion, chopped",
+      "2 garlic cloves, minced",
+      "2 cups tomato sauce",
+      "1/2 cup ricotta cheese",
+      "1 1/2 cups mozzarella cheese, shredded",
+      "1/4 cup Parmesan cheese",
+      "1 tablespoon dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "Cook lasagna noodles according to package instructions.",
+      "In a pan, cook ground beef with onions and garlic until browned.",
+      "Add tomato sauce, oregano, salt, and pepper, and simmer for 10 minutes.",
+      "Layer lasagna noodles, meat sauce, ricotta, mozzarella, and Parmesan cheese in a baking dish.",
+      "Repeat layers, ending with mozzarella on top.",
+      "Cover with foil and bake for 30 minutes. Remove foil and bake for another 10 minutes."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "servings": 4,
+    "recipe_facts": {
+      "Calories": "500-550 kcal",
+      "Carbs": "45-50g",
+      "Fat": "25-28g",
+      "Protein": "30-35g",
+      "Fiber": "4-5g",
+      "Net Carbs": "40-45g",
+      "Sodium": "600-650mg",
+      "Cholesterol": "80-90mg"
+    },
+    "cookingNote": "Lasagna is a classic comfort food that can be made ahead and is great for feeding a crowd. Make sure to let it rest before serving."
+  },
+  {
+    "id": 4,
+    "name": "Caprese Pasta Salad",
+    "description": "A refreshing pasta salad with mozzarella, tomatoes, and basil, perfect for a light lunch or side dish.",
+    "ingredients": [
+      "200g fusilli pasta",
+      "1 cup cherry tomatoes, halved",
+      "1/2 cup mozzarella balls, halved",
+      "1/4 cup fresh basil, chopped",
+      "2 tablespoons olive oil",
+      "1 tablespoon balsamic vinegar",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook fusilli pasta according to package instructions.",
+      "In a bowl, combine the pasta, cherry tomatoes, mozzarella, and basil.",
+      "Drizzle with olive oil and balsamic vinegar.",
+      "Toss to combine and season with salt and pepper."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 10,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "250-300 kcal",
+      "Carbs": "40-45g",
+      "Fat": "10-12g",
+      "Protein": "8-10g",
+      "Fiber": "2-3g",
+      "Net Carbs": "35-40g",
+      "Sodium": "200-250mg",
+      "Cholesterol": "20-25mg"
+    },
+    "cookingNote": "This pasta salad is light yet satisfying, and the balsamic vinegar gives it a tangy kick that complements the mozzarella."
+  },
+  {
+    "id": 5,
+    "name": "Pesto Penne",
+    "description": "A vibrant and flavorful pasta dish made with basil pesto, pine nuts, and Parmesan, a true Italian classic.",
+    "ingredients": [
+      "200g penne pasta",
+      "1/4 cup basil pesto",
+      "1 tablespoon pine nuts",
+      "2 tablespoons Parmesan cheese",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook penne pasta according to package instructions.",
+      "Drain the pasta and toss it with basil pesto.",
+      "Top with pine nuts and Parmesan cheese.",
+      "Season with salt and pepper and serve."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 10,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "350-400 kcal",
+      "Carbs": "45-50g",
+      "Fat": "18-20g",
+      "Protein": "10-12g",
+      "Fiber": "3-4g",
+      "Net Carbs": "40-45g",
+      "Sodium": "300-350mg",
+      "Cholesterol": "20-30mg"
+    },
+    "cookingNote": "Pesto adds a fresh, herby flavor to pasta, and the pine nuts give a nice crunch. This dish is simple yet incredibly flavorful."
+  }
+]

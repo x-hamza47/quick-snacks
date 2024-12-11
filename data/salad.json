@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Caesar Salad",
+    "description": "A timeless Caesar salad made with romaine lettuce, croutons, and a creamy Caesar dressing.",
+    "ingredients": [
+      "4 cups romaine lettuce, chopped",
+      "1/2 cup Caesar dressing",
+      "1/4 cup grated Parmesan cheese",
+      "1/2 cup croutons",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Wash and chop the romaine lettuce.",
+      "In a large bowl, toss lettuce with Caesar dressing.",
+      "Top with grated Parmesan and croutons.",
+      "Drizzle with olive oil and season with salt and pepper."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "250-300 kcal",
+      "Carbs": "10-15g",
+      "Fat": "20-25g",
+      "Protein": "6-8g",
+      "Fiber": "2-3g",
+      "Net Carbs": "7-12g",
+      "Sodium": "350-400mg",
+      "Cholesterol": "10-15mg"
+    },
+    "cookingNote": "For extra flavor, you can add grilled chicken or bacon. Be sure to use fresh lettuce and toss the ingredients gently to avoid wilting."
+  },
+  {
+    "id": 2,
+    "name": "Greek Salad",
+    "description": "A refreshing salad with cucumbers, tomatoes, olives, and feta cheese, dressed in olive oil and oregano.",
+    "ingredients": [
+      "2 cups cherry tomatoes, halved",
+      "1 cucumber, diced",
+      "1/2 red onion, thinly sliced",
+      "1/4 cup Kalamata olives",
+      "1/4 cup feta cheese, crumbled",
+      "2 tablespoons olive oil",
+      "1 teaspoon dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Combine cherry tomatoes, cucumber, red onion, and olives in a large bowl.",
+      "Drizzle with olive oil and sprinkle with dried oregano.",
+      "Toss gently to combine, then top with crumbled feta cheese.",
+      "Season with salt and pepper."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 3,
+    "recipe_facts": {
+      "Calories": "180-220 kcal",
+      "Carbs": "15-20g",
+      "Fat": "12-15g",
+      "Protein": "5-7g",
+      "Fiber": "4-5g",
+      "Net Carbs": "10-12g",
+      "Sodium": "350-400mg",
+      "Cholesterol": "15-20mg"
+    },
+    "cookingNote": "This salad is best enjoyed fresh. For a more filling version, add grilled chicken or chickpeas for added protein."
+  },
+  {
+    "id": 3,
+    "name": "Caprese Salad",
+    "description": "A light and refreshing salad made with fresh mozzarella, tomatoes, basil, and a drizzle of balsamic glaze.",
+    "ingredients": [
+      "2 cups cherry tomatoes, halved",
+      "1/2 cup fresh mozzarella, sliced",
+      "1/4 cup fresh basil leaves",
+      "1 tablespoon balsamic glaze",
+      "2 tablespoons olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Arrange the cherry tomatoes and fresh mozzarella on a plate.",
+      "Tuck basil leaves between the tomatoes and cheese.",
+      "Drizzle with olive oil and balsamic glaze.",
+      "Season with salt and pepper."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "250-300 kcal",
+      "Carbs": "15-18g",
+      "Fat": "20-22g",
+      "Protein": "8-10g",
+      "Fiber": "2-3g",
+      "Net Carbs": "12-14g",
+      "Sodium": "250-300mg",
+      "Cholesterol": "15-20mg"
+    },
+    "cookingNote": "This salad can be served as a starter or side dish. You can also add a sprinkle of sea salt for extra flavor."
+  },
+  {
+    "id": 4,
+    "name": "Avocado and Chickpea Salad",
+    "description": "A hearty salad with mashed avocado and chickpeas, perfect for a quick and healthy meal.",
+    "ingredients": [
+      "1 ripe avocado, mashed",
+      "1 cup canned chickpeas, drained and rinsed",
+      "1/4 cup red onion, diced",
+      "1/4 cup cucumber, diced",
+      "2 tablespoons olive oil",
+      "1 tablespoon lemon juice",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Mash the avocado in a bowl until smooth.",
+      "Add chickpeas, red onion, and cucumber.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper and toss to combine."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "350-400 kcal",
+      "Carbs": "30-35g",
+      "Fat": "20-22g",
+      "Protein": "10-12g",
+      "Fiber": "8-9g",
+      "Net Carbs": "20-25g",
+      "Sodium": "300-350mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "This salad is creamy and satisfying thanks to the avocado. You can add a protein like grilled chicken or tofu for a more substantial meal."
+  },
+  {
+    "id": 5,
+    "name": "Quinoa and Roasted Vegetable Salad",
+    "description": "A nutrient-packed salad made with quinoa, roasted vegetables, and a zesty lemon dressing.",
+    "ingredients": [
+      "1 cup cooked quinoa",
+      "1 cup roasted vegetables (zucchini, bell pepper, and sweet potato)",
+      "1 tablespoon olive oil",
+      "1 tablespoon lemon juice",
+      "1/4 cup feta cheese, crumbled",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Toss the roasted vegetables with olive oil and roast at 400°F (200°C) for 20-25 minutes.",
+      "Combine cooked quinoa and roasted vegetables in a large bowl.",
+      "Drizzle with lemon juice and toss to combine.",
+      "Top with crumbled feta and season with salt and pepper."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "servings": 3,
+    "recipe_facts": {
+      "Calories": "400-450 kcal",
+      "Carbs": "50-55g",
+      "Fat": "15-18g",
+      "Protein": "12-14g",
+      "Fiber": "8-9g",
+      "Net Carbs": "40-45g",
+      "Sodium": "300-350mg",
+      "Cholesterol": "20-30mg"
+    },
+    "cookingNote": "This salad is filling and full of flavor, with roasted vegetables adding depth and quinoa providing a protein boost. Perfect as a meal on its own!"
+  }
+]

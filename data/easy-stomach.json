@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "name": "Ginger Banana Smoothie",
+    "description": "A soothing smoothie made with ginger and banana, great for digestion and easing the stomach.",
+    "ingredients": [
+      "1 ripe banana",
+      "1 teaspoon fresh ginger, grated",
+      "1/2 cup almond milk",
+      "1/2 teaspoon honey"
+    ],
+    "instructions": [
+      "Peel the banana and add all ingredients to a blender.",
+      "Blend until smooth.",
+      "Serve chilled and enjoy."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "120-150 kcal",
+      "Carbs": "30-35g",
+      "Fat": "2-3g",
+      "Protein": "1-2g",
+      "Fiber": "2-3g",
+      "Net Carbs": "27-30g",
+      "Sodium": "50-60mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "Ginger helps with digestion and soothes the stomach, making this a great choice after meals."
+  },
+  {
+    "id": 2,
+    "name": "Oatmeal with Honey and Almonds",
+    "description": "A gentle and easy-to-digest snack made with oats, honey, and almonds, perfect for a sensitive stomach.",
+    "ingredients": [
+      "1/2 cup oats",
+      "1 tablespoon honey",
+      "1 tablespoon sliced almonds",
+      "1/2 cup warm water or almond milk"
+    ],
+    "instructions": [
+      "Cook oats according to package instructions with warm water or almond milk.",
+      "Once cooked, top with honey and sliced almonds.",
+      "Serve warm."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 5,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "150-180 kcal",
+      "Carbs": "30-35g",
+      "Fat": "6-8g",
+      "Protein": "4-5g",
+      "Fiber": "4-5g",
+      "Net Carbs": "25-30g",
+      "Sodium": "60-80mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "Oats are gentle on the stomach and provide a soothing texture for sensitive digestive systems."
+  },
+  {
+    "id": 3,
+    "name": "Plain Rice Cakes with Avocado",
+    "description": "Simple rice cakes topped with mashed avocado, offering a gentle, easy-to-digest snack option.",
+    "ingredients": [
+      "2 rice cakes",
+      "1/2 avocado, mashed",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Mash the avocado and spread it evenly over the rice cakes.",
+      "Sprinkle with salt and pepper for flavor.",
+      "Serve immediately."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "150-180 kcal",
+      "Carbs": "20-25g",
+      "Fat": "10-12g",
+      "Protein": "2-3g",
+      "Fiber": "5-6g",
+      "Net Carbs": "15-20g",
+      "Sodium": "50-60mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "Avocado provides healthy fats and is easy to digest, making this snack ideal for sensitive stomachs."
+  },
+  {
+    "id": 4,
+    "name": "Baked Sweet Potato Chips",
+    "description": "A crunchy and gentle snack made from baked sweet potatoes, offering fiber and vitamins with easy digestion.",
+    "ingredients": [
+      "2 small sweet potatoes, sliced thinly",
+      "1 tablespoon olive oil",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "Toss sweet potato slices with olive oil and salt.",
+      "Arrange them in a single layer on a baking sheet.",
+      "Bake for 15-20 minutes, flipping halfway through, until crispy."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "160-190 kcal",
+      "Carbs": "35-40g",
+      "Fat": "4-5g",
+      "Protein": "2-3g",
+      "Fiber": "5-6g",
+      "Net Carbs": "30-35g",
+      "Sodium": "150-170mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "Sweet potatoes are high in fiber, which can help promote healthy digestion and is gentle on the stomach."
+  },
+  {
+    "id": 5,
+    "name": "Cucumber and Yogurt Salad",
+    "description": "A refreshing and cooling salad made with cucumber and yogurt, perfect for soothing the stomach.",
+    "ingredients": [
+      "1 cucumber, sliced",
+      "1/2 cup Greek yogurt",
+      "1 tablespoon olive oil",
+      "1 teaspoon lemon juice",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Combine sliced cucumber and Greek yogurt in a bowl.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper, then toss to combine.",
+      "Serve chilled."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "120-150 kcal",
+      "Carbs": "10-12g",
+      "Fat": "8-10g",
+      "Protein": "5-6g",
+      "Fiber": "2-3g",
+      "Net Carbs": "8-10g",
+      "Sodium": "60-70mg",
+      "Cholesterol": "5-10mg"
+    },
+    "cookingNote": "Cucumber is hydrating and soothing, making this a light and easy-to-digest snack."
+  }
+]

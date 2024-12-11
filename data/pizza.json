@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Margherita Pizza",
+    "description": "A simple and classic pizza topped with fresh mozzarella, tomato sauce, and basil leaves.",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Fresh mozzarella cheese",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat the oven to 475°F (245°C).",
+      "Roll out the pizza dough and spread tomato sauce evenly.",
+      "Top with slices of fresh mozzarella and fresh basil leaves.",
+      "Drizzle with olive oil and season with salt and pepper.",
+      "Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.",
+      "Slice and serve hot."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "recipe_facts": {
+      "Calories": "250-300 kcal",
+      "Carbs": "30-35g",
+      "Fat": "12-15g",
+      "Protein": "12-15g",
+      "Fiber": "2-3g",
+      "Net Carbs": "25-30g",
+      "Sodium": "250-300mg",
+      "Cholesterol": "20-30mg"
+    },
+    "cookingNote": "Use fresh mozzarella for a creamy texture and authentic flavor. Adjust the bake time for a crispier crust."
+  },
+  {
+    "id": 2,
+    "name": "Pepperoni Pizza",
+    "description": "A crowd favorite with a perfect balance of spicy pepperoni and melted cheese.",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Mozzarella cheese",
+      "Pepperoni slices",
+      "Olive oil",
+      "Oregano"
+    ],
+    "instructions": [
+      "Preheat the oven to 475°F (245°C).",
+      "Spread tomato sauce over the pizza dough.",
+      "Top with mozzarella cheese and pepperoni slices.",
+      "Drizzle with olive oil and sprinkle with oregano.",
+      "Bake for 12-15 minutes until the crust is golden and the cheese is bubbly.",
+      "Slice and serve."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "recipe_facts": {
+      "Calories": "300-350 kcal",
+      "Carbs": "35-40g",
+      "Fat": "15-18g",
+      "Protein": "18-20g",
+      "Fiber": "1-2g",
+      "Net Carbs": "30-35g",
+      "Sodium": "500-600mg",
+      "Cholesterol": "30-40mg"
+    },
+    "cookingNote": "For a spicier kick, add chili flakes on top before baking."
+  },
+  {
+    "id": 3,
+    "name": "BBQ Chicken Pizza",
+    "description": "A tangy BBQ sauce base topped with grilled chicken, red onions, and mozzarella cheese.",
+    "ingredients": [
+      "Pizza dough",
+      "BBQ sauce",
+      "Cooked chicken breast, shredded",
+      "Red onion, thinly sliced",
+      "Mozzarella cheese",
+      "Cilantro for garnish"
+    ],
+    "instructions": [
+      "Preheat the oven to 475°F (245°C).",
+      "Spread BBQ sauce over the pizza dough.",
+      "Top with shredded chicken, red onions, and mozzarella cheese.",
+      "Bake for 12-15 minutes until the crust is golden and the cheese is bubbly.",
+      "Garnish with fresh cilantro before serving."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "servings": 3,
+    "recipe_facts": {
+      "Calories": "280-320 kcal",
+      "Carbs": "30-35g",
+      "Fat": "14-16g",
+      "Protein": "20-25g",
+      "Fiber": "2-3g",
+      "Net Carbs": "25-30g",
+      "Sodium": "450-500mg",
+      "Cholesterol": "35-45mg"
+    },
+    "cookingNote": "For extra flavor, drizzle more BBQ sauce on top just before serving."
+  },
+  {
+    "id": 4,
+    "name": "Veggie Supreme Pizza",
+    "description": "A vegetarian pizza loaded with bell peppers, onions, olives, and mushrooms.",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Mozzarella cheese",
+      "Bell peppers, sliced",
+      "Onion, sliced",
+      "Olives, sliced",
+      "Mushrooms, sliced",
+      "Oregano"
+    ],
+    "instructions": [
+      "Preheat the oven to 475°F (245°C).",
+      "Spread tomato sauce over the pizza dough.",
+      "Top with mozzarella cheese, bell peppers, onions, olives, and mushrooms.",
+      "Sprinkle with oregano and bake for 12-15 minutes.",
+      "Slice and serve."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "servings": 3,
+    "recipe_facts": {
+      "Calories": "250-280 kcal",
+      "Carbs": "35-40g",
+      "Fat": "10-12g",
+      "Protein": "12-15g",
+      "Fiber": "3-4g",
+      "Net Carbs": "30-35g",
+      "Sodium": "300-350mg",
+      "Cholesterol": "20-25mg"
+    },
+    "cookingNote": "Feel free to add extra vegetables like spinach or zucchini for more flavor."
+  },
+  {
+    "id": 5,
+    "name": "Hawaiian Pizza",
+    "description": "A sweet and savory pizza topped with ham, pineapple, and mozzarella cheese.",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Mozzarella cheese",
+      "Cooked ham, sliced",
+      "Pineapple chunks",
+      "Olive oil"
+    ],
+    "instructions": [
+      "Preheat the oven to 475°F (245°C).",
+      "Spread tomato sauce over the pizza dough.",
+      "Top with mozzarella cheese, ham, and pineapple.",
+      "Drizzle with olive oil and bake for 12-15 minutes.",
+      "Slice and serve."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "recipe_facts": {
+      "Calories": "300-350 kcal",
+      "Carbs": "35-40g",
+      "Fat": "14-18g",
+      "Protein": "16-18g",
+      "Fiber": "2-3g",
+      "Net Carbs": "30-35g",
+      "Sodium": "400-450mg",
+      "Cholesterol": "30-40mg"
+    },
+    "cookingNote": "You can substitute pineapple with other fruits like mango for a tropical twist."
+  }
+]

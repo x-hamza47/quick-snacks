@@ -91,3 +91,12 @@ form.addEventListener("change", (event) => {
   }
 });
 
+const categories = document.querySelectorAll(".category-body");
+
+categories.forEach( ( category ) => {
+  category.addEventListener("click" , () =>  {
+    let cat_name = category.getAttribute("data-cat");
+
+    window.location.href = `recipes.html?category=${cat_name}`;
+  })
+})

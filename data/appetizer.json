@@ -1,0 +1,171 @@
+[
+  {
+    "id": 1,
+    "name": "Bruschetta with Tomato and Basil",
+    "description": "A classic Italian appetizer featuring toasted bread topped with fresh tomatoes, basil, and a drizzle of olive oil.",
+    "ingredients": [
+      "1 baguette, sliced",
+      "2 cups cherry tomatoes, diced",
+      "1/4 cup fresh basil leaves, chopped",
+      "2 tablespoons olive oil",
+      "1 clove garlic, minced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "Arrange baguette slices on a baking sheet and toast in the oven for 5-7 minutes.",
+      "In a bowl, combine diced tomatoes, basil, minced garlic, olive oil, salt, and pepper.",
+      "Top each toasted baguette slice with the tomato mixture and serve."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 7,
+    "servings": 4,
+    "recipe_facts": {
+      "Calories": "150-200 kcal",
+      "Carbs": "25-30g",
+      "Fat": "6-8g",
+      "Protein": "3-4g",
+      "Fiber": "3-4g",
+      "Net Carbs": "20-25g",
+      "Sodium": "250-300mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "For extra flavor, you can drizzle the bruschetta with balsamic glaze before serving. Make sure the bread is crispy to hold the topping without becoming soggy."
+  },
+  {
+    "id": 2,
+    "name": "Stuffed Mushrooms",
+    "description": "Mushrooms filled with a savory mixture of cream cheese, garlic, and herbs, baked to golden perfection.",
+    "ingredients": [
+      "12 large mushrooms, stems removed",
+      "1/2 cup cream cheese, softened",
+      "1/4 cup breadcrumbs",
+      "2 cloves garlic, minced",
+      "2 tablespoons parsley, chopped",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "In a bowl, mix cream cheese, breadcrumbs, garlic, parsley, salt, and pepper.",
+      "Stuff the mushroom caps with the cream cheese mixture.",
+      "Arrange the stuffed mushrooms on a baking sheet, drizzle with olive oil, and bake for 15-20 minutes."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "recipe_facts": {
+      "Calories": "180-220 kcal",
+      "Carbs": "10-12g",
+      "Fat": "15-18g",
+      "Protein": "4-6g",
+      "Fiber": "2-3g",
+      "Net Carbs": "8-10g",
+      "Sodium": "300-350mg",
+      "Cholesterol": "25-30mg"
+    },
+    "cookingNote": "You can substitute cream cheese with ricotta for a lighter filling. These stuffed mushrooms are best served warm right out of the oven."
+  },
+  {
+    "id": 3,
+    "name": "Spinach and Artichoke Dip",
+    "description": "A rich and creamy dip made with spinach, artichokes, and a blend of cheeses, perfect for dipping chips or bread.",
+    "ingredients": [
+      "1 cup cooked spinach, drained",
+      "1 cup artichoke hearts, chopped",
+      "1/2 cup cream cheese, softened",
+      "1/2 cup sour cream",
+      "1/2 cup mozzarella cheese, shredded",
+      "1/4 cup Parmesan cheese, grated",
+      "2 cloves garlic, minced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "In a bowl, combine spinach, artichokes, cream cheese, sour cream, mozzarella, Parmesan, and garlic.",
+      "Transfer the mixture to a baking dish and bake for 20-25 minutes, until bubbly and golden on top.",
+      "Serve with tortilla chips, crackers, or sliced bread."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "servings": 5,
+    "recipe_facts": {
+      "Calories": "220-270 kcal",
+      "Carbs": "15-18g",
+      "Fat": "18-20g",
+      "Protein": "6-8g",
+      "Fiber": "4-5g",
+      "Net Carbs": "10-12g",
+      "Sodium": "350-400mg",
+      "Cholesterol": "30-40mg"
+    },
+    "cookingNote": "For a healthier version, you can use Greek yogurt instead of sour cream. Serve with crunchy veggies for a lighter dipping option."
+  },
+  {
+    "id": 4,
+    "name": "Mini Caprese Skewers",
+    "description": "Fresh mozzarella, cherry tomatoes, and basil leaves skewered together and drizzled with balsamic glaze.",
+    "ingredients": [
+      "12 cherry tomatoes",
+      "12 mini mozzarella balls",
+      "12 fresh basil leaves",
+      "2 tablespoons balsamic glaze",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Skewer a cherry tomato, mozzarella ball, and basil leaf on each skewer.",
+      "Drizzle with olive oil and balsamic glaze.",
+      "Season with salt and pepper and serve immediately."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 3,
+    "recipe_facts": {
+      "Calories": "120-150 kcal",
+      "Carbs": "6-8g",
+      "Fat": "10-12g",
+      "Protein": "7-8g",
+      "Fiber": "1-2g",
+      "Net Carbs": "4-5g",
+      "Sodium": "300-350mg",
+      "Cholesterol": "10-15mg"
+    },
+    "cookingNote": "These skewers are a perfect appetizer for any gathering. You can also add a dash of sea salt for extra flavor and texture."
+  },
+  {
+    "id": 5,
+    "name": "Guacamole and Tortilla Chips",
+    "description": "A creamy and flavorful guacamole made with ripe avocados, served with crispy tortilla chips for dipping.",
+    "ingredients": [
+      "2 ripe avocados",
+      "1/4 cup red onion, diced",
+      "1 jalapeño, diced",
+      "1 lime, juiced",
+      "1/4 cup cilantro, chopped",
+      "1/2 teaspoon garlic powder",
+      "Salt and pepper to taste",
+      "Tortilla chips for serving"
+    ],
+    "instructions": [
+      "Mash the avocados in a bowl until smooth.",
+      "Add the red onion, jalapeño, lime juice, cilantro, garlic powder, salt, and pepper.",
+      "Mix until well combined.",
+      "Serve with tortilla chips on the side."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "recipe_facts": {
+      "Calories": "200-250 kcal",
+      "Carbs": "15-20g",
+      "Fat": "15-18g",
+      "Protein": "3-4g",
+      "Fiber": "6-8g",
+      "Net Carbs": "9-11g",
+      "Sodium": "150-200mg",
+      "Cholesterol": "0mg"
+    },
+    "cookingNote": "For an extra kick, add more jalapeños or a dash of hot sauce. Serve immediately to enjoy the freshness of the guacamole."
+  }
+]

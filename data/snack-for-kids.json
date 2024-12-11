@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "name": "Peanut Butter Banana Bites",
+    "description": "A fun and nutritious snack made with bananas and peanut butter, perfect for kids.",
+    "ingredients": [
+      "1 banana",
+      "2 tablespoons peanut butter",
+      "1 tablespoon honey (optional)",
+      "Cinnamon (optional)"
+    ],
+    "instructions": [
+      "Slice the banana into 1-inch rounds.",
+      "Spread peanut butter on each slice.",
+      "Drizzle with honey and sprinkle with cinnamon if desired.",
+      "Serve immediately or refrigerate for a cool treat."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "250-300 kcal",
+      "Carbs": "45-55g",
+      "Fat": "4-6g",
+      "Protein": "6-8g",
+      "Fiber": "3-5g",
+      "Net Carbs": "40-50g",
+      "Sodium": "50-80mg",
+      "Cholesterol": "10-20mg"
+    },
+    "cookingNote": "Make sure to use ripe bananas for the best taste and texture. These bites are also great when frozen for a cool snack during hot days."
+  },
+  {
+    "id": 2,
+    "name": "Cheese and Crackers Fun Plate",
+    "description": "An easy and playful snack plate with cheese and crackers to keep kids happy and full.",
+    "ingredients": [
+      "6 whole-grain crackers",
+      "3 slices of cheddar cheese",
+      "2 tablespoons cream cheese",
+      "1 small apple, sliced"
+    ],
+    "instructions": [
+      "Arrange crackers on a plate.",
+      "Top each cracker with a piece of cheddar cheese or a dollop of cream cheese.",
+      "Serve with apple slices on the side for added freshness."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 3,
+    "recipe_facts": {
+      "Calories": "210-250 kcal",
+      "Carbs": "30-40g",
+      "Fat": "5-7g",
+      "Protein": "5-7g",
+      "Fiber": "2-4g",
+      "Net Carbs": "28-38g",
+      "Sodium": "150-200mg",
+      "Cholesterol": "5-10mg"
+    },
+    "cookingNote": "Add a variety of cheese for more flavor. Kids enjoy this with a small cup of juice or milk."
+  },
+  {
+    "id": 3,
+    "name": "Mini Veggie Quesadillas",
+    "description": "A tasty and healthy option with cheese, spinach, and bell peppers packed in a whole wheat tortilla.",
+    "ingredients": [
+      "2 whole wheat tortillas",
+      "1/4 cup shredded cheese",
+      "1/4 cup spinach leaves",
+      "1/4 cup bell peppers, diced",
+      "1 teaspoon olive oil"
+    ],
+    "instructions": [
+      "Heat a pan over medium heat and lightly brush with olive oil.",
+      "Place a tortilla on the pan, sprinkle with cheese, spinach, and bell peppers.",
+      "Top with another tortilla and cook for 2-3 minutes on each side until crispy.",
+      "Slice into small wedges and serve."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 5,
+    "servings": 4,
+    "recipe_facts": {
+      "Calories": "220-250 kcal",
+      "Carbs": "30-40g",
+      "Fat": "6-8g",
+      "Protein": "6-8g",
+      "Fiber": "4-6g",
+      "Net Carbs": "25-35g",
+      "Sodium": "200-250mg",
+      "Cholesterol": "5-10mg"
+    },
+    "cookingNote": "Feel free to add other veggies like tomatoes or corn for a different taste. You can also use non-dairy cheese for a vegan option."
+  },
+  {
+    "id": 4,
+    "name": "Yogurt Parfait",
+    "description": "A quick and refreshing snack with layers of yogurt, fruit, and granola.",
+    "ingredients": [
+      "1/2 cup Greek yogurt",
+      "1/4 cup mixed berries (strawberries, blueberries, etc.)",
+      "2 tablespoons granola",
+      "1 tablespoon honey (optional)"
+    ],
+    "instructions": [
+      "Layer the Greek yogurt, berries, and granola in a small bowl or jar.",
+      "Drizzle with honey for added sweetness.",
+      "Serve immediately or refrigerate for later."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "180-220 kcal",
+      "Carbs": "25-35g",
+      "Fat": "5-7g",
+      "Protein": "7-9g",
+      "Fiber": "2-4g",
+      "Net Carbs": "20-30g",
+      "Sodium": "50-100mg",
+      "Cholesterol": "5-10mg"
+    },
+    "cookingNote": "You can switch the fruits based on the season or your child's preferences. This parfait works as a great breakfast or a snack."
+  },
+  {
+    "id": 5,
+    "name": "Apple Nachos",
+    "description": "Sweet and crunchy apple nachos topped with peanut butter, granola, and chocolate chips.",
+    "ingredients": [
+      "1 apple, sliced",
+      "2 tablespoons peanut butter",
+      "1 tablespoon honey",
+      "1/4 cup granola",
+      "1 tablespoon chocolate chips"
+    ],
+    "instructions": [
+      "Slice the apple into thin rounds.",
+      "Drizzle peanut butter and honey over the apple slices.",
+      "Top with granola and chocolate chips.",
+      "Serve immediately."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "recipe_facts": {
+      "Calories": "220-250 kcal",
+      "Carbs": "30-40g",
+      "Fat": "8-10g",
+      "Protein": "4-6g",
+      "Fiber": "3-5g",
+      "Net Carbs": "25-35g",
+      "Sodium": "100-150mg",
+      "Cholesterol": "0-5mg"
+    },
+    "cookingNote": "Feel free to add other toppings like raisins or coconut flakes for extra flavor. This is a fun snack for kids to prepare as well!"
+  }
+]

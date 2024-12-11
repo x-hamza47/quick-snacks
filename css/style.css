@@ -350,7 +350,7 @@ line-height: 1.7;
 
 /* Info: Trending Section Css */
 #trending,#explore{
-    background: #292929 url("../assets/images/bg-2.jpg") no-repeat center center / cover fixed;
+    background: #555555 url("../assets/images/bg-2.jpg") no-repeat center center / cover fixed;
     background-blend-mode: overlay;
     padding: 50px 20px;
 }
@@ -366,7 +366,8 @@ line-height: 1.7;
 .card .card-body .cat-title{
     color: var(--primary-color);
 }
-.card-body .detail-bx{
+.card-body .detail-bx,
+.recipe-container .detail-bx{
     background: rgba(110, 110, 110, 0.349)
 }
 
@@ -567,7 +568,7 @@ textarea:-webkit-autofill:focus {
   -webkit-text-fill-color: var(--accent-color);
   transition: background-color 5000s ease-in-out 0s;
 }
-textarea{
+.form_container form textarea{
   padding: 20px .5vw 7px max(8px,.5vw);
   width: 100%;
   height: clamp(160px,14vw,665px) !important;
@@ -690,7 +691,7 @@ textarea{
   z-index: 10;
 }
 
- label{
+.form_container form label{
   position: absolute;
   color: rgba(204, 204, 204, 0.612);
   top: 50%;
@@ -745,7 +746,7 @@ footer .footer-sec ul li{
         }
     }
     .nav__links li a {
-        background: rgba(83, 90, 96, 0.2);
+        background: rgba(83, 90, 96, .8);
         height: 4rem;
         width: 100%;
         display: flex;
