@@ -15,19 +15,22 @@
       "Serve chilled and enjoy."
     ],
     "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
+    "cookTimeMinutes": 2,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "120-150 kcal",
-      "Carbs": "30-35g",
-      "Fat": "2-3g",
-      "Protein": "1-2g",
-      "Fiber": "2-3g",
-      "Net Carbs": "27-30g",
-      "Sodium": "50-60mg",
-      "Cholesterol": "0mg"
-    },
-    "cookingNote": "Ginger helps with digestion and soothes the stomach, making this a great choice after meals."
+    "recipe_facts": [
+      { "name": "Calories", "range": [120, 150], "max": 150 },
+      { "name": "Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Fat", "range": [2, 3], "max": 3 },
+      { "name": "Protein", "range": [1, 2], "max": 2 },
+      { "name": "Fiber", "range": [2, 3], "max": 3 },
+      { "name": "Net Carbs", "range": [27, 30], "max": 30 },
+      { "name": "Sodium", "range": [50, 60], "max": 60 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "cookingNote": "Ginger helps with digestion and soothes the stomach, making this a great choice after meals.",
+    "author": "John Smith",
+    "createdOn": "12/2024",
+    "rating": 3.6
   },
   {
     "id": 2,
@@ -47,17 +50,20 @@
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "150-180 kcal",
-      "Carbs": "30-35g",
-      "Fat": "6-8g",
-      "Protein": "4-5g",
-      "Fiber": "4-5g",
-      "Net Carbs": "25-30g",
-      "Sodium": "60-80mg",
-      "Cholesterol": "0mg"
-    },
-    "cookingNote": "Oats are gentle on the stomach and provide a soothing texture for sensitive digestive systems."
+    "recipe_facts": [
+      { "name": "Calories", "range": [150, 180], "max": 180 },
+      { "name": "Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Fat", "range": [6, 8], "max": 8 },
+      { "name": "Protein", "range": [4, 5], "max": 5 },
+      { "name": "Fiber", "range": [4, 5], "max": 5 },
+      { "name": "Net Carbs", "range": [25, 30], "max": 30 },
+      { "name": "Sodium", "range": [60, 80], "max": 80 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "cookingNote": "Oats are gentle on the stomach and provide a soothing texture for sensitive digestive systems.",
+    "author": "Emily Clark",
+    "createdOn": "12/2024",
+    "rating": 4.6
   },
   {
     "id": 3,
@@ -74,19 +80,22 @@
       "Serve immediately."
     ],
     "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
+    "cookTimeMinutes": 2,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "150-180 kcal",
-      "Carbs": "20-25g",
-      "Fat": "10-12g",
-      "Protein": "2-3g",
-      "Fiber": "5-6g",
-      "Net Carbs": "15-20g",
-      "Sodium": "50-60mg",
-      "Cholesterol": "0mg"
-    },
-    "cookingNote": "Avocado provides healthy fats and is easy to digest, making this snack ideal for sensitive stomachs."
+    "recipe_facts": [
+      { "name": "Calories", "range": [150, 180], "max": 180 },
+      { "name": "Carbs", "range": [20, 25], "max": 25 },
+      { "name": "Fat", "range": [10, 12], "max": 12 },
+      { "name": "Protein", "range": [2, 3], "max": 3 },
+      { "name": "Fiber", "range": [5, 6], "max": 6 },
+      { "name": "Net Carbs", "range": [15, 20], "max": 20 },
+      { "name": "Sodium", "range": [50, 60], "max": 60 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "cookingNote": "Avocado provides healthy fats and is easy to digest, making this snack ideal for sensitive stomachs.",
+    "author": "Megan Harris",
+    "createdOn": "12/2024",
+    "rating": 4.5
   },
   {
     "id": 4,
@@ -106,17 +115,20 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "160-190 kcal",
-      "Carbs": "35-40g",
-      "Fat": "4-5g",
-      "Protein": "2-3g",
-      "Fiber": "5-6g",
-      "Net Carbs": "30-35g",
-      "Sodium": "150-170mg",
-      "Cholesterol": "0mg"
-    },
-    "cookingNote": "Sweet potatoes are high in fiber, which can help promote healthy digestion and is gentle on the stomach."
+    "recipe_facts": [
+      { "name": "Calories", "range": [160, 190], "max": 190 },
+      { "name": "Carbs", "range": [35, 40], "max": 40 },
+      { "name": "Fat", "range": [4, 5], "max": 5 },
+      { "name": "Protein", "range": [2, 3], "max": 3 },
+      { "name": "Fiber", "range": [5, 6], "max": 6 },
+      { "name": "Net Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Sodium", "range": [150, 170], "max": 170 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "cookingNote": "Sweet potatoes are high in fiber, which can help promote healthy digestion and is gentle on the stomach.",
+    "author": "Lucas Brown",
+    "createdOn": "12/2024",
+    "rating": 4.8
   },
   {
     "id": 5,
@@ -136,18 +148,21 @@
       "Serve chilled."
     ],
     "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
+    "cookTimeMinutes": 2,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "120-150 kcal",
-      "Carbs": "10-12g",
-      "Fat": "8-10g",
-      "Protein": "5-6g",
-      "Fiber": "2-3g",
-      "Net Carbs": "8-10g",
-      "Sodium": "60-70mg",
-      "Cholesterol": "5-10mg"
-    },
-    "cookingNote": "Cucumber is hydrating and soothing, making this a light and easy-to-digest snack."
+    "recipe_facts": [
+      { "name": "Calories", "range": [120, 150], "max": 150 },
+      { "name": "Carbs", "range": [10, 12], "max": 12 },
+      { "name": "Fat", "range": [8, 10], "max": 10 },
+      { "name": "Protein", "range": [5, 6], "max": 6 },
+      { "name": "Fiber", "range": [2, 3], "max": 3 },
+      { "name": "Net Carbs", "range": [8, 10], "max": 10 },
+      { "name": "Sodium", "range": [60, 70], "max": 70 },
+      { "name": "Cholesterol", "range": [5, 10], "max": 10 }
+    ],
+    "cookingNote": "Cucumber is hydrating and soothing, making this a light and easy-to-digest snack.",
+    "author": "Lily Evans",
+    "createdOn": "12/2024",
+    "rating": 4.6
   }
 ]

@@ -1,158 +1,179 @@
 [
   {
     "id": 1,
-    "name": "Strawberry Banana Smoothie",
-    "description": "A refreshing smoothie made with ripe bananas, fresh strawberries, and a touch of honey.",
+    "name": "Tropical Paradise Smoothie",
+    "description": "A refreshing smoothie with a blend of tropical fruits, perfect for a summer treat.",
     "ingredients": [
-      "1 banana",
-      "1/2 cup strawberries",
-      "1/2 cup Greek yogurt",
-      "1/2 cup almond milk",
-      "1 tablespoon honey"
+      "1/2 cup pineapple chunks",
+      "1/2 cup mango chunks",
+      "1/2 banana",
+      "1/2 cup coconut milk",
+      "1/4 cup orange juice",
+      "Ice cubes (optional)"
     ],
     "instructions": [
-      "Place all ingredients in a blender.",
-      "Blend until smooth and creamy.",
-      "Serve chilled."
+      "Add pineapple, mango, banana, coconut milk, and orange juice to a blender.",
+      "Blend until smooth, adding ice cubes for extra chill if desired.",
+      "If the smoothie is too thick, add a bit of water or more coconut milk to adjust the consistency.",
+      "Pour into a glass and serve immediately."
     ],
-    "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
-    "servings": 2,
-    "recipe_facts": {
-      "Calories": "150-180 kcal",
-      "Carbs": "30-35g",
-      "Fat": "2-3g",
-      "Protein": "6-8g",
-      "Fiber": "3-4g",
-      "Net Carbs": "25-30g",
-      "Sodium": "50-60mg",
-      "Cholesterol": "5-10mg"
-    },
-    "cookingNote": "For a thicker texture, add more frozen strawberries or ice cubes."
+    "prepTimeMinutes": 6,
+    "cookTimeMinutes": 4,
+    "servings": 3,
+    "recipe_facts": [
+      { "name": "Calories", "range": [150, 200], "max": 200 },
+      { "name": "Carbs", "range": [35, 40], "max": 40 },
+      { "name": "Fat", "range": [5, 7], "max": 7 },
+      { "name": "Protein", "range": [2, 3], "max": 3 },
+      { "name": "Fiber", "range": [3, 4], "max": 4 },
+      { "name": "Net Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Sodium", "range": [50, 80], "max": 80 },
+      { "name": "Cholesterol", "range": [0, 5], "max": 5 }
+    ],
+    "cookingNote": "Freeze the fruits for a thicker texture and more refreshing smoothie.",
+    "author": "Chef Maria",
+    "rating": 4.7,
+    "createdOn": "10/2024"
   },
   {
     "id": 2,
-    "name": "Mango Pineapple Smoothie",
-    "description": "A tropical smoothie with a burst of mango and pineapple flavors, perfect for a refreshing snack.",
+    "name": "Berry Blast Smoothie",
+    "description": "A sweet and tangy smoothie with mixed berries and yogurt.",
     "ingredients": [
-      "1 cup mango chunks",
-      "1/2 cup pineapple chunks",
-      "1/2 cup coconut water",
+      "1/2 cup strawberries",
+      "1/2 cup blueberries",
+      "1/4 cup raspberries",
       "1/2 cup Greek yogurt",
-      "1 teaspoon lime juice"
+      "1/2 cup almond milk",
+      "1 tablespoon honey (optional)"
     ],
     "instructions": [
-      "Combine all ingredients in a blender.",
-      "Blend until smooth.",
-      "Pour into a glass and enjoy."
+      "Add the strawberries, blueberries, raspberries, Greek yogurt, and almond milk to a blender.",
+      "Blend until smooth, adding honey if you prefer more sweetness.",
+      "If the smoothie is too thick, add more almond milk to adjust the consistency.",
+      "Pour into a glass and serve immediately."
     ],
-    "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
-    "servings": 3,
-    "recipe_facts": {
-      "Calories": "170-200 kcal",
-      "Carbs": "35-40g",
-      "Fat": "1-2g",
-      "Protein": "5-6g",
-      "Fiber": "4-5g",
-      "Net Carbs": "30-35g",
-      "Sodium": "40-50mg",
-      "Cholesterol": "5-10mg"
-    },
-    "cookingNote": "Add a little ice if you prefer a colder smoothie."
+    "prepTimeMinutes": 4,
+    "cookTimeMinutes": 5,
+    "servings": 2,
+    "recipe_facts": [
+      { "name": "Calories", "range": [130, 180], "max": 180 },
+      { "name": "Carbs", "range": [25, 30], "max": 30 },
+      { "name": "Fat", "range": [5, 7], "max": 7 },
+      { "name": "Protein", "range": [8, 10], "max": 10 },
+      { "name": "Fiber", "range": [4, 5], "max": 5 },
+      { "name": "Net Carbs", "range": [20, 25], "max": 25 },
+      { "name": "Sodium", "range": [50, 70], "max": 70 },
+      { "name": "Cholesterol", "range": [5, 10], "max": 10 }
+    ],
+    "cookingNote": "Using frozen berries gives a colder, thicker texture.",
+    "author": "Chef Emily",
+    "rating": 4.8,
+    "createdOn": "08/2024"
   },
   {
     "id": 3,
-    "name": "Green Detox Smoothie",
-    "description": "A healthy green smoothie made with spinach, apple, and chia seeds for a detox boost.",
+    "name": "Green Power Smoothie",
+    "description": "A nutrient-packed smoothie with spinach, apple, and banana.",
     "ingredients": [
-      "1 cup spinach",
-      "1 green apple, chopped",
-      "1/2 cucumber, chopped",
-      "1 tablespoon chia seeds",
-      "1/2 cup coconut water",
-      "1 teaspoon lemon juice"
+      "1/2 cup spinach",
+      "1/2 apple, chopped",
+      "1/2 banana",
+      "1/2 cup water",
+      "1/4 cup almond milk",
+      "1 tablespoon chia seeds"
     ],
     "instructions": [
-      "Blend spinach, apple, cucumber, chia seeds, coconut water, and lemon juice.",
-      "Process until smooth and creamy.",
-      "Serve immediately."
+      "Add spinach, apple, banana, water, and almond milk to the blender.",
+      "Blend until smooth, adding chia seeds and blend again.",
+      "If the smoothie is too thick, add more water or almond milk to adjust the consistency.",
+      "Pour into a glass and serve immediately."
     ],
-    "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
-    "servings": 2,
-    "recipe_facts": {
-      "Calories": "120-150 kcal",
-      "Carbs": "25-30g",
-      "Fat": "4-5g",
-      "Protein": "2-3g",
-      "Fiber": "6-7g",
-      "Net Carbs": "18-22g",
-      "Sodium": "40-50mg",
-      "Cholesterol": "0mg"
-    },
-    "cookingNote": "For added sweetness, try adding a few dates or honey."
+    "prepTimeMinutes": 7,
+    "cookTimeMinutes": 4,
+    "servings": 4,
+    "recipe_facts": [
+      { "name": "Calories", "range": [120, 160], "max": 160 },
+      { "name": "Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Fat", "range": [4, 6], "max": 6 },
+      { "name": "Protein", "range": [3, 5], "max": 5 },
+      { "name": "Fiber", "range": [5, 6], "max": 6 },
+      { "name": "Net Carbs", "range": [20, 25], "max": 25 },
+      { "name": "Sodium", "range": [40, 60], "max": 60 },
+      { "name": "Cholesterol", "range": [0, 5], "max": 5 }
+    ],
+    "cookingNote": "Add some lemon juice for a refreshing kick and extra vitamin C.",
+    "author": "Chef Olivia",
+    "rating": 4.6,
+    "createdOn": "11/2024"
   },
   {
     "id": 4,
-    "name": "Berry Protein Smoothie",
-    "description": "A protein-packed smoothie made with mixed berries, protein powder, and almond milk.",
-    "ingredients": [
-      "1/2 cup mixed berries",
-      "1 scoop protein powder",
-      "1/2 cup almond milk",
-      "1/2 banana",
-      "1 tablespoon flaxseeds"
-    ],
-    "instructions": [
-      "Place all ingredients in a blender.",
-      "Blend until smooth and creamy.",
-      "Serve and enjoy as a post-workout drink."
-    ],
-    "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
-    "servings": 2,
-    "recipe_facts": {
-      "Calories": "200-250 kcal",
-      "Carbs": "25-30g",
-      "Fat": "8-10g",
-      "Protein": "20-25g",
-      "Fiber": "5-6g",
-      "Net Carbs": "20-25g",
-      "Sodium": "100-120mg",
-      "Cholesterol": "10-15mg"
-    },
-    "cookingNote": "Add more almond milk if you prefer a thinner consistency."
-  },
-  {
-    "id": 5,
     "name": "Peanut Butter Banana Smoothie",
-    "description": "A rich and creamy smoothie with the delicious combination of peanut butter and banana.",
+    "description": "A creamy smoothie with peanut butter and banana for a rich, satisfying treat.",
     "ingredients": [
       "1 banana",
       "1 tablespoon peanut butter",
       "1/2 cup Greek yogurt",
       "1/2 cup almond milk",
-      "1 teaspoon honey"
+      "1 teaspoon honey (optional)"
     ],
     "instructions": [
-      "Add all ingredients into a blender.",
-      "Blend until smooth and creamy.",
-      "Serve chilled."
+      "Place the banana, peanut butter, Greek yogurt, almond milk, and honey into the blender.",
+      "Blend until smooth, adding more almond milk if needed for a thinner consistency.",
+      "Pour into a glass and serve immediately."
     ],
     "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
+    "cookTimeMinutes": 4,
+    "servings": 3,
+    "recipe_facts": [
+      { "name": "Calories", "range": [200, 250], "max": 250 },
+      { "name": "Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Fat", "range": [10, 12], "max": 12 },
+      { "name": "Protein", "range": [7, 9], "max": 9 },
+      { "name": "Fiber", "range": [3, 4], "max": 4 },
+      { "name": "Net Carbs", "range": [25, 30], "max": 30 },
+      { "name": "Sodium", "range": [100, 150], "max": 150 },
+      { "name": "Cholesterol", "range": [5, 10], "max": 10 }
+    ],
+    "cookingNote": "For a richer flavor, use natural peanut butter without added sugars.",
+    "author": "Chef Alex",
+    "rating": 4.9,
+    "createdOn": "07/2024"
+  },
+  {
+    "id": 5,
+    "name": "Avocado Lime Smoothie",
+    "description": "A creamy and tangy smoothie with avocado and lime, a perfect refreshing treat.",
+    "ingredients": [
+      "1/2 avocado",
+      "1/2 banana",
+      "1/4 cup coconut water",
+      "1 tablespoon lime juice",
+      "1 tablespoon honey (optional)",
+      "Ice cubes (optional)"
+    ],
+    "instructions": [
+      "Add avocado, banana, coconut water, lime juice, and honey to the blender.",
+      "Blend until smooth, adding ice cubes if you prefer a colder smoothie.",
+      "Pour into a glass and serve immediately."
+    ],
+    "prepTimeMinutes": 6,
+    "cookTimeMinutes": 5,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "250-300 kcal",
-      "Carbs": "30-35g",
-      "Fat": "12-15g",
-      "Protein": "10-12g",
-      "Fiber": "3-4g",
-      "Net Carbs": "25-30g",
-      "Sodium": "150-200mg",
-      "Cholesterol": "10-20mg"
-    },
-    "cookingNote": "For a vegan version, substitute the Greek yogurt with a plant-based yogurt."
+    "recipe_facts": [
+      { "name": "Calories", "range": [180, 220], "max": 220 },
+      { "name": "Carbs", "range": [25, 30], "max": 30 },
+      { "name": "Fat", "range": [10, 12], "max": 12 },
+      { "name": "Protein", "range": [3, 4], "max": 4 },
+      { "name": "Fiber", "range": [5, 6], "max": 6 },
+      { "name": "Net Carbs", "range": [15, 20], "max": 20 },
+      { "name": "Sodium", "range": [30, 50], "max": 50 },
+      { "name": "Cholesterol", "range": [0, 5], "max": 5 }
+    ],
+    "cookingNote": "Add extra lime juice for a zesty kick.",
+    "author": "Chef Sophia",
+    "rating": 4.8,
+    "createdOn": "06/2024"
   }
 ]

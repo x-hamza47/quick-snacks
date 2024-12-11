@@ -17,18 +17,21 @@
       "Drizzle with olive oil before serving."
     ],
     "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
+    "cookTimeMinutes": 3,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "230-250 ",
-      "Carbs": "30-35g",
-      "Fat": "12-15g",
-      "Protein": "3-5g",
-      "Fiber": "6-8g",
-      "Net Carbs": "22-25g",
-      "Sodium": "100-150mg",
-      "Cholesterol": "0mg"
-    },
+    "recipe_facts": [
+      { "name": "Calories", "range": [230, 250], "max": 250 },
+      { "name": "Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Fat", "range": [12, 15], "max": 15 },
+      { "name": "Protein", "range": [3, 5], "max": 5 },
+      { "name": "Fiber", "range": [6, 8], "max": 8 },
+      { "name": "Net Carbs", "range": [22, 25], "max": 25 },
+      { "name": "Sodium", "range": [100, 150], "max": 150 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "rating": 4.5,
+    "author": "Liam Peterson",
+    "createdOn": "12/2024",
     "cookingNote": "For extra flavor, add a pinch of red pepper flakes or a squeeze of lemon juice."
   },
   {
@@ -48,18 +51,21 @@
       "Top with mixed berries before serving."
     ],
     "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
+    "cookTimeMinutes": 1,
     "servings": 3,
-    "recipe_facts": {
-      "Calories": "180-210 kcal",
-      "Carbs": "20-25g",
-      "Fat": "10-12g",
-      "Protein": "6-7g",
-      "Fiber": "8-10g",
-      "Net Carbs": "12-15g",
-      "Sodium": "50-100mg",
-      "Cholesterol": "0mg"
-    },
+    "recipe_facts": [
+      { "name": "Calories", "range": [180, 210], "max": 210 },
+      { "name": "Carbs", "range": [20, 25], "max": 25 },
+      { "name": "Fat", "range": [10, 12], "max": 12 },
+      { "name": "Protein", "range": [6, 7], "max": 7 },
+      { "name": "Fiber", "range": [8, 10], "max": 10 },
+      { "name": "Net Carbs", "range": [12, 15], "max": 15 },
+      { "name": "Sodium", "range": [50, 100], "max": 100 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "rating": 4.7,
+    "author": "Emma Novak",
+    "createdOn": "12/2024",
     "cookingNote": "This pudding can be prepared the night before for an easy breakfast or snack."
   },
   {
@@ -78,18 +84,21 @@
       "Serve with hummus for dipping."
     ],
     "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
+    "cookTimeMinutes": 2,
     "servings": 4,
-    "recipe_facts": {
-      "Calories": "150-180 kcal",
-      "Carbs": "15-20g",
-      "Fat": "8-10g",
-      "Protein": "5-6g",
-      "Fiber": "4-6g",
-      "Net Carbs": "10-15g",
-      "Sodium": "250-300mg",
-      "Cholesterol": "0mg"
-    },
+    "recipe_facts": [
+      { "name": "Calories", "range": [150, 180], "max": 180 },
+      { "name": "Carbs", "range": [15, 20], "max": 20 },
+      { "name": "Fat", "range": [8, 10], "max": 10 },
+      { "name": "Protein", "range": [5, 6], "max": 6 },
+      { "name": "Fiber", "range": [4, 6], "max": 6 },
+      { "name": "Net Carbs", "range": [10, 15], "max": 15 },
+      { "name": "Sodium", "range": [250, 300], "max": 300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "rating": 4.6,
+    "author": "Olivia Davis",
+    "createdOn": "12/2024",
     "cookingNote": "You can substitute hummus with guacamole or yogurt dip for variety."
   },
   {
@@ -108,18 +117,21 @@
       "Sprinkle with cinnamon if desired."
     ],
     "prepTimeMinutes": 3,
-    "cookTimeMinutes": 0,
+    "cookTimeMinutes": 2,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "200-230 kcal",
-      "Carbs": "18-22g",
-      "Fat": "12-14g",
-      "Protein": "10-12g",
-      "Fiber": "2-3g",
-      "Net Carbs": "15-18g",
-      "Sodium": "50-100mg",
-      "Cholesterol": "5-10mg"
-    },
+    "recipe_facts": [
+      { "name": "Calories", "range": [200, 230], "max": 230 },
+      { "name": "Carbs", "range": [18, 22], "max": 22 },
+      { "name": "Fat", "range": [12, 14], "max": 14 },
+      { "name": "Protein", "range": [10, 12], "max": 12 },
+      { "name": "Fiber", "range": [2, 3], "max": 3 },
+      { "name": "Net Carbs", "range": [15, 18], "max": 18 },
+      { "name": "Sodium", "range": [50, 100], "max": 100 },
+      { "name": "Cholesterol", "range": [5, 10], "max": 10 }
+    ],
+    "rating": 4.8,
+    "author": "Sophia Lee",
+    "createdOn": "12/2024",
     "cookingNote": "For added flavor, you can use maple syrup instead of honey or add fresh fruit on top."
   },
   {
@@ -137,18 +149,21 @@
       "Sprinkle with cinnamon if desired."
     ],
     "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
+    "cookTimeMinutes": 2,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "180-210 kcal",
-      "Carbs": "20-25g",
-      "Fat": "12-14g",
-      "Protein": "4-6g",
-      "Fiber": "5-6g",
-      "Net Carbs": "15-18g",
-      "Sodium": "50-100mg",
-      "Cholesterol": "0mg"
-    },
-    "cookingNote": "You can also use peanut butter instead of almond butter for a different taste."
+    "recipe_facts": [
+      { "name": "Calories", "range": [180, 210], "max": 210 },
+      { "name": "Carbs", "range": [20, 25], "max": 25 },
+      { "name": "Fat", "range": [12, 14], "max": 14 },
+      { "name": "Protein", "range": [4, 6], "max": 6 },
+      { "name": "Fiber", "range": [5, 6], "max": 6 },
+      { "name": "Net Carbs", "range": [15, 18], "max": 18 },
+      { "name": "Sodium", "range": [50, 100], "max": 100 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "rating": 4.4,
+    "author": "James Taylor",
+    "createdOn": "12/2024",
+    "cookingNote": "You can also use peanut butter instead of almond butter for a different flavor."
   }
 ]

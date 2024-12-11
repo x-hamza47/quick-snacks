@@ -20,17 +20,20 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 0,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "250-300 kcal",
-      "Carbs": "10-15g",
-      "Fat": "20-25g",
-      "Protein": "6-8g",
-      "Fiber": "2-3g",
-      "Net Carbs": "7-12g",
-      "Sodium": "350-400mg",
-      "Cholesterol": "10-15mg"
-    },
-    "cookingNote": "For extra flavor, you can add grilled chicken or bacon. Be sure to use fresh lettuce and toss the ingredients gently to avoid wilting."
+    "recipe_facts": [
+      { "name": "Calories", "range": [250, 300], "max": 300 },
+      { "name": "Carbs", "range": [10, 15], "max": 15 },
+      { "name": "Fat", "range": [20, 25], "max": 25 },
+      { "name": "Protein", "range": [6, 8], "max": 8 },
+      { "name": "Fiber", "range": [2, 3], "max": 3 },
+      { "name": "Net Carbs", "range": [7, 12], "max": 12 },
+      { "name": "Sodium", "range": [350, 400], "max": 400 },
+      { "name": "Cholesterol", "range": [10, 15], "max": 15 }
+    ],
+    "cookingNote": "For extra flavor, you can add grilled chicken or bacon. Be sure to use fresh lettuce and toss the ingredients gently to avoid wilting.",
+    "author": "John Doe",
+    "rating": 4.5,
+    "createdOn": "2024-12-11"
   },
   {
     "id": 2,
@@ -55,17 +58,20 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 0,
     "servings": 3,
-    "recipe_facts": {
-      "Calories": "180-220 kcal",
-      "Carbs": "15-20g",
-      "Fat": "12-15g",
-      "Protein": "5-7g",
-      "Fiber": "4-5g",
-      "Net Carbs": "10-12g",
-      "Sodium": "350-400mg",
-      "Cholesterol": "15-20mg"
-    },
-    "cookingNote": "This salad is best enjoyed fresh. For a more filling version, add grilled chicken or chickpeas for added protein."
+    "recipe_facts": [
+      { "name": "Calories", "range": [180, 220], "max": 220 },
+      { "name": "Carbs", "range": [15, 20], "max": 20 },
+      { "name": "Fat", "range": [12, 15], "max": 15 },
+      { "name": "Protein", "range": [5, 7], "max": 7 },
+      { "name": "Fiber", "range": [4, 5], "max": 5 },
+      { "name": "Net Carbs", "range": [10, 12], "max": 12 },
+      { "name": "Sodium", "range": [350, 400], "max": 400 },
+      { "name": "Cholesterol", "range": [15, 20], "max": 20 }
+    ],
+    "cookingNote": "This salad is best enjoyed fresh. For a more filling version, add grilled chicken or chickpeas for added protein.",
+    "author": "Jane Smith",
+    "rating": 4.8,
+    "createdOn": "2024-12-10"
   },
   {
     "id": 3,
@@ -88,17 +94,20 @@
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 0,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "250-300 kcal",
-      "Carbs": "15-18g",
-      "Fat": "20-22g",
-      "Protein": "8-10g",
-      "Fiber": "2-3g",
-      "Net Carbs": "12-14g",
-      "Sodium": "250-300mg",
-      "Cholesterol": "15-20mg"
-    },
-    "cookingNote": "This salad can be served as a starter or side dish. You can also add a sprinkle of sea salt for extra flavor."
+    "recipe_facts": [
+      { "name": "Calories", "range": [250, 300], "max": 300 },
+      { "name": "Carbs", "range": [15, 18], "max": 18 },
+      { "name": "Fat", "range": [20, 22], "max": 22 },
+      { "name": "Protein", "range": [8, 10], "max": 10 },
+      { "name": "Fiber", "range": [2, 3], "max": 3 },
+      { "name": "Net Carbs", "range": [12, 14], "max": 14 },
+      { "name": "Sodium", "range": [250, 300], "max": 300 },
+      { "name": "Cholesterol", "range": [15, 20], "max": 20 }
+    ],
+    "cookingNote": "This salad can be served as a starter or side dish. You can also add a sprinkle of sea salt for extra flavor.",
+    "author": "Michael Lee",
+    "rating": 4.7,
+    "createdOn": "2024-12-09"
   },
   {
     "id": 4,
@@ -122,17 +131,20 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 0,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "350-400 kcal",
-      "Carbs": "30-35g",
-      "Fat": "20-22g",
-      "Protein": "10-12g",
-      "Fiber": "8-9g",
-      "Net Carbs": "20-25g",
-      "Sodium": "300-350mg",
-      "Cholesterol": "0mg"
-    },
-    "cookingNote": "This salad is creamy and satisfying thanks to the avocado. You can add a protein like grilled chicken or tofu for a more substantial meal."
+    "recipe_facts": [
+      { "name": "Calories", "range": [350, 400], "max": 400 },
+      { "name": "Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Fat", "range": [20, 22], "max": 22 },
+      { "name": "Protein", "range": [10, 12], "max": 12 },
+      { "name": "Fiber", "range": [8, 9], "max": 9 },
+      { "name": "Net Carbs", "range": [20, 25], "max": 25 },
+      { "name": "Sodium", "range": [300, 350], "max": 350 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "cookingNote": "This salad is creamy and satisfying thanks to the avocado. You can add a protein like grilled chicken or tofu for a more substantial meal.",
+    "author": "Emily Davis",
+    "rating": 4.3,
+    "createdOn": "2024-12-08"
   },
   {
     "id": 5,
@@ -152,19 +164,22 @@
       "Drizzle with lemon juice and toss to combine.",
       "Top with crumbled feta and season with salt and pepper."
     ],
-    "prepTimeMinutes": 10,
-    "cookTimeMinutes": 30,
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 3,
-    "recipe_facts": {
-      "Calories": "400-450 kcal",
-      "Carbs": "50-55g",
-      "Fat": "15-18g",
-      "Protein": "12-14g",
-      "Fiber": "8-9g",
-      "Net Carbs": "40-45g",
-      "Sodium": "300-350mg",
-      "Cholesterol": "20-30mg"
-    },
-    "cookingNote": "This salad is filling and full of flavor, with roasted vegetables adding depth and quinoa providing a protein boost. Perfect as a meal on its own!"
+    "recipe_facts": [
+      { "name": "Calories", "range": [350, 400], "max": 400 },
+      { "name": "Carbs", "range": [40, 45], "max": 45 },
+      { "name": "Fat", "range": [15, 18], "max": 18 },
+      { "name": "Protein", "range": [10, 12], "max": 12 },
+      { "name": "Fiber", "range": [5, 6], "max": 6 },
+      { "name": "Net Carbs", "range": [35, 40], "max": 40 },
+      { "name": "Sodium", "range": [200, 250], "max": 250 },
+      { "name": "Cholesterol", "range": [15, 20], "max": 20 }
+    ],
+    "cookingNote": "This salad is great as a main dish or as a side. You can add nuts or seeds for a crunchy texture.",
+    "author": "Sarah Williams",
+    "rating": 4.6,
+    "createdOn": "2024-12-07"
   }
 ]

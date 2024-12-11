@@ -21,16 +21,19 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "300-350 kcal",
-      "Carbs": "50-55g",
-      "Fat": "15-18g",
-      "Protein": "7-8g",
-      "Fiber": "2-3g",
-      "Net Carbs": "45-50g",
-      "Sodium": "250-300mg",
-      "Cholesterol": "0mg"
-    },
+    "recipe_facts": [
+      { "name": "Calories", "range": [300, 350], "max": 350 },
+      { "name": "Carbs", "range": [50, 55], "max": 55 },
+      { "name": "Fat", "range": [15, 18], "max": 18 },
+      { "name": "Protein", "range": [7, 8], "max": 8 },
+      { "name": "Fiber", "range": [2, 3], "max": 3 },
+      { "name": "Net Carbs", "range": [45, 50], "max": 50 },
+      { "name": "Sodium", "range": [250, 300], "max": 300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "rating": 4.5,
+    "author": "Liam Peterson",
+    "createdOn": "12/2024",
     "cookingNote": "Aglio e Olio is a quick and easy dish that requires only a few ingredients but is packed with flavor. Add more chili flakes for extra spice!"
   },
   {
@@ -58,16 +61,19 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 15,
     "servings": 3,
-    "recipe_facts": {
-      "Calories": "400-450 kcal",
-      "Carbs": "50-55g",
-      "Fat": "18-20g",
-      "Protein": "10-12g",
-      "Fiber": "3-4g",
-      "Net Carbs": "45-50g",
-      "Sodium": "350-400mg",
-      "Cholesterol": "60-70mg"
-    },
+    "recipe_facts": [
+      { "name": "Calories", "range": [400, 450], "max": 450 },
+      { "name": "Carbs", "range": [50, 55], "max": 55 },
+      { "name": "Fat", "range": [18, 20], "max": 20 },
+      { "name": "Protein", "range": [10, 12], "max": 12 },
+      { "name": "Fiber", "range": [3, 4], "max": 4 },
+      { "name": "Net Carbs", "range": [45, 50], "max": 50 },
+      { "name": "Sodium", "range": [350, 400], "max": 400 },
+      { "name": "Cholesterol", "range": [60, 70], "max": 70 }
+    ],
+    "rating": 4.7,
+    "author": "Emma Novak",
+    "createdOn": "11/2024",
     "cookingNote": "Vodka adds a unique tang to the creamy sauce, making this dish rich yet smooth. Make sure to cook the alcohol off to avoid strong flavor."
   },
   {
@@ -98,82 +104,97 @@
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 40,
     "servings": 4,
-    "recipe_facts": {
-      "Calories": "500-550 kcal",
-      "Carbs": "45-50g",
-      "Fat": "25-28g",
-      "Protein": "30-35g",
-      "Fiber": "4-5g",
-      "Net Carbs": "40-45g",
-      "Sodium": "600-650mg",
-      "Cholesterol": "80-90mg"
-    },
+    "recipe_facts": [
+      { "name": "Calories", "range": [500, 550], "max": 550 },
+      { "name": "Carbs", "range": [45, 50], "max": 50 },
+      { "name": "Fat", "range": [25, 28], "max": 28 },
+      { "name": "Protein", "range": [30, 35], "max": 35 },
+      { "name": "Fiber", "range": [4, 5], "max": 5 },
+      { "name": "Net Carbs", "range": [40, 45], "max": 45 },
+      { "name": "Sodium", "range": [600, 650], "max": 650 },
+      { "name": "Cholesterol", "range": [80, 90], "max": 90 }
+    ],
+    "rating": 4.8,
+    "author": "Sophia Miller",
+    "createdOn": "10/2024",
     "cookingNote": "Lasagna is a classic comfort food that can be made ahead and is great for feeding a crowd. Make sure to let it rest before serving."
   },
   {
     "id": 4,
-    "name": "Caprese Pasta Salad",
-    "description": "A refreshing pasta salad with mozzarella, tomatoes, and basil, perfect for a light lunch or side dish.",
+    "name": "Fettuccine Alfredo",
+    "description": "A rich and creamy pasta dish with fettuccine noodles and a smooth Alfredo sauce, perfect for indulgent meals.",
     "ingredients": [
-      "200g fusilli pasta",
-      "1 cup cherry tomatoes, halved",
-      "1/2 cup mozzarella balls, halved",
-      "1/4 cup fresh basil, chopped",
-      "2 tablespoons olive oil",
-      "1 tablespoon balsamic vinegar",
-      "Salt and pepper to taste"
+      "200g fettuccine pasta",
+      "1/2 cup unsalted butter",
+      "1 cup heavy cream",
+      "1 1/2 cups Parmesan cheese, grated",
+      "1/2 teaspoon garlic powder",
+      "Salt and pepper to taste",
+      "Fresh parsley, chopped"
     ],
     "instructions": [
-      "Cook fusilli pasta according to package instructions.",
-      "In a bowl, combine the pasta, cherry tomatoes, mozzarella, and basil.",
-      "Drizzle with olive oil and balsamic vinegar.",
-      "Toss to combine and season with salt and pepper."
+      "Cook fettuccine pasta according to package instructions.",
+      "In a large pan, melt butter and add heavy cream. Bring to a simmer.",
+      "Stir in Parmesan cheese and garlic powder until the sauce thickens.",
+      "Toss the cooked pasta in the Alfredo sauce and season with salt and pepper.",
+      "Garnish with fresh parsley and serve."
     ],
-    "prepTimeMinutes": 5,
+    "prepTimeMinutes": 10,
     "cookTimeMinutes": 10,
-    "servings": 2,
-    "recipe_facts": {
-      "Calories": "250-300 kcal",
-      "Carbs": "40-45g",
-      "Fat": "10-12g",
-      "Protein": "8-10g",
-      "Fiber": "2-3g",
-      "Net Carbs": "35-40g",
-      "Sodium": "200-250mg",
-      "Cholesterol": "20-25mg"
-    },
-    "cookingNote": "This pasta salad is light yet satisfying, and the balsamic vinegar gives it a tangy kick that complements the mozzarella."
+    "servings": 3,
+    "recipe_facts": [
+      { "name": "Calories", "range": [600, 650], "max": 650 },
+      { "name": "Carbs", "range": [50, 55], "max": 55 },
+      { "name": "Fat", "range": [35, 40], "max": 40 },
+      { "name": "Protein", "range": [15, 18], "max": 18 },
+      { "name": "Fiber", "range": [1, 2], "max": 2 },
+      { "name": "Net Carbs", "range": [48, 53], "max": 53 },
+      { "name": "Sodium", "range": [600, 650], "max": 650 },
+      { "name": "Cholesterol", "range": [100, 110], "max": 110 }
+    ],
+    "rating": 4.6,
+    "author": "Lucas Wilson",
+    "createdOn": "12/2024",
+    "cookingNote": "For an extra creamy texture, add more cheese and butter to the sauce. Perfect for a comforting meal!"
   },
   {
     "id": 5,
-    "name": "Pesto Penne",
-    "description": "A vibrant and flavorful pasta dish made with basil pesto, pine nuts, and Parmesan, a true Italian classic.",
+    "name": "Pasta Primavera",
+    "description": "A fresh and vibrant pasta dish with sautéed vegetables and a light garlic sauce, ideal for a healthy meal.",
     "ingredients": [
-      "200g penne pasta",
-      "1/4 cup basil pesto",
-      "1 tablespoon pine nuts",
-      "2 tablespoons Parmesan cheese",
-      "Salt and pepper to taste"
+      "200g spaghetti or penne",
+      "1 tablespoon olive oil",
+      "1 zucchini, sliced",
+      "1 bell pepper, sliced",
+      "1/2 cup cherry tomatoes, halved",
+      "2 garlic cloves, minced",
+      "Fresh basil, chopped",
+      "Salt and pepper to taste",
+      "Parmesan cheese, grated"
     ],
     "instructions": [
-      "Cook penne pasta according to package instructions.",
-      "Drain the pasta and toss it with basil pesto.",
-      "Top with pine nuts and Parmesan cheese.",
-      "Season with salt and pepper and serve."
+      "Cook pasta according to package instructions.",
+      "In a pan, heat olive oil and sauté zucchini, bell pepper, and cherry tomatoes until tender.",
+      "Add garlic and sauté for another minute.",
+      "Toss the cooked pasta with the sautéed vegetables.",
+      "Season with salt and pepper, and garnish with fresh basil and Parmesan cheese."
     ],
-    "prepTimeMinutes": 5,
+    "prepTimeMinutes": 10,
     "cookTimeMinutes": 10,
-    "servings": 2,
-    "recipe_facts": {
-      "Calories": "350-400 kcal",
-      "Carbs": "45-50g",
-      "Fat": "18-20g",
-      "Protein": "10-12g",
-      "Fiber": "3-4g",
-      "Net Carbs": "40-45g",
-      "Sodium": "300-350mg",
-      "Cholesterol": "20-30mg"
-    },
-    "cookingNote": "Pesto adds a fresh, herby flavor to pasta, and the pine nuts give a nice crunch. This dish is simple yet incredibly flavorful."
+    "servings": 3,
+    "recipe_facts": [
+      { "name": "Calories", "range": [350, 400], "max": 400 },
+      { "name": "Carbs", "range": [50, 55], "max": 55 },
+      { "name": "Fat", "range": [10, 12], "max": 12 },
+      { "name": "Protein", "range": [8, 10], "max": 10 },
+      { "name": "Fiber", "range": [4, 5], "max": 5 },
+      { "name": "Net Carbs", "range": [45, 50], "max": 50 },
+      { "name": "Sodium", "range": [250, 300], "max": 300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "rating": 4.4,
+    "author": "Olivia Adams",
+    "createdOn": "11/2024",
+    "cookingNote": "Pasta Primavera is a light, yet flavorful dish. Feel free to mix in your favorite vegetables!"
   }
 ]

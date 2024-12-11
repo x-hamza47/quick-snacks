@@ -4,11 +4,11 @@
     "name": "Classic Margherita Pizza",
     "description": "A simple and classic pizza topped with fresh mozzarella, tomato sauce, and basil leaves.",
     "ingredients": [
-      "Pizza dough",
-      "Tomato sauce",
-      "Fresh mozzarella cheese",
-      "Fresh basil leaves",
-      "Olive oil",
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "8 oz fresh mozzarella cheese",
+      "1/4 cup fresh basil leaves",
+      "1 tablespoon olive oil",
       "Salt and pepper to taste"
     ],
     "instructions": [
@@ -22,29 +22,32 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 15,
     "servings": 4,
-    "recipe_facts": {
-      "Calories": "250-300 kcal",
-      "Carbs": "30-35g",
-      "Fat": "12-15g",
-      "Protein": "12-15g",
-      "Fiber": "2-3g",
-      "Net Carbs": "25-30g",
-      "Sodium": "250-300mg",
-      "Cholesterol": "20-30mg"
-    },
-    "cookingNote": "Use fresh mozzarella for a creamy texture and authentic flavor. Adjust the bake time for a crispier crust."
+    "recipe_facts": [
+      { "name": "Calories", "range": [250, 300], "max": 300 },
+      { "name": "Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Fat", "range": [12, 15], "max": 15 },
+      { "name": "Protein", "range": [12, 15], "max": 15 },
+      { "name": "Fiber", "range": [2, 3], "max": 3 },
+      { "name": "Net Carbs", "range": [25, 30], "max": 30 },
+      { "name": "Sodium", "range": [250, 300], "max": 300 },
+      { "name": "Cholesterol", "range": [20, 30], "max": 30 }
+    ],
+    "cookingNote": "Use fresh mozzarella for a creamy texture and authentic flavor. Adjust the bake time for a crispier crust.",
+    "author": "Chef Maria",
+    "rating": 4.5,
+    "createdOn": "02/2004"
   },
   {
     "id": 2,
     "name": "Pepperoni Pizza",
     "description": "A crowd favorite with a perfect balance of spicy pepperoni and melted cheese.",
     "ingredients": [
-      "Pizza dough",
-      "Tomato sauce",
-      "Mozzarella cheese",
-      "Pepperoni slices",
-      "Olive oil",
-      "Oregano"
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "1 cup mozzarella cheese",
+      "1/2 cup pepperoni slices",
+      "1 tablespoon olive oil",
+      "1 teaspoon oregano"
     ],
     "instructions": [
       "Preheat the oven to 475°F (245°C).",
@@ -57,29 +60,32 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 15,
     "servings": 4,
-    "recipe_facts": {
-      "Calories": "300-350 kcal",
-      "Carbs": "35-40g",
-      "Fat": "15-18g",
-      "Protein": "18-20g",
-      "Fiber": "1-2g",
-      "Net Carbs": "30-35g",
-      "Sodium": "500-600mg",
-      "Cholesterol": "30-40mg"
-    },
-    "cookingNote": "For a spicier kick, add chili flakes on top before baking."
+    "recipe_facts": [
+      { "name": "Calories", "range": [300, 350], "max": 350 },
+      { "name": "Carbs", "range": [35, 40], "max": 40 },
+      { "name": "Fat", "range": [15, 18], "max": 18 },
+      { "name": "Protein", "range": [18, 20], "max": 20 },
+      { "name": "Fiber", "range": [1, 2], "max": 2 },
+      { "name": "Net Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Sodium", "range": [500, 600], "max": 600 },
+      { "name": "Cholesterol", "range": [30, 40], "max": 40 }
+    ],
+    "cookingNote": "For a spicier kick, add chili flakes on top before baking.",
+    "author": "Chef John",
+    "rating": 4.8,
+    "createdOn": "03/2005"
   },
   {
     "id": 3,
     "name": "BBQ Chicken Pizza",
     "description": "A tangy BBQ sauce base topped with grilled chicken, red onions, and mozzarella cheese.",
     "ingredients": [
-      "Pizza dough",
-      "BBQ sauce",
-      "Cooked chicken breast, shredded",
-      "Red onion, thinly sliced",
-      "Mozzarella cheese",
-      "Cilantro for garnish"
+      "1 pizza dough",
+      "1/2 cup BBQ sauce",
+      "1 cup cooked chicken breast, shredded",
+      "1/4 cup red onion, thinly sliced",
+      "1 cup mozzarella cheese",
+      "1 tablespoon cilantro for garnish"
     ],
     "instructions": [
       "Preheat the oven to 475°F (245°C).",
@@ -91,31 +97,34 @@
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 15,
     "servings": 3,
-    "recipe_facts": {
-      "Calories": "280-320 kcal",
-      "Carbs": "30-35g",
-      "Fat": "14-16g",
-      "Protein": "20-25g",
-      "Fiber": "2-3g",
-      "Net Carbs": "25-30g",
-      "Sodium": "450-500mg",
-      "Cholesterol": "35-45mg"
-    },
-    "cookingNote": "For extra flavor, drizzle more BBQ sauce on top just before serving."
+    "recipe_facts": [
+      { "name": "Calories", "range": [280, 320], "max": 320 },
+      { "name": "Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Fat", "range": [14, 16], "max": 16 },
+      { "name": "Protein", "range": [20, 25], "max": 25 },
+      { "name": "Fiber", "range": [2, 3], "max": 3 },
+      { "name": "Net Carbs", "range": [25, 30], "max": 30 },
+      { "name": "Sodium", "range": [450, 500], "max": 500 },
+      { "name": "Cholesterol", "range": [35, 45], "max": 45 }
+    ],
+    "cookingNote": "For extra flavor, drizzle more BBQ sauce on top just before serving.",
+    "author": "Chef Emily",
+    "rating": 4.7,
+    "createdOn": "05/2006"
   },
   {
     "id": 4,
     "name": "Veggie Supreme Pizza",
     "description": "A vegetarian pizza loaded with bell peppers, onions, olives, and mushrooms.",
     "ingredients": [
-      "Pizza dough",
-      "Tomato sauce",
-      "Mozzarella cheese",
-      "Bell peppers, sliced",
-      "Onion, sliced",
-      "Olives, sliced",
-      "Mushrooms, sliced",
-      "Oregano"
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "1 cup mozzarella cheese",
+      "1/2 cup bell peppers, sliced",
+      "1/2 cup onion, sliced",
+      "1/4 cup olives, sliced",
+      "1/2 cup mushrooms, sliced",
+      "1 teaspoon oregano"
     ],
     "instructions": [
       "Preheat the oven to 475°F (245°C).",
@@ -127,29 +136,32 @@
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 15,
     "servings": 3,
-    "recipe_facts": {
-      "Calories": "250-280 kcal",
-      "Carbs": "35-40g",
-      "Fat": "10-12g",
-      "Protein": "12-15g",
-      "Fiber": "3-4g",
-      "Net Carbs": "30-35g",
-      "Sodium": "300-350mg",
-      "Cholesterol": "20-25mg"
-    },
-    "cookingNote": "Feel free to add extra vegetables like spinach or zucchini for more flavor."
+    "recipe_facts": [
+      { "name": "Calories", "range": [250, 280], "max": 280 },
+      { "name": "Carbs", "range": [35, 40], "max": 40 },
+      { "name": "Fat", "range": [10, 12], "max": 12 },
+      { "name": "Protein", "range": [12, 15], "max": 15 },
+      { "name": "Fiber", "range": [3, 4], "max": 4 },
+      { "name": "Net Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Sodium", "range": [300, 350], "max": 350 },
+      { "name": "Cholesterol", "range": [20, 25], "max": 25 }
+    ],
+    "cookingNote": "Feel free to add extra vegetables like spinach or zucchini for more flavor.",
+    "author": "Chef Liam",
+    "rating": 4.6,
+    "createdOn": "06/2007"
   },
   {
     "id": 5,
     "name": "Hawaiian Pizza",
     "description": "A sweet and savory pizza topped with ham, pineapple, and mozzarella cheese.",
     "ingredients": [
-      "Pizza dough",
-      "Tomato sauce",
-      "Mozzarella cheese",
-      "Cooked ham, sliced",
-      "Pineapple chunks",
-      "Olive oil"
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "1 cup mozzarella cheese",
+      "1/2 cup cooked ham, sliced",
+      "1/2 cup pineapple chunks",
+      "1 tablespoon olive oil"
     ],
     "instructions": [
       "Preheat the oven to 475°F (245°C).",
@@ -161,16 +173,19 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 15,
     "servings": 4,
-    "recipe_facts": {
-      "Calories": "300-350 kcal",
-      "Carbs": "35-40g",
-      "Fat": "14-18g",
-      "Protein": "16-18g",
-      "Fiber": "2-3g",
-      "Net Carbs": "30-35g",
-      "Sodium": "400-450mg",
-      "Cholesterol": "30-40mg"
-    },
-    "cookingNote": "You can substitute pineapple with other fruits like mango for a tropical twist."
+    "recipe_facts": [
+      { "name": "Calories", "range": [270, 310], "max": 310 },
+      { "name": "Carbs", "range": [35, 40], "max": 40 },
+      { "name": "Fat", "range": [12, 15], "max": 15 },
+      { "name": "Protein", "range": [14, 16], "max": 16 },
+      { "name": "Fiber", "range": [1, 2], "max": 2 },
+      { "name": "Net Carbs", "range": [30, 35], "max": 35 },
+      { "name": "Sodium", "range": [450, 500], "max": 500 },
+      { "name": "Cholesterol", "range": [30, 35], "max": 35 }
+    ],
+    "cookingNote": "For extra sweetness, drizzle some honey over the pizza after baking.",
+    "author": "Chef Ava",
+    "rating": 4.4,
+    "createdOn": "07/2008"
   }
 ]

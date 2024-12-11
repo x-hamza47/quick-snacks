@@ -1,157 +1,171 @@
 [
   {
     "id": 1,
-    "name": "Peanut Butter Banana Bites",
-    "description": "A fun and nutritious snack made with bananas and peanut butter, perfect for kids.",
+    "name": "Mini Veggie Pizzas",
+    "description": "Fun and easy mini pizzas made with whole wheat English muffins, topped with veggies and cheese.",
     "ingredients": [
-      "1 banana",
-      "2 tablespoons peanut butter",
-      "1 tablespoon honey (optional)",
-      "Cinnamon (optional)"
+      "4 whole wheat English muffins, split in half",
+      "1/2 cup tomato sauce",
+      "1/2 cup shredded mozzarella cheese",
+      "1/4 cup diced bell peppers",
+      "1/4 cup sliced olives",
+      "1/4 cup cherry tomatoes, sliced",
+      "1 teaspoon dried oregano"
     ],
     "instructions": [
-      "Slice the banana into 1-inch rounds.",
-      "Spread peanut butter on each slice.",
-      "Drizzle with honey and sprinkle with cinnamon if desired.",
-      "Serve immediately or refrigerate for a cool treat."
+      "Preheat the oven to 375°F (190°C).",
+      "Place the muffin halves on a baking sheet and spread a thin layer of tomato sauce on each.",
+      "Top with mozzarella cheese, diced bell peppers, sliced olives, and cherry tomatoes.",
+      "Sprinkle with dried oregano and bake for 10-12 minutes, or until the cheese is melted and bubbly.",
+      "Serve warm."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 12,
+    "servings": 4,
+    "recipe_facts": [
+      { "name": "Calories", "range": [120, 160], "max": 160 },
+      { "name": "Carbs", "range": [20, 25], "max": 25 },
+      { "name": "Fat", "range": [6, 8], "max": 8 },
+      { "name": "Protein", "range": [6, 8], "max": 8 },
+      { "name": "Fiber", "range": [2, 3], "max": 3 },
+      { "name": "Net Carbs", "range": [15, 18], "max": 18 },
+      { "name": "Sodium", "range": [200, 250], "max": 250 },
+      { "name": "Cholesterol", "range": [15, 25], "max": 25 }
+    ],
+    "cookingNote": "For a healthier option, use low-fat cheese and extra veggies.",
+    "author": "Chef Lucy",
+    "rating": 4.6,
+    "createdOn": "11/2024"
+  },
+  {
+    "id": 2,
+    "name": "Banana Oatmeal Bites",
+    "description": "Sweet and nutritious oatmeal bites made with bananas, oats, and honey, perfect for kids' snacks.",
+    "ingredients": [
+      "2 ripe bananas, mashed",
+      "1 cup rolled oats",
+      "1/4 cup honey",
+      "1/4 teaspoon cinnamon",
+      "1/4 teaspoon vanilla extract",
+      "1/4 cup mini chocolate chips (optional)"
+    ],
+    "instructions": [
+      "Preheat the oven to 350°F (175°C) and line a baking sheet with parchment paper.",
+      "In a bowl, combine the mashed bananas, oats, honey, cinnamon, and vanilla extract.",
+      "Stir in the mini chocolate chips if using.",
+      "Scoop tablespoon-sized portions of the mixture and form into small balls.",
+      "Place on the baking sheet and bake for 12-15 minutes or until golden brown.",
+      "Let cool before serving."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "servings": 3,
+    "recipe_facts": [
+      { "name": "Calories", "range": [80, 100], "max": 100 },
+      { "name": "Carbs", "range": [15, 20], "max": 20 },
+      { "name": "Fat", "range": [2, 4], "max": 4 },
+      { "name": "Protein", "range": [2, 3], "max": 3 },
+      { "name": "Fiber", "range": [2, 3], "max": 3 },
+      { "name": "Net Carbs", "range": [12, 15], "max": 15 },
+      { "name": "Sodium", "range": [20, 30], "max": 30 },
+      { "name": "Cholesterol", "range": [0, 5], "max": 5 }
+    ],
+    "cookingNote": "For an extra treat, dip the bites in peanut butter or yogurt.",
+    "author": "Chef Emma",
+    "rating": 4.7,
+    "createdOn": "09/2024"
+  },
+  {
+    "id": 3,
+    "name": "Apple Sandwiches with Peanut Butter",
+    "description": "Healthy and fun apple slices with peanut butter and granola, perfect for kids.",
+    "ingredients": [
+      "2 apples, cored and sliced into rings",
+      "1/4 cup peanut butter",
+      "1/4 cup granola",
+      "1 tablespoon honey (optional)"
+    ],
+    "instructions": [
+      "Core and slice the apples into rings.",
+      "Spread peanut butter on one side of each apple slice.",
+      "Sprinkle granola on top of the peanut butter and top with another apple slice.",
+      "Drizzle with honey if desired and serve."
     ],
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 0,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "250-300 kcal",
-      "Carbs": "45-55g",
-      "Fat": "4-6g",
-      "Protein": "6-8g",
-      "Fiber": "3-5g",
-      "Net Carbs": "40-50g",
-      "Sodium": "50-80mg",
-      "Cholesterol": "10-20mg"
-    },
-    "cookingNote": "Make sure to use ripe bananas for the best taste and texture. These bites are also great when frozen for a cool snack during hot days."
+    "recipe_facts": [
+      { "name": "Calories", "range": [120, 150], "max": 150 },
+      { "name": "Carbs", "range": [20, 25], "max": 25 },
+      { "name": "Fat", "range": [8, 10], "max": 10 },
+      { "name": "Protein", "range": [4, 5], "max": 5 },
+      { "name": "Fiber", "range": [3, 4], "max": 4 },
+      { "name": "Net Carbs", "range": [15, 20], "max": 20 },
+      { "name": "Sodium", "range": [50, 80], "max": 80 },
+      { "name": "Cholesterol", "range": [0, 5], "max": 5 }
+    ],
+    "cookingNote": "For added flavor, try using almond butter instead of peanut butter.",
+    "author": "Chef Lily",
+    "rating": 4.5,
+    "createdOn": "10/2024"
   },
   {
-    "id": 2,
-    "name": "Cheese and Crackers Fun Plate",
-    "description": "An easy and playful snack plate with cheese and crackers to keep kids happy and full.",
+    "id": 4,
+    "name": "Veggie Sticks with Hummus",
+    "description": "A nutritious and crunchy snack made with fresh veggie sticks and a side of creamy hummus.",
     "ingredients": [
-      "6 whole-grain crackers",
-      "3 slices of cheddar cheese",
-      "2 tablespoons cream cheese",
-      "1 small apple, sliced"
+      "1 cucumber, sliced into sticks",
+      "2 carrots, peeled and sliced into sticks",
+      "1/2 red bell pepper, sliced into sticks",
+      "1/4 cup hummus"
     ],
     "instructions": [
-      "Arrange crackers on a plate.",
-      "Top each cracker with a piece of cheddar cheese or a dollop of cream cheese.",
-      "Serve with apple slices on the side for added freshness."
+      "Slice the cucumber, carrots, and bell pepper into sticks.",
+      "Serve with a side of hummus for dipping."
     ],
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 0,
     "servings": 3,
-    "recipe_facts": {
-      "Calories": "210-250 kcal",
-      "Carbs": "30-40g",
-      "Fat": "5-7g",
-      "Protein": "5-7g",
-      "Fiber": "2-4g",
-      "Net Carbs": "28-38g",
-      "Sodium": "150-200mg",
-      "Cholesterol": "5-10mg"
-    },
-    "cookingNote": "Add a variety of cheese for more flavor. Kids enjoy this with a small cup of juice or milk."
-  },
-  {
-    "id": 3,
-    "name": "Mini Veggie Quesadillas",
-    "description": "A tasty and healthy option with cheese, spinach, and bell peppers packed in a whole wheat tortilla.",
-    "ingredients": [
-      "2 whole wheat tortillas",
-      "1/4 cup shredded cheese",
-      "1/4 cup spinach leaves",
-      "1/4 cup bell peppers, diced",
-      "1 teaspoon olive oil"
+    "recipe_facts": [
+      { "name": "Calories", "range": [50, 80], "max": 80 },
+      { "name": "Carbs", "range": [10, 15], "max": 15 },
+      { "name": "Fat", "range": [2, 4], "max": 4 },
+      { "name": "Protein", "range": [2, 3], "max": 3 },
+      { "name": "Fiber", "range": [3, 4], "max": 4 },
+      { "name": "Net Carbs", "range": [7, 10], "max": 10 },
+      { "name": "Sodium", "range": [80, 100], "max": 100 },
+      { "name": "Cholesterol", "range": [0, 5], "max": 5 }
     ],
-    "instructions": [
-      "Heat a pan over medium heat and lightly brush with olive oil.",
-      "Place a tortilla on the pan, sprinkle with cheese, spinach, and bell peppers.",
-      "Top with another tortilla and cook for 2-3 minutes on each side until crispy.",
-      "Slice into small wedges and serve."
-    ],
-    "prepTimeMinutes": 10,
-    "cookTimeMinutes": 5,
-    "servings": 4,
-    "recipe_facts": {
-      "Calories": "220-250 kcal",
-      "Carbs": "30-40g",
-      "Fat": "6-8g",
-      "Protein": "6-8g",
-      "Fiber": "4-6g",
-      "Net Carbs": "25-35g",
-      "Sodium": "200-250mg",
-      "Cholesterol": "5-10mg"
-    },
-    "cookingNote": "Feel free to add other veggies like tomatoes or corn for a different taste. You can also use non-dairy cheese for a vegan option."
-  },
-  {
-    "id": 4,
-    "name": "Yogurt Parfait",
-    "description": "A quick and refreshing snack with layers of yogurt, fruit, and granola.",
-    "ingredients": [
-      "1/2 cup Greek yogurt",
-      "1/4 cup mixed berries (strawberries, blueberries, etc.)",
-      "2 tablespoons granola",
-      "1 tablespoon honey (optional)"
-    ],
-    "instructions": [
-      "Layer the Greek yogurt, berries, and granola in a small bowl or jar.",
-      "Drizzle with honey for added sweetness.",
-      "Serve immediately or refrigerate for later."
-    ],
-    "prepTimeMinutes": 5,
-    "cookTimeMinutes": 0,
-    "servings": 2,
-    "recipe_facts": {
-      "Calories": "180-220 kcal",
-      "Carbs": "25-35g",
-      "Fat": "5-7g",
-      "Protein": "7-9g",
-      "Fiber": "2-4g",
-      "Net Carbs": "20-30g",
-      "Sodium": "50-100mg",
-      "Cholesterol": "5-10mg"
-    },
-    "cookingNote": "You can switch the fruits based on the season or your child's preferences. This parfait works as a great breakfast or a snack."
+    "cookingNote": "You can substitute hummus with guacamole for variety.",
+    "author": "Chef Mia",
+    "rating": 4.4,
+    "createdOn": "08/2024"
   },
   {
     "id": 5,
-    "name": "Apple Nachos",
-    "description": "Sweet and crunchy apple nachos topped with peanut butter, granola, and chocolate chips.",
-    "ingredients": [
-      "1 apple, sliced",
-      "2 tablespoons peanut butter",
-      "1 tablespoon honey",
-      "1/4 cup granola",
-      "1 tablespoon chocolate chips"
-    ],
+    "name": "Cheese and Crackers",
+    "description": "A simple yet delightful snack with cheese and whole grain crackers, great for kids.",
+    "ingredients": ["8 whole grain crackers", "4 slices cheddar cheese"],
     "instructions": [
-      "Slice the apple into thin rounds.",
-      "Drizzle peanut butter and honey over the apple slices.",
-      "Top with granola and chocolate chips.",
+      "Place a slice of cheese on each cracker.",
       "Serve immediately."
     ],
-    "prepTimeMinutes": 5,
+    "prepTimeMinutes": 2,
     "cookTimeMinutes": 0,
     "servings": 2,
-    "recipe_facts": {
-      "Calories": "220-250 kcal",
-      "Carbs": "30-40g",
-      "Fat": "8-10g",
-      "Protein": "4-6g",
-      "Fiber": "3-5g",
-      "Net Carbs": "25-35g",
-      "Sodium": "100-150mg",
-      "Cholesterol": "0-5mg"
-    },
-    "cookingNote": "Feel free to add other toppings like raisins or coconut flakes for extra flavor. This is a fun snack for kids to prepare as well!"
+    "recipe_facts": [
+      { "name": "Calories", "range": [150, 180], "max": 180 },
+      { "name": "Carbs", "range": [15, 20], "max": 20 },
+      { "name": "Fat", "range": [10, 12], "max": 12 },
+      { "name": "Protein", "range": [6, 8], "max": 8 },
+      { "name": "Fiber", "range": [2, 3], "max": 3 },
+      { "name": "Net Carbs", "range": [10, 13], "max": 13 },
+      { "name": "Sodium", "range": [150, 200], "max": 200 },
+      { "name": "Cholesterol", "range": [20, 25], "max": 25 }
+    ],
+    "cookingNote": "Add some apple slices for a sweet contrast with the cheese.",
+    "author": "Chef Oliver",
+    "rating": 4.3,
+    "createdOn": "07/2024"
   }
 ]

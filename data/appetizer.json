@@ -20,17 +20,20 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 7,
     "servings": 4,
-    "recipe_facts": {
-      "Calories": "150-200 kcal",
-      "Carbs": "25-30g",
-      "Fat": "6-8g",
-      "Protein": "3-4g",
-      "Fiber": "3-4g",
-      "Net Carbs": "20-25g",
-      "Sodium": "250-300mg",
-      "Cholesterol": "0mg"
-    },
-    "cookingNote": "For extra flavor, you can drizzle the bruschetta with balsamic glaze before serving. Make sure the bread is crispy to hold the topping without becoming soggy."
+    "recipe_facts": [
+      { "name": "Calories", "range": [150, 200], "max": 200 },
+      { "name": "Carbs", "range": [25, 30], "max": 30 },
+      { "name": "Fat", "range": [6, 8], "max": 8 },
+      { "name": "Protein", "range": [3, 4], "max": 4 },
+      { "name": "Fiber", "range": [3, 4], "max": 4 },
+      { "name": "Net Carbs", "range": [20, 25], "max": 25 },
+      { "name": "Sodium", "range": [250, 300], "max": 300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "cookingNote": "For extra flavor, you can drizzle the bruschetta with balsamic glaze before serving. Make sure the bread is crispy to hold the topping without becoming soggy.",
+    "author": "Chef Antonio",
+    "rating": 4.7,
+    "createdOn": "03/2023"
   },
   {
     "id": 2,
@@ -54,17 +57,20 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 3,
-    "recipe_facts": {
-      "Calories": "180-220 kcal",
-      "Carbs": "10-12g",
-      "Fat": "15-18g",
-      "Protein": "4-6g",
-      "Fiber": "2-3g",
-      "Net Carbs": "8-10g",
-      "Sodium": "300-350mg",
-      "Cholesterol": "25-30mg"
-    },
-    "cookingNote": "You can substitute cream cheese with ricotta for a lighter filling. These stuffed mushrooms are best served warm right out of the oven."
+    "recipe_facts": [
+      { "name": "Calories", "range": [180, 220], "max": 220 },
+      { "name": "Carbs", "range": [10, 12], "max": 12 },
+      { "name": "Fat", "range": [15, 18], "max": 18 },
+      { "name": "Protein", "range": [4, 6], "max": 6 },
+      { "name": "Fiber", "range": [2, 3], "max": 3 },
+      { "name": "Net Carbs", "range": [8, 10], "max": 10 },
+      { "name": "Sodium", "range": [300, 350], "max": 350 },
+      { "name": "Cholesterol", "range": [25, 30], "max": 30 }
+    ],
+    "cookingNote": "You can substitute cream cheese with ricotta for a lighter filling. These stuffed mushrooms are best served warm right out of the oven.",
+    "author": "Chef Maria",
+    "rating": 4.5,
+    "createdOn": "01/2023"
   },
   {
     "id": 3,
@@ -89,17 +95,20 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 25,
     "servings": 5,
-    "recipe_facts": {
-      "Calories": "220-270 kcal",
-      "Carbs": "15-18g",
-      "Fat": "18-20g",
-      "Protein": "6-8g",
-      "Fiber": "4-5g",
-      "Net Carbs": "10-12g",
-      "Sodium": "350-400mg",
-      "Cholesterol": "30-40mg"
-    },
-    "cookingNote": "For a healthier version, you can use Greek yogurt instead of sour cream. Serve with crunchy veggies for a lighter dipping option."
+    "recipe_facts": [
+      { "name": "Calories", "range": [220, 270], "max": 270 },
+      { "name": "Carbs", "range": [15, 18], "max": 18 },
+      { "name": "Fat", "range": [18, 20], "max": 20 },
+      { "name": "Protein", "range": [6, 8], "max": 8 },
+      { "name": "Fiber", "range": [4, 5], "max": 5 },
+      { "name": "Net Carbs", "range": [10, 12], "max": 12 },
+      { "name": "Sodium", "range": [350, 400], "max": 400 },
+      { "name": "Cholesterol", "range": [30, 40], "max": 40 }
+    ],
+    "cookingNote": "For a healthier version, you can use Greek yogurt instead of sour cream. Serve with crunchy veggies for a lighter dipping option.",
+    "author": "Chef Luca",
+    "rating": 4.8,
+    "createdOn": "02/2022"
   },
   {
     "id": 4,
@@ -121,17 +130,20 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 0,
     "servings": 3,
-    "recipe_facts": {
-      "Calories": "120-150 kcal",
-      "Carbs": "6-8g",
-      "Fat": "10-12g",
-      "Protein": "7-8g",
-      "Fiber": "1-2g",
-      "Net Carbs": "4-5g",
-      "Sodium": "300-350mg",
-      "Cholesterol": "10-15mg"
-    },
-    "cookingNote": "These skewers are a perfect appetizer for any gathering. You can also add a dash of sea salt for extra flavor and texture."
+    "recipe_facts": [
+      { "name": "Calories", "range": [120, 150], "max": 150 },
+      { "name": "Carbs", "range": [6, 8], "max": 8 },
+      { "name": "Fat", "range": [10, 12], "max": 12 },
+      { "name": "Protein", "range": [7, 8], "max": 8 },
+      { "name": "Fiber", "range": [1, 2], "max": 2 },
+      { "name": "Net Carbs", "range": [4, 5], "max": 5 },
+      { "name": "Sodium", "range": [300, 350], "max": 350 },
+      { "name": "Cholesterol", "range": [10, 15], "max": 15 }
+    ],
+    "cookingNote": "These skewers are a perfect appetizer for any gathering. You can also add a dash of sea salt for extra flavor and texture.",
+    "author": "Chef Rosa",
+    "rating": 4.3,
+    "createdOn": "04/2023"
   },
   {
     "id": 5,
@@ -148,24 +160,26 @@
       "Tortilla chips for serving"
     ],
     "instructions": [
-      "Mash the avocados in a bowl until smooth.",
-      "Add the red onion, jalapeño, lime juice, cilantro, garlic powder, salt, and pepper.",
-      "Mix until well combined.",
-      "Serve with tortilla chips on the side."
+      "In a bowl, mash the avocados with a fork until smooth.",
+      "Add red onion, jalapeño, lime juice, cilantro, garlic powder, salt, and pepper. Mix well.",
+      "Serve with tortilla chips."
     ],
-    "prepTimeMinutes": 5,
+    "prepTimeMinutes": 10,
     "cookTimeMinutes": 0,
     "servings": 4,
-    "recipe_facts": {
-      "Calories": "200-250 kcal",
-      "Carbs": "15-20g",
-      "Fat": "15-18g",
-      "Protein": "3-4g",
-      "Fiber": "6-8g",
-      "Net Carbs": "9-11g",
-      "Sodium": "150-200mg",
-      "Cholesterol": "0mg"
-    },
-    "cookingNote": "For an extra kick, add more jalapeños or a dash of hot sauce. Serve immediately to enjoy the freshness of the guacamole."
+    "recipe_facts": [
+      { "name": "Calories", "range": [150, 180], "max": 180 },
+      { "name": "Carbs", "range": [12, 15], "max": 15 },
+      { "name": "Fat", "range": [14, 16], "max": 16 },
+      { "name": "Protein", "range": [2, 3], "max": 3 },
+      { "name": "Fiber", "range": [5, 6], "max": 6 },
+      { "name": "Net Carbs", "range": [7, 9], "max": 9 },
+      { "name": "Sodium", "range": [200, 250], "max": 250 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+    ],
+    "cookingNote": "For a spicier kick, add extra jalapeños or a dash of hot sauce to the guacamole.",
+    "author": "Chef Diego",
+    "rating": 4.6,
+    "createdOn": "06/2023"
   }
 ]

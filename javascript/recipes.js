@@ -18,6 +18,17 @@ function getCategoryUrl() {
       }
       const data = await response.json();
       data.forEach(recipe => {
+        // ? Ratings Logic
+        let starsHTML = "";
+        for (let i = 0; i < 5; i++) {
+          if (i < Math.floor(recipe.rating)) {
+            starsHTML += "<i class='bx bxs-star'></i>"; 
+          } else if (i < Math.ceil(recipe.rating)) {
+            starsHTML += "<i class='bx bxs-star-half'></i>"; 
+          } else {
+            starsHTML += "<i class='bx bx-star'></i>"; 
+          }
+        }
         let recipe_card = `
                    <div class="card" style="width: 18rem;">
                     <div class="card-img  overflow-hidden d-flex">
@@ -29,30 +40,26 @@ function getCategoryUrl() {
                         <p class="card-text">${recipe.description}</p>
                     
                         <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bx-star'></i>
+                            ${starsHTML}
                         </div>
                         <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
                             <div class="bx d-flex align-items-center gap-1">
                                 <i class='bx bxs-user text-danger'></i>
-                                <span>John Doe</span>
+                                <span>${recipe.author}</span>
                             </div>
                             <div class="bx d-flex align-items-center gap-1">
                                 <i class='bx bx-stopwatch text-danger'></i>
-                                <span>${recipe.cookTimeMinutes} minutes</span>
+                                <span>${recipe.cookTimeMinutes} min</span>
                             </div>
                             <div class="bx d-flex align-items-center gap-1">
                                 <i class='bx bxs-hot text-danger'></i>
-                                <span>${recipe.recipe_facts.Calories} kcal</span>
+                                <span>${recipe.recipe_facts[0].range[0]} kcal</span>
                             </div>
                         </div>
                     </div>
                 </div>`;
 
-                card_container.innerHTML += recipe_card;
+        card_container.innerHTML += recipe_card;
       });
       
       

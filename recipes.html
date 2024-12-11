@@ -24,7 +24,7 @@
 
         <nav class="navbar">
             <ul class="nav__links m-0">
-                <li><a href="#home" target="_self">Home</a></li>
+                <li><a href="index.html" target="_self">Home</a></li>
                 <li><a href="recipe.html">Recipes</a></li>
                 <li><a href="#">Categories</a></li>
                 <li><a href="#">Gallery</a></li>
@@ -92,7 +92,7 @@
                         <p>Healthy Snacks</p>
                     </div>
                 </div>
-                <div class="category-body d-flex flex-column align-items-center gap-2" data-cat="snacks-kids">
+                <div class="category-body d-flex flex-column align-items-center gap-2" data-cat="snack-for-kids">
                     <div class="category-img">
                         <img src="./assets/images/snacks-kids.jpg"
                             class="w-100" alt="">
@@ -198,7 +198,18 @@
     </footer>
     <!-- !------------------ Footer End --------------------->
     
+<script>
+    const categories = document.querySelectorAll(".category-body");
 
+categories.forEach( ( category ) => {
+  category.addEventListener("click" , () =>  {
+    let cat_name = category.getAttribute("data-cat");
+    console.log(cat_name);
+    
+    window.location.href = `recipes.html?category=${cat_name}`;
+  })
+})
+</script>
 
 </body>
 <script src="./javascript/main.js"></script>
