@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Classic Margherita Pizza",
+    "category": "Pizza",
     "description": "A simple and classic pizza topped with fresh mozzarella, tomato sauce, and basil leaves.",
     "ingredients": [
       "1 pizza dough",
@@ -23,14 +24,14 @@
     "cookTimeMinutes": 15,
     "servings": 4,
     "recipe_facts": [
-      { "name": "Calories", "range": [250, 300], "max": 300 },
-      { "name": "Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Fat", "range": [12, 15], "max": 15 },
-      { "name": "Protein", "range": [12, 15], "max": 15 },
-      { "name": "Fiber", "range": [2, 3], "max": 3 },
-      { "name": "Net Carbs", "range": [25, 30], "max": 30 },
-      { "name": "Sodium", "range": [250, 300], "max": 300 },
-      { "name": "Cholesterol", "range": [20, 30], "max": 30 }
+      { "name": "Calories", "range": [250, 300], "max": 2000 },
+      { "name": "Carbs", "range": [30, 35], "max": 70 },
+      { "name": "Fat", "range": [12, 15], "max": 300 },
+      { "name": "Protein", "range": [12, 15], "max": 50 },
+      { "name": "Fiber", "range": [2, 3], "max": 25 },
+      { "name": "Net Carbs", "range": [25, 30], "max": 1250 },
+      { "name": "Sodium", "range": [250, 300], "max": 2300 },
+      { "name": "Cholesterol", "range": [20, 30], "max": 300 }
     ],
     "cookingNote": "Use fresh mozzarella for a creamy texture and authentic flavor. Adjust the bake time for a crispier crust.",
     "author": "Chef Maria",
@@ -40,6 +41,7 @@
   {
     "id": 2,
     "name": "Pepperoni Pizza",
+    "category": "Pizza",
     "description": "A crowd favorite with a perfect balance of spicy pepperoni and melted cheese.",
     "ingredients": [
       "1 pizza dough",
@@ -61,14 +63,14 @@
     "cookTimeMinutes": 15,
     "servings": 4,
     "recipe_facts": [
-      { "name": "Calories", "range": [300, 350], "max": 350 },
-      { "name": "Carbs", "range": [35, 40], "max": 40 },
-      { "name": "Fat", "range": [15, 18], "max": 18 },
-      { "name": "Protein", "range": [18, 20], "max": 20 },
-      { "name": "Fiber", "range": [1, 2], "max": 2 },
-      { "name": "Net Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Sodium", "range": [500, 600], "max": 600 },
-      { "name": "Cholesterol", "range": [30, 40], "max": 40 }
+      { "name": "Calories", "range": [300, 350], "max": 3502000 },
+      { "name": "Carbs", "range": [35, 40], "max": 70 },
+      { "name": "Fat", "range": [15, 18], "max": 300 },
+      { "name": "Protein", "range": [18, 20], "max": 50 },
+      { "name": "Fiber", "range": [1, 2], "max": 25 },
+      { "name": "Net Carbs", "range": [30, 35], "max": 1250 },
+      { "name": "Sodium", "range": [500, 600], "max": 2300 },
+      { "name": "Cholesterol", "range": [30, 40], "max": 300 }
     ],
     "cookingNote": "For a spicier kick, add chili flakes on top before baking.",
     "author": "Chef John",
@@ -78,6 +80,7 @@
   {
     "id": 3,
     "name": "BBQ Chicken Pizza",
+    "category": "Pizza",
     "description": "A tangy BBQ sauce base topped with grilled chicken, red onions, and mozzarella cheese.",
     "ingredients": [
       "1 pizza dough",
@@ -98,14 +101,14 @@
     "cookTimeMinutes": 15,
     "servings": 3,
     "recipe_facts": [
-      { "name": "Calories", "range": [280, 320], "max": 320 },
-      { "name": "Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Fat", "range": [14, 16], "max": 16 },
-      { "name": "Protein", "range": [20, 25], "max": 25 },
-      { "name": "Fiber", "range": [2, 3], "max": 3 },
-      { "name": "Net Carbs", "range": [25, 30], "max": 30 },
-      { "name": "Sodium", "range": [450, 500], "max": 500 },
-      { "name": "Cholesterol", "range": [35, 45], "max": 45 }
+      { "name": "Calories", "range": [280, 320], "max": 2000 },
+      { "name": "Carbs", "range": [30, 35], "max": 70 },
+      { "name": "Fat", "range": [14, 16], "max": 300 },
+      { "name": "Protein", "range": [20, 25], "max": 50 },
+      { "name": "Fiber", "range": [2, 3], "max": 25 },
+      { "name": "Net Carbs", "range": [25, 30], "max": 1250 },
+      { "name": "Sodium", "range": [450, 500], "max": 2300 },
+      { "name": "Cholesterol", "range": [35, 45], "max": 300 }
     ],
     "cookingNote": "For extra flavor, drizzle more BBQ sauce on top just before serving.",
     "author": "Chef Emily",
@@ -115,6 +118,7 @@
   {
     "id": 4,
     "name": "Veggie Supreme Pizza",
+    "category": "Pizza",
     "description": "A vegetarian pizza loaded with bell peppers, onions, olives, and mushrooms.",
     "ingredients": [
       "1 pizza dough",
@@ -137,14 +141,14 @@
     "cookTimeMinutes": 15,
     "servings": 3,
     "recipe_facts": [
-      { "name": "Calories", "range": [250, 280], "max": 280 },
-      { "name": "Carbs", "range": [35, 40], "max": 40 },
-      { "name": "Fat", "range": [10, 12], "max": 12 },
-      { "name": "Protein", "range": [12, 15], "max": 15 },
-      { "name": "Fiber", "range": [3, 4], "max": 4 },
-      { "name": "Net Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Sodium", "range": [300, 350], "max": 350 },
-      { "name": "Cholesterol", "range": [20, 25], "max": 25 }
+      { "name": "Calories", "range": [250, 280], "max": 2000 },
+      { "name": "Carbs", "range": [35, 40], "max": 70 },
+      { "name": "Fat", "range": [10, 12], "max": 300 },
+      { "name": "Protein", "range": [12, 15], "max": 50 },
+      { "name": "Fiber", "range": [3, 4], "max": 25 },
+      { "name": "Net Carbs", "range": [30, 35], "max": 1250 },
+      { "name": "Sodium", "range": [300, 350], "max": 2300 },
+      { "name": "Cholesterol", "range": [20, 25], "max": 300 }
     ],
     "cookingNote": "Feel free to add extra vegetables like spinach or zucchini for more flavor.",
     "author": "Chef Liam",
@@ -154,6 +158,7 @@
   {
     "id": 5,
     "name": "Hawaiian Pizza",
+    "category": "Pizza",
     "description": "A sweet and savory pizza topped with ham, pineapple, and mozzarella cheese.",
     "ingredients": [
       "1 pizza dough",
@@ -174,14 +179,14 @@
     "cookTimeMinutes": 15,
     "servings": 4,
     "recipe_facts": [
-      { "name": "Calories", "range": [270, 310], "max": 310 },
-      { "name": "Carbs", "range": [35, 40], "max": 40 },
-      { "name": "Fat", "range": [12, 15], "max": 15 },
-      { "name": "Protein", "range": [14, 16], "max": 16 },
-      { "name": "Fiber", "range": [1, 2], "max": 2 },
-      { "name": "Net Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Sodium", "range": [450, 500], "max": 500 },
-      { "name": "Cholesterol", "range": [30, 35], "max": 35 }
+      { "name": "Calories", "range": [270, 310], "max": 2000 },
+      { "name": "Carbs", "range": [35, 40], "max": 70 },
+      { "name": "Fat", "range": [12, 15], "max": 300 },
+      { "name": "Protein", "range": [14, 16], "max": 50 },
+      { "name": "Fiber", "range": [1, 2], "max": 25 },
+      { "name": "Net Carbs", "range": [30, 35], "max": 1250 },
+      { "name": "Sodium", "range": [450, 500], "max": 2300 },
+      { "name": "Cholesterol", "range": [30, 35], "max": 300 }
     ],
     "cookingNote": "For extra sweetness, drizzle some honey over the pizza after baking.",
     "author": "Chef Ava",

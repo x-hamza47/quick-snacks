@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Spaghetti Aglio e Olio",
+    "category": "Pasta",
     "description": "A simple and flavorful pasta dish made with garlic, olive oil, and chili flakes, perfect for quick meals.",
     "ingredients": [
       "200g spaghetti",
@@ -22,14 +23,14 @@
     "cookTimeMinutes": 10,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [300, 350], "max": 350 },
-      { "name": "Carbs", "range": [50, 55], "max": 55 },
-      { "name": "Fat", "range": [15, 18], "max": 18 },
-      { "name": "Protein", "range": [7, 8], "max": 8 },
-      { "name": "Fiber", "range": [2, 3], "max": 3 },
-      { "name": "Net Carbs", "range": [45, 50], "max": 50 },
-      { "name": "Sodium", "range": [250, 300], "max": 300 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [300, 350], "max": 2000 },
+      { "name": "Carbs", "range": [50, 55], "max": 70 },
+      { "name": "Fat", "range": [15, 18], "max": 300 },
+      { "name": "Protein", "range": [7, 8], "max": 50 },
+      { "name": "Fiber", "range": [2, 3], "max": 25 },
+      { "name": "Net Carbs", "range": [45, 50], "max": 1250 },
+      { "name": "Sodium", "range": [250, 300], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "rating": 4.5,
     "author": "Liam Peterson",
@@ -39,6 +40,7 @@
   {
     "id": 2,
     "name": "Penne alla Vodka",
+    "category": "Pasta",
     "description": "A creamy and tangy pasta made with vodka, tomato sauce, and cream, offering a perfect balance of flavors.",
     "ingredients": [
       "200g penne pasta",
@@ -62,14 +64,14 @@
     "cookTimeMinutes": 15,
     "servings": 3,
     "recipe_facts": [
-      { "name": "Calories", "range": [400, 450], "max": 450 },
-      { "name": "Carbs", "range": [50, 55], "max": 55 },
-      { "name": "Fat", "range": [18, 20], "max": 20 },
-      { "name": "Protein", "range": [10, 12], "max": 12 },
-      { "name": "Fiber", "range": [3, 4], "max": 4 },
-      { "name": "Net Carbs", "range": [45, 50], "max": 50 },
-      { "name": "Sodium", "range": [350, 400], "max": 400 },
-      { "name": "Cholesterol", "range": [60, 70], "max": 70 }
+      { "name": "Calories", "range": [400, 450], "max": 2000 },
+      { "name": "Carbs", "range": [50, 55], "max": 70 },
+      { "name": "Fat", "range": [18, 20], "max": 300 },
+      { "name": "Protein", "range": [10, 12], "max": 50 },
+      { "name": "Fiber", "range": [3, 4], "max": 25 },
+      { "name": "Net Carbs", "range": [45, 50], "max": 1250 },
+      { "name": "Sodium", "range": [350, 400], "max": 2300 },
+      { "name": "Cholesterol", "range": [60, 70], "max": 300 }
     ],
     "rating": 4.7,
     "author": "Emma Novak",
@@ -79,6 +81,7 @@
   {
     "id": 3,
     "name": "Lasagna with Meat Sauce",
+    "category": "Pasta",
     "description": "A hearty lasagna made with rich meat sauce, cheese, and layers of pasta, perfect for family dinners.",
     "ingredients": [
       "9 lasagna noodles",
@@ -105,14 +108,14 @@
     "cookTimeMinutes": 40,
     "servings": 4,
     "recipe_facts": [
-      { "name": "Calories", "range": [500, 550], "max": 550 },
-      { "name": "Carbs", "range": [45, 50], "max": 50 },
-      { "name": "Fat", "range": [25, 28], "max": 28 },
-      { "name": "Protein", "range": [30, 35], "max": 35 },
-      { "name": "Fiber", "range": [4, 5], "max": 5 },
-      { "name": "Net Carbs", "range": [40, 45], "max": 45 },
-      { "name": "Sodium", "range": [600, 650], "max": 650 },
-      { "name": "Cholesterol", "range": [80, 90], "max": 90 }
+      { "name": "Calories", "range": [500, 550], "max": 2000 },
+      { "name": "Carbs", "range": [45, 50], "max": 70 },
+      { "name": "Fat", "range": [25, 28], "max": 300 },
+      { "name": "Protein", "range": [30, 35], "max": 50 },
+      { "name": "Fiber", "range": [4, 5], "max": 25 },
+      { "name": "Net Carbs", "range": [40, 45], "max": 1250 },
+      { "name": "Sodium", "range": [600, 650], "max": 2300 },
+      { "name": "Cholesterol", "range": [80, 90], "max": 300 }
     ],
     "rating": 4.8,
     "author": "Sophia Miller",
@@ -122,6 +125,7 @@
   {
     "id": 4,
     "name": "Fettuccine Alfredo",
+    "category": "Pasta",
     "description": "A rich and creamy pasta dish with fettuccine noodles and a smooth Alfredo sauce, perfect for indulgent meals.",
     "ingredients": [
       "200g fettuccine pasta",
@@ -143,14 +147,14 @@
     "cookTimeMinutes": 10,
     "servings": 3,
     "recipe_facts": [
-      { "name": "Calories", "range": [600, 650], "max": 650 },
-      { "name": "Carbs", "range": [50, 55], "max": 55 },
-      { "name": "Fat", "range": [35, 40], "max": 40 },
-      { "name": "Protein", "range": [15, 18], "max": 18 },
-      { "name": "Fiber", "range": [1, 2], "max": 2 },
-      { "name": "Net Carbs", "range": [48, 53], "max": 53 },
-      { "name": "Sodium", "range": [600, 650], "max": 650 },
-      { "name": "Cholesterol", "range": [100, 110], "max": 110 }
+      { "name": "Calories", "range": [600, 650], "max": 2000 },
+      { "name": "Carbs", "range": [50, 55], "max": 70 },
+      { "name": "Fat", "range": [35, 40], "max": 300 },
+      { "name": "Protein", "range": [15, 18], "max": 50 },
+      { "name": "Fiber", "range": [1, 2], "max": 25 },
+      { "name": "Net Carbs", "range": [48, 53], "max": 1250 },
+      { "name": "Sodium", "range": [600, 650], "max": 2300 },
+      { "name": "Cholesterol", "range": [100, 110], "max": 300 }
     ],
     "rating": 4.6,
     "author": "Lucas Wilson",
@@ -160,6 +164,7 @@
   {
     "id": 5,
     "name": "Pasta Primavera",
+    "category": "Pasta",
     "description": "A fresh and vibrant pasta dish with sautéed vegetables and a light garlic sauce, ideal for a healthy meal.",
     "ingredients": [
       "200g spaghetti or penne",
@@ -183,14 +188,14 @@
     "cookTimeMinutes": 10,
     "servings": 3,
     "recipe_facts": [
-      { "name": "Calories", "range": [350, 400], "max": 400 },
-      { "name": "Carbs", "range": [50, 55], "max": 55 },
-      { "name": "Fat", "range": [10, 12], "max": 12 },
-      { "name": "Protein", "range": [8, 10], "max": 10 },
-      { "name": "Fiber", "range": [4, 5], "max": 5 },
-      { "name": "Net Carbs", "range": [45, 50], "max": 50 },
-      { "name": "Sodium", "range": [250, 300], "max": 300 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [350, 400], "max": 2000 },
+      { "name": "Carbs", "range": [50, 55], "max": 70 },
+      { "name": "Fat", "range": [10, 12], "max": 300 },
+      { "name": "Protein", "range": [8, 10], "max": 50 },
+      { "name": "Fiber", "range": [4, 5], "max": 25 },
+      { "name": "Net Carbs", "range": [45, 50], "max": 1250 },
+      { "name": "Sodium", "range": [250, 300], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "rating": 4.4,
     "author": "Olivia Adams",

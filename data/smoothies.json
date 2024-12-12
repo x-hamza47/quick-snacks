@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Tropical Paradise Smoothie",
+    "category": "Smoothies",
     "description": "A refreshing smoothie with a blend of tropical fruits, perfect for a summer treat.",
     "ingredients": [
       "1/2 cup pineapple chunks",
@@ -21,14 +22,14 @@
     "cookTimeMinutes": 4,
     "servings": 3,
     "recipe_facts": [
-      { "name": "Calories", "range": [150, 200], "max": 200 },
-      { "name": "Carbs", "range": [35, 40], "max": 40 },
-      { "name": "Fat", "range": [5, 7], "max": 7 },
-      { "name": "Protein", "range": [2, 3], "max": 3 },
-      { "name": "Fiber", "range": [3, 4], "max": 4 },
-      { "name": "Net Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Sodium", "range": [50, 80], "max": 80 },
-      { "name": "Cholesterol", "range": [0, 5], "max": 5 }
+      { "name": "Calories", "range": [150, 200], "max": 2000 },
+      { "name": "Carbs", "range": [35, 40], "max": 70 },
+      { "name": "Fat", "range": [5, 7], "max": 300 },
+      { "name": "Protein", "range": [2, 3], "max": 50 },
+      { "name": "Fiber", "range": [3, 4], "max": 25 },
+      { "name": "Net Carbs", "range": [30, 35], "max": 1250 },
+      { "name": "Sodium", "range": [50, 80], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 5], "max": 300 }
     ],
     "cookingNote": "Freeze the fruits for a thicker texture and more refreshing smoothie.",
     "author": "Chef Maria",
@@ -38,6 +39,7 @@
   {
     "id": 2,
     "name": "Berry Blast Smoothie",
+    "category": "Smoothies",
     "description": "A sweet and tangy smoothie with mixed berries and yogurt.",
     "ingredients": [
       "1/2 cup strawberries",
@@ -57,14 +59,14 @@
     "cookTimeMinutes": 5,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [130, 180], "max": 180 },
-      { "name": "Carbs", "range": [25, 30], "max": 30 },
-      { "name": "Fat", "range": [5, 7], "max": 7 },
-      { "name": "Protein", "range": [8, 10], "max": 10 },
-      { "name": "Fiber", "range": [4, 5], "max": 5 },
-      { "name": "Net Carbs", "range": [20, 25], "max": 25 },
-      { "name": "Sodium", "range": [50, 70], "max": 70 },
-      { "name": "Cholesterol", "range": [5, 10], "max": 10 }
+      { "name": "Calories", "range": [130, 180], "max": 2000 },
+      { "name": "Carbs", "range": [25, 30], "max": 70 },
+      { "name": "Fat", "range": [5, 7], "max": 300 },
+      { "name": "Protein", "range": [8, 10], "max": 50 },
+      { "name": "Fiber", "range": [4, 5], "max": 25 },
+      { "name": "Net Carbs", "range": [20, 25], "max": 1250 },
+      { "name": "Sodium", "range": [50, 70], "max": 2300 },
+      { "name": "Cholesterol", "range": [5, 10], "max": 300 }
     ],
     "cookingNote": "Using frozen berries gives a colder, thicker texture.",
     "author": "Chef Emily",
@@ -74,6 +76,7 @@
   {
     "id": 3,
     "name": "Green Power Smoothie",
+    "category": "Smoothies",
     "description": "A nutrient-packed smoothie with spinach, apple, and banana.",
     "ingredients": [
       "1/2 cup spinach",
@@ -93,14 +96,14 @@
     "cookTimeMinutes": 4,
     "servings": 4,
     "recipe_facts": [
-      { "name": "Calories", "range": [120, 160], "max": 160 },
-      { "name": "Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Fat", "range": [4, 6], "max": 6 },
-      { "name": "Protein", "range": [3, 5], "max": 5 },
-      { "name": "Fiber", "range": [5, 6], "max": 6 },
-      { "name": "Net Carbs", "range": [20, 25], "max": 25 },
-      { "name": "Sodium", "range": [40, 60], "max": 60 },
-      { "name": "Cholesterol", "range": [0, 5], "max": 5 }
+      { "name": "Calories", "range": [120, 160], "max": 2000 },
+      { "name": "Carbs", "range": [30, 35], "max": 70 },
+      { "name": "Fat", "range": [4, 6], "max": 300 },
+      { "name": "Protein", "range": [3, 5], "max": 50 },
+      { "name": "Fiber", "range": [5, 6], "max": 25 },
+      { "name": "Net Carbs", "range": [20, 25], "max": 1250 },
+      { "name": "Sodium", "range": [40, 60], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 5], "max": 300 }
     ],
     "cookingNote": "Add some lemon juice for a refreshing kick and extra vitamin C.",
     "author": "Chef Olivia",
@@ -110,6 +113,7 @@
   {
     "id": 4,
     "name": "Peanut Butter Banana Smoothie",
+    "category": "Smoothies",
     "description": "A creamy smoothie with peanut butter and banana for a rich, satisfying treat.",
     "ingredients": [
       "1 banana",
@@ -127,14 +131,14 @@
     "cookTimeMinutes": 4,
     "servings": 3,
     "recipe_facts": [
-      { "name": "Calories", "range": [200, 250], "max": 250 },
-      { "name": "Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Fat", "range": [10, 12], "max": 12 },
-      { "name": "Protein", "range": [7, 9], "max": 9 },
-      { "name": "Fiber", "range": [3, 4], "max": 4 },
-      { "name": "Net Carbs", "range": [25, 30], "max": 30 },
-      { "name": "Sodium", "range": [100, 150], "max": 150 },
-      { "name": "Cholesterol", "range": [5, 10], "max": 10 }
+      { "name": "Calories", "range": [200, 250], "max": 2000 },
+      { "name": "Carbs", "range": [30, 35], "max": 70 },
+      { "name": "Fat", "range": [10, 12], "max": 300 },
+      { "name": "Protein", "range": [7, 9], "max": 50 },
+      { "name": "Fiber", "range": [3, 4], "max": 25 },
+      { "name": "Net Carbs", "range": [25, 30], "max": 1250 },
+      { "name": "Sodium", "range": [100, 150], "max": 2300 },
+      { "name": "Cholesterol", "range": [5, 10], "max": 300 }
     ],
     "cookingNote": "For a richer flavor, use natural peanut butter without added sugars.",
     "author": "Chef Alex",
@@ -144,6 +148,7 @@
   {
     "id": 5,
     "name": "Avocado Lime Smoothie",
+    "category": "Smoothies",
     "description": "A creamy and tangy smoothie with avocado and lime, a perfect refreshing treat.",
     "ingredients": [
       "1/2 avocado",
@@ -162,14 +167,14 @@
     "cookTimeMinutes": 5,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [180, 220], "max": 220 },
-      { "name": "Carbs", "range": [25, 30], "max": 30 },
-      { "name": "Fat", "range": [10, 12], "max": 12 },
-      { "name": "Protein", "range": [3, 4], "max": 4 },
-      { "name": "Fiber", "range": [5, 6], "max": 6 },
-      { "name": "Net Carbs", "range": [15, 20], "max": 20 },
-      { "name": "Sodium", "range": [30, 50], "max": 50 },
-      { "name": "Cholesterol", "range": [0, 5], "max": 5 }
+      { "name": "Calories", "range": [180, 220], "max": 2000 },
+      { "name": "Carbs", "range": [25, 30], "max": 70 },
+      { "name": "Fat", "range": [10, 12], "max": 300 },
+      { "name": "Protein", "range": [3, 4], "max": 50 },
+      { "name": "Fiber", "range": [5, 6], "max": 25 },
+      { "name": "Net Carbs", "range": [15, 20], "max": 1250 },
+      { "name": "Sodium", "range": [30, 50], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 5], "max": 300 }
     ],
     "cookingNote": "Add extra lime juice for a zesty kick.",
     "author": "Chef Sophia",

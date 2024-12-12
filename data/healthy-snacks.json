@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Avocado Toast with Tomato",
+    "category": "healthy-snacks",
     "description": "A simple and nutritious avocado toast topped with fresh tomatoes, perfect for a healthy snack.",
     "ingredients": [
       "1 ripe avocado",
@@ -20,14 +21,14 @@
     "cookTimeMinutes": 3,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [230, 250], "max": 250 },
-      { "name": "Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Fat", "range": [12, 15], "max": 15 },
-      { "name": "Protein", "range": [3, 5], "max": 5 },
-      { "name": "Fiber", "range": [6, 8], "max": 8 },
-      { "name": "Net Carbs", "range": [22, 25], "max": 25 },
-      { "name": "Sodium", "range": [100, 150], "max": 150 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [230, 250], "max": 2000 },
+      { "name": "Carbs", "range": [30, 35], "max": 70 },
+      { "name": "Fat", "range": [12, 15], "max": 300 },
+      { "name": "Protein", "range": [3, 5], "max": 50 },
+      { "name": "Fiber", "range": [6, 8], "max": 25 },
+      { "name": "Net Carbs", "range": [22, 25], "max": 1250 },
+      { "name": "Sodium", "range": [100, 150], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "rating": 4.5,
     "author": "Liam Peterson",
@@ -37,6 +38,7 @@
   {
     "id": 2,
     "name": "Chia Pudding with Berries",
+    "category": "healthy-snacks",
     "description": "A creamy chia pudding topped with fresh berries for a delicious and healthy snack.",
     "ingredients": [
       "3 tablespoons chia seeds",
@@ -54,14 +56,14 @@
     "cookTimeMinutes": 1,
     "servings": 3,
     "recipe_facts": [
-      { "name": "Calories", "range": [180, 210], "max": 210 },
-      { "name": "Carbs", "range": [20, 25], "max": 25 },
-      { "name": "Fat", "range": [10, 12], "max": 12 },
-      { "name": "Protein", "range": [6, 7], "max": 7 },
-      { "name": "Fiber", "range": [8, 10], "max": 10 },
-      { "name": "Net Carbs", "range": [12, 15], "max": 15 },
-      { "name": "Sodium", "range": [50, 100], "max": 100 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [180, 210], "max": 2000 },
+      { "name": "Carbs", "range": [20, 25], "max": 70 },
+      { "name": "Fat", "range": [10, 12], "max": 300 },
+      { "name": "Protein", "range": [6, 7], "max": 50 },
+      { "name": "Fiber", "range": [8, 10], "max": 25 },
+      { "name": "Net Carbs", "range": [12, 15], "max": 1250 },
+      { "name": "Sodium", "range": [50, 100], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "rating": 4.7,
     "author": "Emma Novak",
@@ -71,6 +73,7 @@
   {
     "id": 3,
     "name": "Hummus and Veggie Sticks",
+    "category": "healthy-snacks",
     "description": "A tasty and filling snack with hummus and a variety of fresh vegetable sticks.",
     "ingredients": [
       "1 cup hummus",
@@ -87,14 +90,14 @@
     "cookTimeMinutes": 2,
     "servings": 4,
     "recipe_facts": [
-      { "name": "Calories", "range": [150, 180], "max": 180 },
-      { "name": "Carbs", "range": [15, 20], "max": 20 },
-      { "name": "Fat", "range": [8, 10], "max": 10 },
-      { "name": "Protein", "range": [5, 6], "max": 6 },
-      { "name": "Fiber", "range": [4, 6], "max": 6 },
-      { "name": "Net Carbs", "range": [10, 15], "max": 15 },
-      { "name": "Sodium", "range": [250, 300], "max": 300 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [150, 180], "max": 2000 },
+      { "name": "Carbs", "range": [15, 20], "max": 70 },
+      { "name": "Fat", "range": [8, 10], "max": 300 },
+      { "name": "Protein", "range": [5, 6], "max": 50 },
+      { "name": "Fiber", "range": [4, 6], "max": 25 },
+      { "name": "Net Carbs", "range": [10, 15], "max": 1250 },
+      { "name": "Sodium", "range": [250, 300], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "rating": 4.6,
     "author": "Olivia Davis",
@@ -104,6 +107,7 @@
   {
     "id": 4,
     "name": "Greek Yogurt with Honey and Almonds",
+    "category": "healthy-snacks",
     "description": "A healthy snack combining creamy Greek yogurt, honey, and crunchy almonds.",
     "ingredients": [
       "1/2 cup Greek yogurt",
@@ -120,14 +124,14 @@
     "cookTimeMinutes": 2,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [200, 230], "max": 230 },
-      { "name": "Carbs", "range": [18, 22], "max": 22 },
-      { "name": "Fat", "range": [12, 14], "max": 14 },
-      { "name": "Protein", "range": [10, 12], "max": 12 },
-      { "name": "Fiber", "range": [2, 3], "max": 3 },
-      { "name": "Net Carbs", "range": [15, 18], "max": 18 },
-      { "name": "Sodium", "range": [50, 100], "max": 100 },
-      { "name": "Cholesterol", "range": [5, 10], "max": 10 }
+      { "name": "Calories", "range": [200, 230], "max": 2000 },
+      { "name": "Carbs", "range": [18, 22], "max": 70 },
+      { "name": "Fat", "range": [12, 14], "max": 300 },
+      { "name": "Protein", "range": [10, 12], "max": 50 },
+      { "name": "Fiber", "range": [2, 3], "max": 25 },
+      { "name": "Net Carbs", "range": [15, 18], "max": 1250 },
+      { "name": "Sodium", "range": [50, 100], "max": 2300 },
+      { "name": "Cholesterol", "range": [5, 10], "max": 300 }
     ],
     "rating": 4.8,
     "author": "Sophia Lee",
@@ -137,6 +141,7 @@
   {
     "id": 5,
     "name": "Apple Slices with Almond Butter",
+    "category": "healthy-snacks",
     "description": "A quick and satisfying snack with crunchy apple slices and creamy almond butter.",
     "ingredients": [
       "1 apple, sliced",
@@ -152,14 +157,14 @@
     "cookTimeMinutes": 2,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [180, 210], "max": 210 },
-      { "name": "Carbs", "range": [20, 25], "max": 25 },
-      { "name": "Fat", "range": [12, 14], "max": 14 },
-      { "name": "Protein", "range": [4, 6], "max": 6 },
-      { "name": "Fiber", "range": [5, 6], "max": 6 },
-      { "name": "Net Carbs", "range": [15, 18], "max": 18 },
-      { "name": "Sodium", "range": [50, 100], "max": 100 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [180, 210], "max": 2000 },
+      { "name": "Carbs", "range": [20, 25], "max": 70 },
+      { "name": "Fat", "range": [12, 14], "max": 300 },
+      { "name": "Protein", "range": [4, 6], "max": 50 },
+      { "name": "Fiber", "range": [5, 6], "max": 25 },
+      { "name": "Net Carbs", "range": [15, 18], "max": 1250 },
+      { "name": "Sodium", "range": [50, 100], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "rating": 4.4,
     "author": "James Taylor",

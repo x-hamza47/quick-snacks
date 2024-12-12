@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Ginger Banana Smoothie",
+    "category": "easy-on-stomach",
     "description": "A soothing smoothie made with ginger and banana, great for digestion and easing the stomach.",
     "ingredients": [
       "1 ripe banana",
@@ -18,14 +19,14 @@
     "cookTimeMinutes": 2,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [120, 150], "max": 150 },
-      { "name": "Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Fat", "range": [2, 3], "max": 3 },
-      { "name": "Protein", "range": [1, 2], "max": 2 },
-      { "name": "Fiber", "range": [2, 3], "max": 3 },
-      { "name": "Net Carbs", "range": [27, 30], "max": 30 },
-      { "name": "Sodium", "range": [50, 60], "max": 60 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [120, 150], "max": 2000 },
+      { "name": "Carbs", "range": [30, 35], "max": 70 },
+      { "name": "Fat", "range": [2, 3], "max": 300 },
+      { "name": "Protein", "range": [1, 2], "max": 50 },
+      { "name": "Fiber", "range": [2, 3], "max": 25 },
+      { "name": "Net Carbs", "range": [27, 30], "max": 1250 },
+      { "name": "Sodium", "range": [50, 60], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "cookingNote": "Ginger helps with digestion and soothes the stomach, making this a great choice after meals.",
     "author": "John Smith",
@@ -35,6 +36,7 @@
   {
     "id": 2,
     "name": "Oatmeal with Honey and Almonds",
+    "category": "easy-on-stomach",
     "description": "A gentle and easy-to-digest snack made with oats, honey, and almonds, perfect for a sensitive stomach.",
     "ingredients": [
       "1/2 cup oats",
@@ -51,14 +53,14 @@
     "cookTimeMinutes": 5,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [150, 180], "max": 180 },
-      { "name": "Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Fat", "range": [6, 8], "max": 8 },
-      { "name": "Protein", "range": [4, 5], "max": 5 },
-      { "name": "Fiber", "range": [4, 5], "max": 5 },
-      { "name": "Net Carbs", "range": [25, 30], "max": 30 },
-      { "name": "Sodium", "range": [60, 80], "max": 80 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [150, 180], "max": 2000 },
+      { "name": "Carbs", "range": [30, 35], "max": 70 },
+      { "name": "Fat", "range": [6, 8], "max": 300 },
+      { "name": "Protein", "range": [4, 5], "max": 50 },
+      { "name": "Fiber", "range": [4, 5], "max": 25 },
+      { "name": "Net Carbs", "range": [25, 30], "max": 1250 },
+      { "name": "Sodium", "range": [60, 80], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "cookingNote": "Oats are gentle on the stomach and provide a soothing texture for sensitive digestive systems.",
     "author": "Emily Clark",
@@ -68,6 +70,7 @@
   {
     "id": 3,
     "name": "Plain Rice Cakes with Avocado",
+    "category": "easy-on-stomach",
     "description": "Simple rice cakes topped with mashed avocado, offering a gentle, easy-to-digest snack option.",
     "ingredients": [
       "2 rice cakes",
@@ -83,14 +86,14 @@
     "cookTimeMinutes": 2,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [150, 180], "max": 180 },
-      { "name": "Carbs", "range": [20, 25], "max": 25 },
-      { "name": "Fat", "range": [10, 12], "max": 12 },
-      { "name": "Protein", "range": [2, 3], "max": 3 },
-      { "name": "Fiber", "range": [5, 6], "max": 6 },
-      { "name": "Net Carbs", "range": [15, 20], "max": 20 },
-      { "name": "Sodium", "range": [50, 60], "max": 60 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [150, 180], "max": 2000 },
+      { "name": "Carbs", "range": [20, 25], "max": 70 },
+      { "name": "Fat", "range": [10, 12], "max": 300 },
+      { "name": "Protein", "range": [2, 3], "max": 50 },
+      { "name": "Fiber", "range": [5, 6], "max": 25 },
+      { "name": "Net Carbs", "range": [15, 20], "max": 1250 },
+      { "name": "Sodium", "range": [50, 60], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "cookingNote": "Avocado provides healthy fats and is easy to digest, making this snack ideal for sensitive stomachs.",
     "author": "Megan Harris",
@@ -100,6 +103,7 @@
   {
     "id": 4,
     "name": "Baked Sweet Potato Chips",
+    "category": "easy-on-stomach",
     "description": "A crunchy and gentle snack made from baked sweet potatoes, offering fiber and vitamins with easy digestion.",
     "ingredients": [
       "2 small sweet potatoes, sliced thinly",
@@ -116,14 +120,14 @@
     "cookTimeMinutes": 20,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [160, 190], "max": 190 },
-      { "name": "Carbs", "range": [35, 40], "max": 40 },
-      { "name": "Fat", "range": [4, 5], "max": 5 },
-      { "name": "Protein", "range": [2, 3], "max": 3 },
-      { "name": "Fiber", "range": [5, 6], "max": 6 },
-      { "name": "Net Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Sodium", "range": [150, 170], "max": 170 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [160, 190], "max": 2000 },
+      { "name": "Carbs", "range": [35, 40], "max": 70 },
+      { "name": "Fat", "range": [4, 5], "max": 300 },
+      { "name": "Protein", "range": [2, 3], "max": 50 },
+      { "name": "Fiber", "range": [5, 6], "max": 25 },
+      { "name": "Net Carbs", "range": [30, 35], "max": 1250 },
+      { "name": "Sodium", "range": [150, 170], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "cookingNote": "Sweet potatoes are high in fiber, which can help promote healthy digestion and is gentle on the stomach.",
     "author": "Lucas Brown",
@@ -133,6 +137,7 @@
   {
     "id": 5,
     "name": "Cucumber and Yogurt Salad",
+    "category": "easy-on-stomach",
     "description": "A refreshing and cooling salad made with cucumber and yogurt, perfect for soothing the stomach.",
     "ingredients": [
       "1 cucumber, sliced",
@@ -151,14 +156,14 @@
     "cookTimeMinutes": 2,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [120, 150], "max": 150 },
-      { "name": "Carbs", "range": [10, 12], "max": 12 },
-      { "name": "Fat", "range": [8, 10], "max": 10 },
-      { "name": "Protein", "range": [5, 6], "max": 6 },
-      { "name": "Fiber", "range": [2, 3], "max": 3 },
-      { "name": "Net Carbs", "range": [8, 10], "max": 10 },
-      { "name": "Sodium", "range": [60, 70], "max": 70 },
-      { "name": "Cholesterol", "range": [5, 10], "max": 10 }
+      { "name": "Calories", "range": [120, 150], "max": 2000 },
+      { "name": "Carbs", "range": [10, 12], "max": 70 },
+      { "name": "Fat", "range": [8, 10], "max": 300 },
+      { "name": "Protein", "range": [5, 6], "max": 50 },
+      { "name": "Fiber", "range": [2, 3], "max": 25 },
+      { "name": "Net Carbs", "range": [8, 10], "max": 1250 },
+      { "name": "Sodium", "range": [60, 70], "max": 2300 },
+      { "name": "Cholesterol", "range": [5, 10], "max": 300 }
     ],
     "cookingNote": "Cucumber is hydrating and soothing, making this a light and easy-to-digest snack.",
     "author": "Lily Evans",

@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Bruschetta with Tomato and Basil",
+    "category": "appetizer",
     "description": "A classic Italian appetizer featuring toasted bread topped with fresh tomatoes, basil, and a drizzle of olive oil.",
     "ingredients": [
       "1 baguette, sliced",
@@ -21,14 +22,14 @@
     "cookTimeMinutes": 7,
     "servings": 4,
     "recipe_facts": [
-      { "name": "Calories", "range": [150, 200], "max": 200 },
-      { "name": "Carbs", "range": [25, 30], "max": 30 },
-      { "name": "Fat", "range": [6, 8], "max": 8 },
-      { "name": "Protein", "range": [3, 4], "max": 4 },
-      { "name": "Fiber", "range": [3, 4], "max": 4 },
-      { "name": "Net Carbs", "range": [20, 25], "max": 25 },
-      { "name": "Sodium", "range": [250, 300], "max": 300 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [150, 200], "max": 2000 },
+      { "name": "Carbs", "range": [25, 30], "max": 70 },
+      { "name": "Fat", "range": [6, 8], "max": 300 },
+      { "name": "Protein", "range": [3, 4], "max": 50 },
+      { "name": "Fiber", "range": [3, 4], "max": 25 },
+      { "name": "Net Carbs", "range": [20, 25], "max": 1250 },
+      { "name": "Sodium", "range": [250, 300], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "cookingNote": "For extra flavor, you can drizzle the bruschetta with balsamic glaze before serving. Make sure the bread is crispy to hold the topping without becoming soggy.",
     "author": "Chef Antonio",
@@ -38,6 +39,7 @@
   {
     "id": 2,
     "name": "Stuffed Mushrooms",
+    "category": "appetizer",
     "description": "Mushrooms filled with a savory mixture of cream cheese, garlic, and herbs, baked to golden perfection.",
     "ingredients": [
       "12 large mushrooms, stems removed",
@@ -58,14 +60,14 @@
     "cookTimeMinutes": 20,
     "servings": 3,
     "recipe_facts": [
-      { "name": "Calories", "range": [180, 220], "max": 220 },
-      { "name": "Carbs", "range": [10, 12], "max": 12 },
-      { "name": "Fat", "range": [15, 18], "max": 18 },
-      { "name": "Protein", "range": [4, 6], "max": 6 },
-      { "name": "Fiber", "range": [2, 3], "max": 3 },
-      { "name": "Net Carbs", "range": [8, 10], "max": 10 },
-      { "name": "Sodium", "range": [300, 350], "max": 350 },
-      { "name": "Cholesterol", "range": [25, 30], "max": 30 }
+      { "name": "Calories", "range": [180, 220], "max": 2000 },
+      { "name": "Carbs", "range": [10, 12], "max": 70 },
+      { "name": "Fat", "range": [15, 18], "max": 300 },
+      { "name": "Protein", "range": [4, 6], "max": 50 },
+      { "name": "Fiber", "range": [2, 3], "max": 25 },
+      { "name": "Net Carbs", "range": [8, 10], "max": 1250 },
+      { "name": "Sodium", "range": [300, 350], "max": 2300 },
+      { "name": "Cholesterol", "range": [25, 30], "max": 300 }
     ],
     "cookingNote": "You can substitute cream cheese with ricotta for a lighter filling. These stuffed mushrooms are best served warm right out of the oven.",
     "author": "Chef Maria",
@@ -75,6 +77,7 @@
   {
     "id": 3,
     "name": "Spinach and Artichoke Dip",
+    "category": "appetizer",
     "description": "A rich and creamy dip made with spinach, artichokes, and a blend of cheeses, perfect for dipping chips or bread.",
     "ingredients": [
       "1 cup cooked spinach, drained",
@@ -96,14 +99,14 @@
     "cookTimeMinutes": 25,
     "servings": 5,
     "recipe_facts": [
-      { "name": "Calories", "range": [220, 270], "max": 270 },
-      { "name": "Carbs", "range": [15, 18], "max": 18 },
-      { "name": "Fat", "range": [18, 20], "max": 20 },
-      { "name": "Protein", "range": [6, 8], "max": 8 },
-      { "name": "Fiber", "range": [4, 5], "max": 5 },
-      { "name": "Net Carbs", "range": [10, 12], "max": 12 },
-      { "name": "Sodium", "range": [350, 400], "max": 400 },
-      { "name": "Cholesterol", "range": [30, 40], "max": 40 }
+      { "name": "Calories", "range": [220, 270], "max": 2000 },
+      { "name": "Carbs", "range": [15, 18], "max": 70 },
+      { "name": "Fat", "range": [18, 20], "max": 300 },
+      { "name": "Protein", "range": [6, 8], "max": 50 },
+      { "name": "Fiber", "range": [4, 5], "max": 25 },
+      { "name": "Net Carbs", "range": [10, 12], "max": 1250 },
+      { "name": "Sodium", "range": [350, 400], "max": 2300 },
+      { "name": "Cholesterol", "range": [30, 40], "max": 300 }
     ],
     "cookingNote": "For a healthier version, you can use Greek yogurt instead of sour cream. Serve with crunchy veggies for a lighter dipping option.",
     "author": "Chef Luca",
@@ -113,6 +116,7 @@
   {
     "id": 4,
     "name": "Mini Caprese Skewers",
+    "category": "appetizer",
     "description": "Fresh mozzarella, cherry tomatoes, and basil leaves skewered together and drizzled with balsamic glaze.",
     "ingredients": [
       "12 cherry tomatoes",
@@ -131,14 +135,14 @@
     "cookTimeMinutes": 0,
     "servings": 3,
     "recipe_facts": [
-      { "name": "Calories", "range": [120, 150], "max": 150 },
-      { "name": "Carbs", "range": [6, 8], "max": 8 },
-      { "name": "Fat", "range": [10, 12], "max": 12 },
-      { "name": "Protein", "range": [7, 8], "max": 8 },
-      { "name": "Fiber", "range": [1, 2], "max": 2 },
-      { "name": "Net Carbs", "range": [4, 5], "max": 5 },
-      { "name": "Sodium", "range": [300, 350], "max": 350 },
-      { "name": "Cholesterol", "range": [10, 15], "max": 15 }
+      { "name": "Calories", "range": [120, 150], "max": 2000 },
+      { "name": "Carbs", "range": [6, 8], "max": 70 },
+      { "name": "Fat", "range": [10, 12], "max": 300 },
+      { "name": "Protein", "range": [7, 8], "max": 50 },
+      { "name": "Fiber", "range": [1, 2], "max": 25 },
+      { "name": "Net Carbs", "range": [4, 5], "max": 1250 },
+      { "name": "Sodium", "range": [300, 350], "max": 2300 },
+      { "name": "Cholesterol", "range": [10, 15], "max": 300 }
     ],
     "cookingNote": "These skewers are a perfect appetizer for any gathering. You can also add a dash of sea salt for extra flavor and texture.",
     "author": "Chef Rosa",
@@ -148,6 +152,7 @@
   {
     "id": 5,
     "name": "Guacamole and Tortilla Chips",
+    "category": "appetizer",
     "description": "A creamy and flavorful guacamole made with ripe avocados, served with crispy tortilla chips for dipping.",
     "ingredients": [
       "2 ripe avocados",
@@ -168,14 +173,14 @@
     "cookTimeMinutes": 0,
     "servings": 4,
     "recipe_facts": [
-      { "name": "Calories", "range": [150, 180], "max": 180 },
-      { "name": "Carbs", "range": [12, 15], "max": 15 },
-      { "name": "Fat", "range": [14, 16], "max": 16 },
-      { "name": "Protein", "range": [2, 3], "max": 3 },
-      { "name": "Fiber", "range": [5, 6], "max": 6 },
-      { "name": "Net Carbs", "range": [7, 9], "max": 9 },
-      { "name": "Sodium", "range": [200, 250], "max": 250 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [150, 180], "max": 2000 },
+      { "name": "Carbs", "range": [12, 15], "max": 70 },
+      { "name": "Fat", "range": [14, 16], "max": 300 },
+      { "name": "Protein", "range": [2, 3], "max": 50 },
+      { "name": "Fiber", "range": [5, 6], "max": 25 },
+      { "name": "Net Carbs", "range": [7, 9], "max": 1250 },
+      { "name": "Sodium", "range": [200, 250], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "cookingNote": "For a spicier kick, add extra jalapeños or a dash of hot sauce to the guacamole.",
     "author": "Chef Diego",

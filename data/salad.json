@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Classic Caesar Salad",
+    "category": "Salad",
     "description": "A timeless Caesar salad made with romaine lettuce, croutons, and a creamy Caesar dressing.",
     "ingredients": [
       "4 cups romaine lettuce, chopped",
@@ -21,14 +22,14 @@
     "cookTimeMinutes": 0,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [250, 300], "max": 300 },
-      { "name": "Carbs", "range": [10, 15], "max": 15 },
-      { "name": "Fat", "range": [20, 25], "max": 25 },
-      { "name": "Protein", "range": [6, 8], "max": 8 },
-      { "name": "Fiber", "range": [2, 3], "max": 3 },
-      { "name": "Net Carbs", "range": [7, 12], "max": 12 },
-      { "name": "Sodium", "range": [350, 400], "max": 400 },
-      { "name": "Cholesterol", "range": [10, 15], "max": 15 }
+      { "name": "Calories", "range": [250, 300], "max": 2000 },
+      { "name": "Carbs", "range": [10, 15], "max": 70 },
+      { "name": "Fat", "range": [20, 25], "max": 300 },
+      { "name": "Protein", "range": [6, 8], "max": 50 },
+      { "name": "Fiber", "range": [2, 3], "max": 25 },
+      { "name": "Net Carbs", "range": [7, 12], "max": 1250 },
+      { "name": "Sodium", "range": [350, 400], "max": 2300 },
+      { "name": "Cholesterol", "range": [10, 15], "max": 300 }
     ],
     "cookingNote": "For extra flavor, you can add grilled chicken or bacon. Be sure to use fresh lettuce and toss the ingredients gently to avoid wilting.",
     "author": "John Doe",
@@ -38,6 +39,7 @@
   {
     "id": 2,
     "name": "Greek Salad",
+    "category": "Salad",
     "description": "A refreshing salad with cucumbers, tomatoes, olives, and feta cheese, dressed in olive oil and oregano.",
     "ingredients": [
       "2 cups cherry tomatoes, halved",
@@ -59,14 +61,14 @@
     "cookTimeMinutes": 0,
     "servings": 3,
     "recipe_facts": [
-      { "name": "Calories", "range": [180, 220], "max": 220 },
-      { "name": "Carbs", "range": [15, 20], "max": 20 },
-      { "name": "Fat", "range": [12, 15], "max": 15 },
-      { "name": "Protein", "range": [5, 7], "max": 7 },
-      { "name": "Fiber", "range": [4, 5], "max": 5 },
-      { "name": "Net Carbs", "range": [10, 12], "max": 12 },
-      { "name": "Sodium", "range": [350, 400], "max": 400 },
-      { "name": "Cholesterol", "range": [15, 20], "max": 20 }
+      { "name": "Calories", "range": [180, 220], "max": 2000 },
+      { "name": "Carbs", "range": [15, 20], "max": 70 },
+      { "name": "Fat", "range": [12, 15], "max": 300 },
+      { "name": "Protein", "range": [5, 7], "max": 50 },
+      { "name": "Fiber", "range": [4, 5], "max": 25 },
+      { "name": "Net Carbs", "range": [10, 12], "max": 1250 },
+      { "name": "Sodium", "range": [350, 400], "max": 2300 },
+      { "name": "Cholesterol", "range": [15, 20], "max": 300 }
     ],
     "cookingNote": "This salad is best enjoyed fresh. For a more filling version, add grilled chicken or chickpeas for added protein.",
     "author": "Jane Smith",
@@ -76,6 +78,7 @@
   {
     "id": 3,
     "name": "Caprese Salad",
+    "category": "Salad",
     "description": "A light and refreshing salad made with fresh mozzarella, tomatoes, basil, and a drizzle of balsamic glaze.",
     "ingredients": [
       "2 cups cherry tomatoes, halved",
@@ -95,14 +98,14 @@
     "cookTimeMinutes": 0,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [250, 300], "max": 300 },
-      { "name": "Carbs", "range": [15, 18], "max": 18 },
-      { "name": "Fat", "range": [20, 22], "max": 22 },
-      { "name": "Protein", "range": [8, 10], "max": 10 },
-      { "name": "Fiber", "range": [2, 3], "max": 3 },
-      { "name": "Net Carbs", "range": [12, 14], "max": 14 },
-      { "name": "Sodium", "range": [250, 300], "max": 300 },
-      { "name": "Cholesterol", "range": [15, 20], "max": 20 }
+      { "name": "Calories", "range": [250, 300], "max": 2000 },
+      { "name": "Carbs", "range": [15, 18], "max": 70 },
+      { "name": "Fat", "range": [20, 22], "max": 300 },
+      { "name": "Protein", "range": [8, 10], "max": 50 },
+      { "name": "Fiber", "range": [2, 3], "max": 25 },
+      { "name": "Net Carbs", "range": [12, 14], "max": 1250 },
+      { "name": "Sodium", "range": [250, 300], "max": 2300 },
+      { "name": "Cholesterol", "range": [15, 20], "max": 300 }
     ],
     "cookingNote": "This salad can be served as a starter or side dish. You can also add a sprinkle of sea salt for extra flavor.",
     "author": "Michael Lee",
@@ -112,6 +115,7 @@
   {
     "id": 4,
     "name": "Avocado and Chickpea Salad",
+    "category": "Salad",
     "description": "A hearty salad with mashed avocado and chickpeas, perfect for a quick and healthy meal.",
     "ingredients": [
       "1 ripe avocado, mashed",
@@ -132,14 +136,14 @@
     "cookTimeMinutes": 0,
     "servings": 2,
     "recipe_facts": [
-      { "name": "Calories", "range": [350, 400], "max": 400 },
-      { "name": "Carbs", "range": [30, 35], "max": 35 },
-      { "name": "Fat", "range": [20, 22], "max": 22 },
-      { "name": "Protein", "range": [10, 12], "max": 12 },
-      { "name": "Fiber", "range": [8, 9], "max": 9 },
-      { "name": "Net Carbs", "range": [20, 25], "max": 25 },
-      { "name": "Sodium", "range": [300, 350], "max": 350 },
-      { "name": "Cholesterol", "range": [0, 0], "max": 0 }
+      { "name": "Calories", "range": [350, 400], "max": 2000 },
+      { "name": "Carbs", "range": [30, 35], "max": 70 },
+      { "name": "Fat", "range": [20, 22], "max": 300 },
+      { "name": "Protein", "range": [10, 12], "max": 50 },
+      { "name": "Fiber", "range": [8, 9], "max": 25 },
+      { "name": "Net Carbs", "range": [20, 25], "max": 1250 },
+      { "name": "Sodium", "range": [300, 350], "max": 2300 },
+      { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
     "cookingNote": "This salad is creamy and satisfying thanks to the avocado. You can add a protein like grilled chicken or tofu for a more substantial meal.",
     "author": "Emily Davis",
@@ -149,6 +153,7 @@
   {
     "id": 5,
     "name": "Quinoa and Roasted Vegetable Salad",
+    "category": "Salad",
     "description": "A nutrient-packed salad made with quinoa, roasted vegetables, and a zesty lemon dressing.",
     "ingredients": [
       "1 cup cooked quinoa",
@@ -168,14 +173,14 @@
     "cookTimeMinutes": 25,
     "servings": 3,
     "recipe_facts": [
-      { "name": "Calories", "range": [350, 400], "max": 400 },
-      { "name": "Carbs", "range": [40, 45], "max": 45 },
-      { "name": "Fat", "range": [15, 18], "max": 18 },
-      { "name": "Protein", "range": [10, 12], "max": 12 },
-      { "name": "Fiber", "range": [5, 6], "max": 6 },
-      { "name": "Net Carbs", "range": [35, 40], "max": 40 },
-      { "name": "Sodium", "range": [200, 250], "max": 250 },
-      { "name": "Cholesterol", "range": [15, 20], "max": 20 }
+      { "name": "Calories", "range": [350, 400], "max": 2000 },
+      { "name": "Carbs", "range": [40, 45], "max": 70 },
+      { "name": "Fat", "range": [15, 18], "max": 300 },
+      { "name": "Protein", "range": [10, 12], "max": 50 },
+      { "name": "Fiber", "range": [5, 6], "max": 25 },
+      { "name": "Net Carbs", "range": [35, 40], "max": 1250 },
+      { "name": "Sodium", "range": [200, 250], "max": 2300 },
+      { "name": "Cholesterol", "range": [15, 20], "max": 300 }
     ],
     "cookingNote": "This salad is great as a main dish or as a side. You can add nuts or seeds for a crunchy texture.",
     "author": "Sarah Williams",
