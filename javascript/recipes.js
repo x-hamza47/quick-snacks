@@ -60,7 +60,7 @@ const getRandomRecipes = (recipes, count) =>{
         let recipe_card = `
                    <div class="card recipe-card" style="width: 18rem;" data-id="${recipe.id}" data-category="${recipe.category}">
                     <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/avacado-toast-2.jpg">
+                        <img class="w-100 object-fit-cover" src="${recipe.img}">
                     </div>
                     <div class="card-body text-center d-flex flex-column justify-content-between">
                         <small class="cat-title" style="text-transform:capitalize;">${recipe.category.replace(/-/g," ")}</small>

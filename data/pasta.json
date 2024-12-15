@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Spaghetti Aglio e Olio",
+    "img": "../assets/images/spaghetti.jpg",
     "category": "Pasta",
     "description": "A simple and flavorful pasta dish made with garlic, olive oil, and chili flakes, perfect for quick meals.",
     "ingredients": [
@@ -40,6 +41,7 @@
   {
     "id": 2,
     "name": "Penne alla Vodka",
+    "img": "../assets/images/penne.jpg",
     "category": "Pasta",
     "description": "A creamy and tangy pasta made with vodka, tomato sauce, and cream, offering a perfect balance of flavors.",
     "ingredients": [
@@ -81,6 +83,7 @@
   {
     "id": 3,
     "name": "Lasagna with Meat Sauce",
+    "img": "../assets/images/cabbage.jpg",
     "category": "Pasta",
     "description": "A hearty lasagna made with rich meat sauce, cheese, and layers of pasta, perfect for family dinners.",
     "ingredients": [
@@ -125,6 +128,7 @@
   {
     "id": 4,
     "name": "Fettuccine Alfredo",
+    "img": "../assets/images/parmesan.jpg",
     "category": "Pasta",
     "description": "A rich and creamy pasta dish with fettuccine noodles and a smooth Alfredo sauce, perfect for indulgent meals.",
     "ingredients": [
@@ -164,6 +168,7 @@
   {
     "id": 5,
     "name": "Pasta Primavera",
+    "img": "../assets/images/primavera.jpg",
     "category": "Pasta",
     "description": "A fresh and vibrant pasta dish with sautéed vegetables and a light garlic sauce, ideal for a healthy meal.",
     "ingredients": [

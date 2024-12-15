@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Ginger Banana Smoothie",
+    "img": "../assets/images/ginger-banana.jpg",
     "category": "easy-on-stomach",
     "description": "A soothing smoothie made with ginger and banana, great for digestion and easing the stomach.",
     "ingredients": [
@@ -36,6 +37,7 @@
   {
     "id": 2,
     "name": "Oatmeal with Honey and Almonds",
+    "img": "../assets/images/oatmeal.jpg",
     "category": "easy-on-stomach",
     "description": "A gentle and easy-to-digest snack made with oats, honey, and almonds, perfect for a sensitive stomach.",
     "ingredients": [
@@ -70,6 +72,7 @@
   {
     "id": 3,
     "name": "Plain Rice Cakes with Avocado",
+    "img": "../assets/images/rice-cake.jpg",
     "category": "easy-on-stomach",
     "description": "Simple rice cakes topped with mashed avocado, offering a gentle, easy-to-digest snack option.",
     "ingredients": [
@@ -103,6 +106,7 @@
   {
     "id": 4,
     "name": "Baked Sweet Potato Chips",
+    "img": "../assets/images/sweet-potato.avif",
     "category": "easy-on-stomach",
     "description": "A crunchy and gentle snack made from baked sweet potatoes, offering fiber and vitamins with easy digestion.",
     "ingredients": [
@@ -137,6 +141,7 @@
   {
     "id": 5,
     "name": "Cucumber and Yogurt Salad",
+    "img": "../assets/images/cucumber-salad.jpg",
     "category": "easy-on-stomach",
     "description": "A refreshing and cooling salad made with cucumber and yogurt, perfect for soothing the stomach.",
     "ingredients": [

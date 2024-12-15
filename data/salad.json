@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Classic Caesar Salad",
+    "img": "../assets/images/caesar.avif",
     "category": "Salad",
     "description": "A timeless Caesar salad made with romaine lettuce, croutons, and a creamy Caesar dressing.",
     "ingredients": [
@@ -39,6 +40,7 @@
   {
     "id": 2,
     "name": "Greek Salad",
+    "img": "../assets/images/greek.jpg",
     "category": "Salad",
     "description": "A refreshing salad with cucumbers, tomatoes, olives, and feta cheese, dressed in olive oil and oregano.",
     "ingredients": [
@@ -78,6 +80,7 @@
   {
     "id": 3,
     "name": "Caprese Salad",
+    "img": "../assets/images/caprese-salad.jpg",
     "category": "Salad",
     "description": "A light and refreshing salad made with fresh mozzarella, tomatoes, basil, and a drizzle of balsamic glaze.",
     "ingredients": [
@@ -115,6 +118,7 @@
   {
     "id": 4,
     "name": "Avocado and Chickpea Salad",
+    "img": "../assets/images/chickpeas.avif",
     "category": "Salad",
     "description": "A hearty salad with mashed avocado and chickpeas, perfect for a quick and healthy meal.",
     "ingredients": [
@@ -153,6 +157,7 @@
   {
     "id": 5,
     "name": "Quinoa and Roasted Vegetable Salad",
+    "img": "../assets/images/quinoa.jpg",
     "category": "Salad",
     "description": "A nutrient-packed salad made with quinoa, roasted vegetables, and a zesty lemon dressing.",
     "ingredients": [

@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Tropical Paradise Smoothie",
+    "img": "../assets/images/paradise.jpg",
     "category": "Smoothies",
     "description": "A refreshing smoothie with a blend of tropical fruits, perfect for a summer treat.",
     "ingredients": [
@@ -39,6 +40,7 @@
   {
     "id": 2,
     "name": "Berry Blast Smoothie",
+    "img": "../assets/images/berry.avif",
     "category": "Smoothies",
     "description": "A sweet and tangy smoothie with mixed berries and yogurt.",
     "ingredients": [
@@ -76,6 +78,7 @@
   {
     "id": 3,
     "name": "Green Power Smoothie",
+    "img": "../assets/images/green.avif",
     "category": "Smoothies",
     "description": "A nutrient-packed smoothie with spinach, apple, and banana.",
     "ingredients": [
@@ -113,6 +116,7 @@
   {
     "id": 4,
     "name": "Peanut Butter Banana Smoothie",
+    "img": "../assets/images/peanut.jpg",
     "category": "Smoothies",
     "description": "A creamy smoothie with peanut butter and banana for a rich, satisfying treat.",
     "ingredients": [
@@ -148,6 +152,7 @@
   {
     "id": 5,
     "name": "Avocado Lime Smoothie",
+    "img": "../assets/images/lime.jpg",
     "category": "Smoothies",
     "description": "A creamy and tangy smoothie with avocado and lime, a perfect refreshing treat.",
     "ingredients": [

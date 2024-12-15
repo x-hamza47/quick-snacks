@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Classic Margherita Pizza",
+    "img": "../assets/images/vegetable-pizza.jpg",
     "category": "Pizza",
     "description": "A simple and classic pizza topped with fresh mozzarella, tomato sauce, and basil leaves.",
     "ingredients": [
@@ -41,6 +42,7 @@
   {
     "id": 2,
     "name": "Pepperoni Pizza",
+    "img": "../assets/images/pepperoni.jpg",
     "category": "Pizza",
     "description": "A crowd favorite with a perfect balance of spicy pepperoni and melted cheese.",
     "ingredients": [
@@ -80,6 +82,7 @@
   {
     "id": 3,
     "name": "BBQ Chicken Pizza",
+    "img": "../assets/images/bbq.avif",
     "category": "Pizza",
     "description": "A tangy BBQ sauce base topped with grilled chicken, red onions, and mozzarella cheese.",
     "ingredients": [
@@ -118,6 +121,7 @@
   {
     "id": 4,
     "name": "Veggie Supreme Pizza",
+    "img": "../assets/images/veggie.avif",
     "category": "Pizza",
     "description": "A vegetarian pizza loaded with bell peppers, onions, olives, and mushrooms.",
     "ingredients": [
@@ -158,6 +162,7 @@
   {
     "id": 5,
     "name": "Hawaiian Pizza",
+    "img": "../assets/images/hawaiian.jpg",
     "category": "Pizza",
     "description": "A sweet and savory pizza topped with ham, pineapple, and mozzarella cheese.",
     "ingredients": [

@@ -99,7 +99,7 @@ const data_container = document.querySelector(".data-container");
               <div class="recipe-thumbnail rounded my-2">
                 <img
                   class="w-100 h-100 rounded"
-                  src="../assets/images/mango-smoothie.jpeg"
+                  src="${recipe.img}"
                   alt="recipe-image"
                 />
               </div>

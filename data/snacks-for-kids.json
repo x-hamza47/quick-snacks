@@ -2,7 +2,8 @@
   {
     "id": 1,
     "name": "Mini Veggie Pizzas",
-    "category":"snacks-for-kids",
+    "img": "../assets/images/mini-pizza.avif",
+    "category": "snacks-for-kids",
     "description": "Fun and easy mini pizzas made with whole wheat English muffins, topped with veggies and cheese.",
     "ingredients": [
       "4 whole wheat English muffins, split in half",
@@ -26,7 +27,7 @@
     "recipe_facts": [
       { "name": "Calories", "range": [120, 160], "max": 2000 },
       { "name": "Carbs", "range": [20, 25], "max": 70 },
-      { "name": "Fat", "range": [6, 8], "max": 300  },
+      { "name": "Fat", "range": [6, 8], "max": 300 },
       { "name": "Protein", "range": [6, 8], "max": 50 },
       { "name": "Fiber", "range": [2, 3], "max": 25 },
       { "name": "Net Carbs", "range": [15, 18], "max": 1250 },
@@ -41,7 +42,8 @@
   {
     "id": 2,
     "name": "Banana Oatmeal Bites",
-    "category":"snacks-for-kids",
+    "img": "../assets/images/plantain-banana.jpg",
+    "category": "snacks-for-kids",
     "description": "Sweet and nutritious oatmeal bites made with bananas, oats, and honey, perfect for kids' snacks.",
     "ingredients": [
       "2 ripe bananas, mashed",
@@ -80,7 +82,8 @@
   {
     "id": 3,
     "name": "Apple Sandwiches with Peanut Butter",
-    "category":"snacks-for-kids",
+    "img": "../assets/images/apple-sand.avif",
+    "category": "snacks-for-kids",
     "description": "Healthy and fun apple slices with peanut butter and granola, perfect for kids.",
     "ingredients": [
       "2 apples, cored and sliced into rings",
@@ -100,7 +103,7 @@
     "recipe_facts": [
       { "name": "Calories", "range": [120, 150], "max": 2000 },
       { "name": "Carbs", "range": [20, 25], "max": 70 },
-      { "name": "Fat", "range": [8, 10], "max": 300  },
+      { "name": "Fat", "range": [8, 10], "max": 300 },
       { "name": "Protein", "range": [4, 5], "max": 50 },
       { "name": "Fiber", "range": [3, 4], "max": 25 },
       { "name": "Net Carbs", "range": [15, 20], "max": 1250 },
@@ -115,7 +118,8 @@
   {
     "id": 4,
     "name": "Veggie Sticks with Hummus",
-    "category":"snacks-for-kids",
+    "img": "../assets/images/veggie-stick.jpg",
+    "category": "snacks-for-kids",
     "description": "A nutritious and crunchy snack made with fresh veggie sticks and a side of creamy hummus.",
     "ingredients": [
       "1 cucumber, sliced into sticks",
@@ -148,7 +152,8 @@
   {
     "id": 5,
     "name": "Cheese and Crackers",
-    "category":"snacks-for-kids",
+    "img": "../assets/images/cheese.avif",
+    "category": "snacks-for-kids",
     "description": "A simple yet delightful snack with cheese and whole grain crackers, great for kids.",
     "ingredients": ["8 whole grain crackers", "4 slices cheddar cheese"],
     "instructions": [

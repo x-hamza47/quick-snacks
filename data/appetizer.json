@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Bruschetta with Tomato and Basil",
+    "img": "../assets/images/bruschetta.avif",
     "category": "appetizer",
     "description": "A classic Italian appetizer featuring toasted bread topped with fresh tomatoes, basil, and a drizzle of olive oil.",
     "ingredients": [
@@ -40,6 +41,7 @@
     "id": 2,
     "name": "Stuffed Mushrooms",
     "category": "appetizer",
+    "img": "../assets/images/stuffed-mushrooms.avif",
     "description": "Mushrooms filled with a savory mixture of cream cheese, garlic, and herbs, baked to golden perfection.",
     "ingredients": [
       "12 large mushrooms, stems removed",
@@ -77,6 +79,7 @@
   {
     "id": 3,
     "name": "Spinach and Artichoke Dip",
+    "img": "../assets/images/spinach-dip.avif",
     "category": "appetizer",
     "description": "A rich and creamy dip made with spinach, artichokes, and a blend of cheeses, perfect for dipping chips or bread.",
     "ingredients": [
@@ -116,6 +119,7 @@
   {
     "id": 4,
     "name": "Mini Caprese Skewers",
+    "img": "../assets/images/caprese-salad.jpg",
     "category": "appetizer",
     "description": "Fresh mozzarella, cherry tomatoes, and basil leaves skewered together and drizzled with balsamic glaze.",
     "ingredients": [
@@ -152,6 +156,7 @@
   {
     "id": 5,
     "name": "Guacamole and Tortilla Chips",
+    "img": "../assets/images/nachos-with-guacamole.avif",
     "category": "appetizer",
     "description": "A creamy and flavorful guacamole made with ripe avocados, served with crispy tortilla chips for dipping.",
     "ingredients": [

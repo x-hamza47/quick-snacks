@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Avocado Toast with Tomato",
+    "img": "../assets/images/avacado-toast-tomato.jpg",
     "category": "healthy-snacks",
     "description": "A simple and nutritious avocado toast topped with fresh tomatoes, perfect for a healthy snack.",
     "ingredients": [
@@ -38,6 +39,7 @@
   {
     "id": 2,
     "name": "Chia Pudding with Berries",
+    "img": "../assets/images/chia-pudding.avif",
     "category": "healthy-snacks",
     "description": "A creamy chia pudding topped with fresh berries for a delicious and healthy snack.",
     "ingredients": [
@@ -73,6 +75,7 @@
   {
     "id": 3,
     "name": "Hummus and Veggie Sticks",
+    "img": "../assets/images/hummus.jpg",
     "category": "healthy-snacks",
     "description": "A tasty and filling snack with hummus and a variety of fresh vegetable sticks.",
     "ingredients": [
@@ -107,6 +110,7 @@
   {
     "id": 4,
     "name": "Greek Yogurt with Honey and Almonds",
+    "img": "../assets/images/yogurt.avif",
     "category": "healthy-snacks",
     "description": "A healthy snack combining creamy Greek yogurt, honey, and crunchy almonds.",
     "ingredients": [
@@ -141,6 +145,7 @@
   {
     "id": 5,
     "name": "Apple Slices with Almond Butter",
+    "img": "../assets/images/apple-slices.avif",
     "category": "healthy-snacks",
     "description": "A quick and satisfying snack with crunchy apple slices and creamy almond butter.",
     "ingredients": [
