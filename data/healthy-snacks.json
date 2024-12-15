@@ -99,7 +99,7 @@
       { "name": "Sodium", "range": [250, 300], "max": 2300 },
       { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
-    "rating": 4.6,
+    "rating": 4,
     "author": "Olivia Davis",
     "createdOn": "12/2024",
     "cookingNote": "You can substitute hummus with guacamole or yogurt dip for variety."

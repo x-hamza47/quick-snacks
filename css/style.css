@@ -460,8 +460,11 @@ line-height: 1.7;
   }
 }
 
-#categories{
+#categories,.visits{
     background: #0e0d0d;    
+}
+.categories-container .category-body{
+    z-index: 100;
 }
 .categories-container .category-body .category-img{
     box-sizing: content-box;

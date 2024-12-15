@@ -63,7 +63,7 @@
     "cookTimeMinutes": 15,
     "servings": 4,
     "recipe_facts": [
-      { "name": "Calories", "range": [300, 350], "max": 3502000 },
+      { "name": "Calories", "range": [300, 350], "max": 2000 },
       { "name": "Carbs", "range": [35, 40], "max": 70 },
       { "name": "Fat", "range": [15, 18], "max": 300 },
       { "name": "Protein", "range": [18, 20], "max": 50 },

@@ -32,7 +32,7 @@
       { "name": "Sodium", "range": [250, 300], "max": 2300 },
       { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
-    "rating": 4.5,
+    "rating": 2.5,
     "author": "Liam Peterson",
     "createdOn": "12/2024",
     "cookingNote": "Aglio e Olio is a quick and easy dish that requires only a few ingredients but is packed with flavor. Add more chili flakes for extra spice!"
@@ -197,7 +197,7 @@
       { "name": "Sodium", "range": [250, 300], "max": 2300 },
       { "name": "Cholesterol", "range": [0, 0], "max": 300 }
     ],
-    "rating": 4.4,
+    "rating": 3.4,
     "author": "Olivia Adams",
     "createdOn": "11/2024",
     "cookingNote": "Pasta Primavera is a light, yet flavorful dish. Feel free to mix in your favorite vegetables!"
