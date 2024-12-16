@@ -3,10 +3,10 @@ function getCategoryUrl() {
   const params = new URLSearchParams(window.location.search);
   let recipe_id = params.get("recipe");
   let cat = params.get("category");
-  return{
+  return {
     category: cat,
-    recipe: recipe_id
-  }
+    recipe: recipe_id,
+  };
 }
 // ! Function to print data
 const data_container = document.querySelector(".data-container");
@@ -18,47 +18,46 @@ const data_container = document.querySelector(".data-container");
     return;
   }
   try {
-    
-     const response = await fetch(`../data/${category.category}.json`);
-     if (!response.ok) {
-       throw new Error("Failed to load recipes");
-     }
-     const data = await response.json();
-     
-     const recipe = data.find(
-       (recipe) => recipe.id == category.recipe
-     );
+    const response = await fetch(`../data/${category.category}.json`);
+    if (!response.ok) {
+      throw new Error("Failed to load recipes");
+    }
+    const data = await response.json();
+
+    const recipe = data.find((recipe) => recipe.id == category.recipe);
     //  ? Ratings
-      let starsList = "";
+    let starsList = "";
     for (let i = 0; i < 5; i++) {
       if (i < Math.floor(recipe.rating)) {
-        starsList += "<i class='bx bxs-star'></i>"; 
+        starsList += "<i class='bx bxs-star'></i>";
       } else if (i < Math.ceil(recipe.rating)) {
-        starsList += "<i class='bx bxs-star-half'></i>"; 
+        starsList += "<i class='bx bxs-star-half'></i>";
       } else {
-        starsList += "<i class='bx bx-star'></i>"; 
+        starsList += "<i class='bx bx-star'></i>";
       }
     }
     // ? Ingredients
     let ing_list = "";
-    recipe.ingredients.map((ingredient,index) => {
+    recipe.ingredients.map((ingredient, index) => {
       ing_list += `
         <span>
           <input type="checkbox" class="checkbox" id="checkbox${index}" />
           <label for="checkbox${index}">${ingredient}</label>
         </span>
       `;
-    })
+    });
     // ? Instructions
     let instr_list = "";
-    recipe.instructions.map((instruction,index) => {
+    recipe.instructions.map((instruction, index) => {
       instr_list += `
         <div class="inst-step d-flex align-items-baseline">
-          <span class="inst-badge d-flex align-items-center justify-content-center fw-bold">${index + 1}</span>
+          <span class="inst-badge d-flex align-items-center justify-content-center fw-bold">${
+            index + 1
+          }</span>
           <p>${instruction}</p>
         </div>
       `;
-    })
+    });
     let nutri_facts = "";
     recipe.recipe_facts.map((fact) => {
       let average = (fact.range[0] + fact.range[1]) / 2;
@@ -68,9 +67,9 @@ const data_container = document.querySelector(".data-container");
           ${fact.name} <span class="fw-semibold">${fact.range[0]}-${fact.range[1]} kcal</span>
         </li>
       `;
-    })
+    });
 
-     let recipe_container = `
+    let recipe_container = `
      <h2 class="explore-head fs-1 text-left fw-bold text-light" style="max-width:60%;">
             Recipe:
             <span style="color: var(--primary-color)">${recipe.name}</span>
@@ -183,6 +182,134 @@ const data_container = document.querySelector(".data-container");
                   </div>
                 </div>
               </div>
+
+
+
+              <!-- Info: Feedback -->
+              
+              <div class="feedback my-5">
+              <div class="container">
+                <h2 class="explore-head fs-1 text-left fw-bold text-light">
+                  Recipe
+                  <span style="color: var(--primary-color)">Feedback</span>
+                </h2>
+                <div class="checks d-flex flex-column gap-3 mt-3 px-3 py-4 rounded">
+                  <div class="recipe-rating">
+
+                    <div class="rating">
+                      <input value="5" name="rating" id="star5" type="radio" />
+                      <label title="5 stars" for="star5">
+                        <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#000000"
+                          fill="none" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg"
+                          class="svgOne">
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                          </polygon>
+                        </svg>
+                        <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#000000"
+                          fill="none" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg"
+                          class="svgTwo">
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                          </polygon>
+                        </svg>
+                        <div class="ombre"></div>
+                      </label>
+
+                      <input value="4" name="rating" id="star4" type="radio" />
+                      <label title="4 stars" for="star4">
+                        <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#000000"
+                          fill="none" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg"
+                          class="svgOne">
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                          </polygon>
+                        </svg>
+                        <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#000000"
+                          fill="none" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg"
+                          class="svgTwo">
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                          </polygon>
+                        </svg>
+                        <div class="ombre"></div>
+                      </label>
+
+                      <input value="3" name="rating" id="star3" type="radio" />
+                      <label title="3 stars" for="star3">
+                        <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#000000"
+                          fill="none" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg"
+                          class="svgOne">
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                          </polygon>
+                        </svg>
+                        <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#000000"
+                          fill="none" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg"
+                          class="svgTwo">
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                          </polygon>
+                        </svg>
+                        <div class="ombre"></div>
+                      </label>
+
+                      <input value="2" name="rating" id="star2" type="radio" />
+                      <label title="2 stars" for="star2">
+                        <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#000000"
+                          fill="none" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg"
+                          class="svgOne">
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                          </polygon>
+                        </svg>
+                        <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#000000"
+                          fill="none" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg"
+                          class="svgTwo">
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                          </polygon>
+                        </svg>
+                        <div class="ombre"></div>
+                      </label>
+
+                      <input value="1" name="rating" id="star1" type="radio" />
+                      <label title="1 star" for="star1">
+                        <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#000000"
+                          fill="none" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg"
+                          class="svgOne">
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                          </polygon>
+                        </svg>
+                        <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#000000"
+                          fill="none" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg"
+                          class="svgTwo">
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                          </polygon>
+                        </svg>
+                        <div class="ombre"></div>
+                      </label>
+                    </div>
+                    <div class="rating-recipe">
+                    <span class='d-flex align-items-center justify-content-center'>
+                    <img src="../assets/images/mango-smoothie.jpeg"/>
+                    ${recipe.name}
+                    </span>                  
+                    </div>
+
+                  </div>
+                  <textarea placeholder="Type here..."></textarea>
+                  <div class="d-flex justify-content-end">
+                    <button class="btn-feed">Post</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
             </div>
             <div class="recipe-about">
               <h4 class="text-center">
@@ -195,24 +322,48 @@ const data_container = document.querySelector(".data-container");
         </div>
     </div>
      `;
-     data_container.innerHTML = recipe_container;
+    data_container.innerHTML = recipe_container;
 
     //  ! CheckBox Animation
 
-     const chck_bxs = document.querySelectorAll(".checkbox");
+    const chck_bxs = document.querySelectorAll(".checkbox");
 
-     chck_bxs.forEach((checkbox) => {
-       checkbox.addEventListener("change", () => {
-         let text = checkbox.nextElementSibling;
-         if (checkbox.checked) {
-           text.classList.add("checked");
-         } else {
-           text.classList.remove("checked");
-         }
-       });
-     });
+    chck_bxs.forEach((checkbox) => {
+      checkbox.addEventListener("change", () => {
+        let text = checkbox.nextElementSibling;
+        if (checkbox.checked) {
+          text.classList.add("checked");
+        } else {
+          text.classList.remove("checked");
+        }
+      });
+    });
   } catch (err) {
     console.log("error fetching recipes " + err);
   }
 })();
 
+let categor = document.querySelector(".categories-list");
+document.querySelector(".categories-action").addEventListener("click", (e) => {
+  e.preventDefault()
+  if (categor.classList.contains("hide")) {
+    categor.classList.replace("hide", "show");
+  } else {
+    categor.classList.replace("show", "hide");
+  }
+});
+
+const categorie = document.querySelectorAll(".category-body");
+
+categorie.forEach( ( category ) => {
+  category.addEventListener("click" , () =>  {
+    let cat_name = category.getAttribute("data-cat");
+    console.log(cat_name);
+    
+    window.location.href = `recipes.html?category=${cat_name}`;
+  })
+})
+
+document.querySelector('.btn-feed').addEventListener('click',()=>{
+  alert('Feedback Posted !!')
+})

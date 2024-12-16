@@ -16,8 +16,7 @@
 <body>
     <!-- Info: Header -->
     <header>
-        <a href="index.html" id="logo">
-            <img src="./assets/images/logo.png" alt="Navbar Logo" class="logo me-2">
+        <a href="./" id="logo">
             Quick<span style="color: var(--primary-color);">Snacks</span>
         </a>
 
@@ -25,12 +24,28 @@
 
         <nav class="navbar">
             <ul class="nav__links m-0">
-                <li><a href="index.html" target="_self">Home</a></li>
-                <li><a href="recipes.html">Recipes</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="./" target="_self">Home</a></li>
+                <li><a href="./recipes">Recipes</a></li>
+                <li>
+                    <span class="categories">
+                        <a href="#" class="categories-action">
+                            Categories <i class='bx bx-chevron-down'></i>
+                        </a>
+                        <ul class="categories-list hide">
+                            <li class="category-body" data-cat="healthy-snacks">Healthy Snacks</li>
+                            <li class="category-body" data-cat="snacks-for-kids">Snacks for Kids</li>
+                            <li class="category-body" data-cat="easy-on-stomach">Easy on Stomach Snacks</li>
+                            <li class="category-body" data-cat="appetizer">Appetizer recipes</li>
+                            <li class="category-body" data-cat="salad">Salad recipes</li>
+                            <li class="category-body" data-cat="pizza">Pizza recipes</li>
+                            <li class="category-body" data-cat="smoothies">Smoothie recipes</li>
+                            <li class="category-body" data-cat="pasta">Pasta recipes</li>
+                        </ul>
+                    </span>
+                </li>
+                <li><a href="galery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
-           </ul>
+            </ul>
         </nav>
     </header>
 
@@ -213,7 +228,11 @@
         </div>
     </footer>
     <!-- !------------------ Footer End --------------------->
-    
+        <!-- ! Top Btn Start -->
+        <a class="top-btn" href="#">
+            <i class='bx bx-chevrons-up' style="font-size: 26px;"></i>
+        </a>
+        <!-- ! Top Btn End -->
 <script>
 const categories = document.querySelectorAll(".category-body");
 
@@ -228,6 +247,7 @@ categories.forEach( ( category ) => {
 </script>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 <script src="./javascript/main.js"></script>
 <script src="./javascript/lets-talk.js"></script>
 <script src="./javascript/recipes.js"></script>

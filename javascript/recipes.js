@@ -115,3 +115,12 @@ card_container.addEventListener("click", (event) =>{
   }
 
 })
+let category = document.querySelector(".categories-list");
+document.querySelector(".categories-action").addEventListener("click", (e) => {
+  e.preventDefault()
+  if (category.classList.contains("hide")) {
+    category.classList.replace("hide", "show");
+  } else {
+    category.classList.replace("show", "hide");
+  }
+});

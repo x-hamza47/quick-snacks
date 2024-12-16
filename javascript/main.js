@@ -101,3 +101,46 @@ categories.forEach( ( category ) => {
     window.location.href = `recipes.html?category=${cat_name}`;
   })
 })
+
+
+let category = document.querySelector(".categories-list");
+document.querySelector(".categories-action").addEventListener("click", (e) => {
+  e.preventDefault();
+  if (category.classList.contains("hide")) {
+    category.classList.replace("hide", "show");
+  } else {
+    category.classList.replace("show", "hide");
+  }
+});
+
+// ! Email Js function Start
+document.querySelector("#send").addEventListener("click", (e) => {
+  e.preventDefault();
+  e.target.firstElementChild.classList.add("send-mail");
+  let parms = {
+    name: document.querySelector("#name").value,
+    email: document.querySelector("#email").value,
+    phone: document.querySelector("#phone").value,
+    message: document.querySelector("#msg").value,
+  };
+  emailjs
+    .send("service_ugwl7ggk", "{template_ovq9e0k}", parms)
+    .then();
+});
+// ! Email Js function End
+
+document.querySelector('.news-letter').addEventListener('click',function () {
+  confetti({
+    particleCount: 100,
+    angle: 60,
+    spread: 55,
+    origin: { x: 0 }
+  });
+  // and launch a few from the right edge
+  confetti({
+    particleCount: 100,
+    angle: 120,
+    spread: 55,
+    origin: { x: 1 }
+  });
+})

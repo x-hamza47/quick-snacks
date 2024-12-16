@@ -17,8 +17,7 @@
 <body>
     <!-- Info: Header -->
     <header>
-        <a href="index.html" id="logo">
-            <img src="./assets/images/logo.png" alt="Navbar Logo" class="logo me-2">
+        <a href="./" id="logo">
             Quick<span style="color: var(--primary-color);">Snacks</span>
         </a>
 
@@ -26,12 +25,28 @@
 
         <nav class="navbar">
             <ul class="nav__links m-0">
-                <li><a href="#home">Home</a></li>
+                <li><a href="./" target="_self">Home</a></li>
                 <li><a href="recipes.html">Recipes</a></li>
-                <li><a href="#categories">Categories</a></li>
+                <li>
+                    <span class="categories">
+                        <a href="#categories" class="categories-action">
+                            Categories <i class='bx bx-chevron-down'></i>
+                        </a>
+                        <ul class="categories-list hide">
+                            <li class="category-body" data-cat="healthy-snacks">Healthy Snacks</li>
+                            <li class="category-body" data-cat="snacks-for-kids">Snacks for Kids</li>
+                            <li class="category-body" data-cat="easy-on-stomach">Easy on Stomach Snacks</li>
+                            <li class="category-body" data-cat="appetizer">Appetizer recipes</li>
+                            <li class="category-body" data-cat="salad">Salad recipes</li>
+                            <li class="category-body" data-cat="pizza">Pizza recipes</li>
+                            <li class="category-body" data-cat="smoothies">Smoothie recipes</li>
+                            <li class="category-body" data-cat="pasta">Pasta recipes</li>
+                        </ul>
+                    </span>
+                </li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
-           </ul>
+            </ul>
         </nav>
     </header>
     <!-- Info:------------------ Hero Section Start --------------------->
@@ -41,10 +56,7 @@
                 <h1 class="fw-bold">Fuel Your Day With Something <span id="anim-words" class="h1 fw-bold">dfsdf</span></h1> 
                 <p>Discover snacks that are quick, delicious, and perfect for any time of the day. Whether you're craving something light or indulgent, our selection is made to keep you energized and satisfied.</p>
                 <div class="hero-btn">
-                    <button class="btn fw-semibold px-5 py-2 text-white">Sign up</button>
-                </div>
-                <div>Do you have account? 
-                    <a href="#" class="text-decoration-none" style="color: var(--primary-color);">Login</a>
+                   <a href="recipes.html"><button class="btn fw-semibold px-5 py-2 text-white">Explore Recipes</button></a>
                 </div>
             </div>
 
@@ -685,7 +697,7 @@
     </section>
     <!-- !----------------- Categories Section End -------------------->
      <!-- Info:------------ Gallery Section Start -------------------->
-    <section class="visits pt-5" id="visit">
+    <section class="visits pt-5" id="gallery">
         <h2 class="cat-head fs-1 text-center fw-bold text-white">Our Snack<span style="color: var(--primary-color);"> Gallery</span></h2>
 
   <div class="visit-container">
@@ -851,9 +863,7 @@
         </h2>
     </div>
     <div class="contact-container">
-
         <div class="form_container">
-
         <!-- form -->
         <form id="contact_form">
             <div class="inp_grp">
@@ -878,15 +888,52 @@
 
             <div class="sub-btn">
             <button id="send" type="submit" class="btn fw-semibold px-5 py-2 text-white d-flex justify-content-center align-items-center rounded gap-2">
-                <i class='bx bxs-send' ></i>
+                <div class="loader">
+                    <div class="truckWrapper">
+                        <div class="truckBody">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 198 93"
+                                class="trucksvg">
+                                <path stroke-width="3" stroke="#282828" fill="#ef783c"
+                                    d="M135 22.5H177.264C178.295 22.5 179.22 23.133 179.594 24.0939L192.33 56.8443C192.442 57.1332 192.5 57.4404 192.5 57.7504V89C192.5 90.3807 191.381 91.5 190 91.5H135C133.619 91.5 132.5 90.3807 132.5 89V25C132.5 23.6193 133.619 22.5 135 22.5Z">
+                                </path>
+                                <path stroke-width="3" stroke="#282828" fill="#7D7C7C"
+                                    d="M146 33.5H181.741C182.779 33.5 183.709 34.1415 184.078 35.112L190.538 52.112C191.16 53.748 189.951 55.5 188.201 55.5H146C144.619 55.5 143.5 54.3807 143.5 53V36C143.5 34.6193 144.619 33.5 146 33.5Z">
+                                </path>
+                                <path stroke-width="2" stroke="#282828" fill="#282828"
+                                    d="M150 65C150 65.39 149.763 65.8656 149.127 66.2893C148.499 66.7083 147.573 67 146.5 67C145.427 67 144.501 66.7083 143.873 66.2893C143.237 65.8656 143 65.39 143 65C143 64.61 143.237 64.1344 143.873 63.7107C144.501 63.2917 145.427 63 146.5 63C147.573 63 148.499 63.2917 149.127 63.7107C149.763 64.1344 150 64.61 150 65Z">
+                                </path>
+                                <rect stroke-width="2" stroke="#282828" fill="#FFFCAB" rx="1" height="7"
+                                    width="5" y="63" x="187"></rect>
+                                <rect stroke-width="2" stroke="#282828" fill="#282828" rx="1" height="11"
+                                    width="4" y="81" x="193"></rect>
+                                <rect stroke-width="3" stroke="#282828" fill="#DFDFDF" rx="2.5" height="90"
+                                    width="121" y="1.5" x="6.5"></rect>
+                                <rect stroke-width="2" stroke="#282828" fill="#DFDFDF" rx="2" height="4"
+                                    width="6" y="84" x="1"></rect>
+                            </svg>
+                        </div>
+                        <div class="truckTires">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30"
+                                class="tiresvg">
+                                <circle stroke-width="3" stroke="#282828" fill="#282828" r="13.5" cy="15"
+                                    cx="15"></circle>
+                                <circle fill="#DFDFDF" r="7" cy="15" cx="15"></circle>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30"
+                                class="tiresvg">
+                                <circle stroke-width="3" stroke="#282828" fill="#282828" r="13.5" cy="15"
+                                    cx="15"></circle>
+                                <circle fill="#DFDFDF" r="7" cy="15" cx="15"></circle>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
                 Send
             </button>
             </div>
         </form>
         <!-- form end -->
         </div>
-
-
         <!-- google map -->
         <div class="g-map" id='map'>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192857.4618731065!2d17.043883546802228!3d40.9508626281328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1346352fa3627447%3A0xfb97acffdf770db1!2sQuick%20Snack%20H24%20-%20Monopoli!5e0!3m2!1sen!2s!4v1732795476141!5m2!1sen!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" crossorigin="anonymous"></iframe>
@@ -926,7 +973,7 @@
                 <h5 class="fw-bold">Newsletter</h5>
                 <p class="text-center">Subscribe to our newsletter to get more free tips</p>
                 <input type="text" placeholder="Enter your Email" class="px-3 py-1 w-100 border-warning border-1 rounded-1">
-                <button class="btn w-100 text-white" style="background-color: var(--primary-color);">Subscribe</button>
+                <button class="news-letter btn w-100 text-white" style="background-color: var(--primary-color);">Subscribe</button>
             </div>
         </div>
         <div class="footer-copyright w-100 d-flex justify-content-between align-items-center px-5 py-2">
@@ -940,9 +987,14 @@
     </footer>
     <!-- !------------------ Footer End --------------------->
     
-
+    <!-- ! Top Btn Start -->
+    <a class="top-btn" href="#">
+        <i class='bx bx-chevrons-up' style="font-size: 26px;"></i>
+    </a>
+    <!-- ! Top Btn End -->
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 <script src="./javascript/main.js"></script>
 <script src="./javascript/gallery.js"></script>
 <script type="module" src="./javascript/restriction.js"></script>

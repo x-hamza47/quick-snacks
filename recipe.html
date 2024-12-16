@@ -1,255 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Info: Title -->
-    <title>Quick-Snacks Recipe</title>
-    <!-- Info: Boxicons Cdn -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <!-- Info: Bootstrap 5 Cdn -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <!-- Info: Custom Css -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/recipe.css" />
-  </head>
-  <body>
-    <!-- Info: Header -->
-    <header>
-      <a href="index.html" id="logo">
-        <img
-          src="./assets/images/logo.png"
-          alt="Navbar Logo"
-          class="logo me-2"
-        />
-        Quick<span style="color: var(--primary-color)">Snacks</span>
-      </a>
 
-      <i class="bx bx-menu" id="menu-icon"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Info: Title -->
+  <title>Quick-Snacks Recipe</title>
+  <!-- Info: Boxicons Cdn -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <!-- Info: Bootstrap 5 Cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <!-- Info: Custom Css -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/recipe.css" />
+</head>
 
-      <nav class="navbar">
-        <ul class="nav__links m-0">
-          <li><a href="index.html" target="_self">Home</a></li>
-          <li><a href="recipe.html">Recipes</a></li>
-          <li><a href="#">Categories</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Info:---------------- Recipe Section Start ------------->
-    <section class="recipe" id="recipe">
-      <div class="recipe-container mt-3">
-        <div class="d-flex flex-column data-container user-select-none">
-          
+<body>
+  <!-- Info: Header -->
+  <header>
+    <a href="./" id="logo">
+      Quick<span style="color: var(--primary-color)">Snacks</span>
+    </a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <ul class="nav__links m-0">
+        <li><a href="./" target="_self">Home</a></li>
+        <li><a href="recipes">Recipes</a></li>
+        <li>
+          <span class="categories">
+            <a href="#" class="categories-action">
+              Categories <i class='bx bx-chevron-down'></i>
+            </a>
+            <ul class="categories-list hide">
+              <li class="category-body" data-cat="healthy-snacks">Healthy Snacks</li>
+              <li class="category-body" data-cat="snacks-for-kids">Snacks for Kids</li>
+              <li class="category-body" data-cat="easy-on-stomach">Easy on Stomach Snacks</li>
+              <li class="category-body" data-cat="appetizer">Appetizer recipes</li>
+              <li class="category-body" data-cat="salad">Salad recipes</li>
+              <li class="category-body" data-cat="pizza">Pizza recipes</li>
+              <li class="category-body" data-cat="smoothies">Smoothie recipes</li>
+              <li class="category-body" data-cat="pasta">Pasta recipes</li>
+            </ul>
+          </span>
+        </li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Info:---------------- Recipe Section Start ------------->
+  <section class="recipe" id="recipe">
+    <div class="recipe-container mt-3">
+      <div class="d-flex flex-column data-container user-select-none">
       </div>
-      </div>
-<!-- ?? Divider -->
- <div class="container">
-     <hr class="divider">
- </div>
-<!-- Info: Comment Section -->
-<section class="comment-section" id="comment">
-          <div class="comment-container">
-              <div class="container text-light">
-                  <h1 class="explore-head fs-1 text-left fw-bold">Comments</h1>
+    </div>
+    <!-- ?? Divider -->
+    <div class="container">
+      <hr class="divider">
+    </div>
+    <!-- Info: Comment Section -->
+    <section class="comment-section" id="comment">
+      <div class="comment-container">
+        <div class="container text-light">
+          <h1 class="explore-head fs-1 text-left fw-bold">Comments</h1>
+        </div>
+        <div class="comments-wrapper d-flex flex-column gap-5 mt-4 py-4 rounded">
+          <div class="comment">
+            <div class="container d-flex justify-content-between text-light">
+              <div class="d-flex">
+                <div class="for-img me-3">
+                  <img
+                    src="https://hips.hearstapps.com/hmg-prod/images/tom-cruise-attends-the-australian-premiere-of-mission-news-photo-1723493931.jpg?crop=0.668xw:1.00xh;0.177xw,0&resize=640:*"
+                    class="w-100 rounded-circle" alt="">
+                </div>
+                <div class="name d-flex flex-column">
+                  <span class="fw-bold">Tom Cruise</span>
+                  <span class="text-secondary"><small>40min Ago</small></span>
+                </div>
               </div>
-              <div class="comments-wrapper d-flex flex-column gap-5 mt-4 py-4 rounded">
-                  <div class="comment">
-                      <div class="container d-flex justify-content-between text-light">
-                          <div class="d-flex">
-                              <div class="for-img me-3">
-                                  <img src="https://hips.hearstapps.com/hmg-prod/images/tom-cruise-attends-the-australian-premiere-of-mission-news-photo-1723493931.jpg?crop=0.668xw:1.00xh;0.177xw,0&resize=640:*"
-                                      class="w-100 rounded-circle" alt="">
-                              </div>
-                              <div class="name d-flex flex-column">
-                                  <span class="fw-bold">Tom Cruise</span>
-                                  <span class="text-secondary"><small>40min Ago</small></span>
-                              </div>
-                          </div>
-                          <div class="options">
-                              <div class="btn text-light fw-bold">. . .</div>
-                          </div>
-                      </div>
-                      <div class="container m-2">
-                          <div class="container text-light ">
-                              <p>Love this site! The recipes are so easy to follow, and the suggestions are spot on. Perfect for
-                                  quick, tasty snacks!</p>
-                              <div class="d-flex align-items-center gap-1">
-                                  <i class='bx bxs-message-dots'></i> Reply
-                                  <i class='bx bxs-message-dots ms-5'></i> 521
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="comment">
-                      <div class="container d-flex justify-content-between text-light">
-                          <div class="d-flex">
-                              <div class="for-img me-3">
-                                  <img src="https://bookingagentinfo.com/wp-content/uploads/2022/08/Jackie-Chan-2-1.png"
-                                      class="w-100 rounded-circle" alt="">
-                              </div>
-                              <div class="name d-flex flex-column">
-                                  <span class="fw-bold">Jackie chan</span>
-                                  <span class="text-secondary"><small>2hrs Ago</small></span>
-                              </div>
-                          </div>
-                          <div class="options">
-                              <div class="btn text-light fw-bold">. . .</div>
-                          </div>
-                      </div>
-                      <div class="container m-2 m-2">
-                          <div class="container text-light">
-                              <p>各种各样的小吃创意！这些食谱又快又美味，我总能找到新的尝试。
-                                  这个网站改变了我的零食游戏。简单的食谱和有用的建议让准备美味佳肴变得如此容易。</p>
-                              <div class="d-flex align-items-center gap-1">
-                                  <i class='bx bxs-message-dots'></i> Reply
-                                  <i class='bx bxs-message-dots ms-5'></i> 26
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="comment">
-                      <div class="container d-flex justify-content-between text-light">
-                          <div class="d-flex">
-                              <div class="for-img me-3">
-                                  <img src="https://i.pinimg.com/550x/45/de/42/45de424a29a8000a65787ec74440799c.jpg"
-                                      class="w-100 rounded-circle" alt="">
-                              </div>
-                              <div class="name d-flex flex-column">
-                                  <span class="fw-bold">Robert Downey Jr.</span>
-                                  <span class="text-secondary"><small>5mins Ago</small></span>
-                              </div>
-                          </div>
-                          <div class="options">
-                              <div class="btn text-light fw-bold">. . .</div>
-                          </div>
-                      </div>
-                      <div class="container m-2">
-                          <div class="container text-light">
-                              <p>QuickSnacks has saved me countless times when I'm in need of a fast and tasty snack. Highly
-                                  recommend for busy days!</p>
-                              <div class="d-flex align-items-center gap-1">
-                                  <i class='bx bxs-message-dots'></i> Reply
-                                  <i class='bx bxs-message-dots ms-5'></i> 541
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="comment">
-                      <div class="container d-flex justify-content-between text-light">
-                          <div class="d-flex">
-                              <div class="for-img me-3">
-                                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUNjojoBXh_Mmq-aB0TPhpfj2y9Quh2tQlHA&s"
-                                      class="w-100 rounded-circle" alt="">
-                              </div>
-                              <div class="name d-flex flex-column">
-                                  <span class="fw-bold">Deadpool</span>
-                                  <span class="text-secondary"><small>2years Ago</small></span>
-                              </div>
-                          </div>
-                          <div class="options">
-                              <div class="btn text-light fw-bold">. . .</div>
-                          </div>
-                      </div>
-                      <div class="container m-2">
-                          <div class="container text-light">
-                              <p>Fantastic site for quick and easy snack recipes. The suggestions are creative and perfect for
-                                  when I'm in a rush! I've tried a few recipes here and they’ve all turned out amazing. A great
-                                  place for quick snack ideas that satisfy!</p>
-                              <div class="d-flex align-items-center gap-1">
-                                  <i class='bx bxs-message-dots'></i> Reply
-                                  <i class='bx bxs-message-dots ms-5'></i> 98
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+              <div class="options">
+                <div class="btn text-light fw-bold">. . .</div>
               </div>
+            </div>
+            <div class="container m-2">
+              <div class="container text-light ">
+                <p>Love this site! The recipes are so easy to follow, and the suggestions are spot on. Perfect for
+                  quick, tasty snacks!</p>
+                <div class="d-flex align-items-center gap-1">
+                  <i class='bx bxs-message-dots'></i> Reply
+                  <i class='bx bxs-message-dots ms-5'></i> 521
+                </div>
+              </div>
+            </div>
           </div>
-      </section>
+          <div class="comment">
+            <div class="container d-flex justify-content-between text-light">
+              <div class="d-flex">
+                <div class="for-img me-3">
+                  <img src="https://bookingagentinfo.com/wp-content/uploads/2022/08/Jackie-Chan-2-1.png"
+                    class="w-100 rounded-circle" alt="">
+                </div>
+                <div class="name d-flex flex-column">
+                  <span class="fw-bold">Jackie chan</span>
+                  <span class="text-secondary"><small>2hrs Ago</small></span>
+                </div>
+              </div>
+              <div class="options">
+                <div class="btn text-light fw-bold">. . .</div>
+              </div>
+            </div>
+            <div class="container m-2 m-2">
+              <div class="container text-light">
+                <p>各种各样的小吃创意！这些食谱又快又美味，我总能找到新的尝试。
+                  这个网站改变了我的零食游戏。简单的食谱和有用的建议让准备美味佳肴变得如此容易。</p>
+                <div class="d-flex align-items-center gap-1">
+                  <i class='bx bxs-message-dots'></i> Reply
+                  <i class='bx bxs-message-dots ms-5'></i> 26
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="container d-flex justify-content-between text-light">
+              <div class="d-flex">
+                <div class="for-img me-3">
+                  <img src="https://i.pinimg.com/550x/45/de/42/45de424a29a8000a65787ec74440799c.jpg"
+                    class="w-100 rounded-circle" alt="">
+                </div>
+                <div class="name d-flex flex-column">
+                  <span class="fw-bold">Robert Downey Jr.</span>
+                  <span class="text-secondary"><small>5mins Ago</small></span>
+                </div>
+              </div>
+              <div class="options">
+                <div class="btn text-light fw-bold">. . .</div>
+              </div>
+            </div>
+            <div class="container m-2">
+              <div class="container text-light">
+                <p>QuickSnacks has saved me countless times when I'm in need of a fast and tasty snack. Highly
+                  recommend for busy days!</p>
+                <div class="d-flex align-items-center gap-1">
+                  <i class='bx bxs-message-dots'></i> Reply
+                  <i class='bx bxs-message-dots ms-5'></i> 541
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="container d-flex justify-content-between text-light">
+              <div class="d-flex">
+                <div class="for-img me-3">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUNjojoBXh_Mmq-aB0TPhpfj2y9Quh2tQlHA&s"
+                    class="w-100 rounded-circle" alt="">
+                </div>
+                <div class="name d-flex flex-column">
+                  <span class="fw-bold">Deadpool</span>
+                  <span class="text-secondary"><small>2years Ago</small></span>
+                </div>
+              </div>
+              <div class="options">
+                <div class="btn text-light fw-bold">. . .</div>
+              </div>
+            </div>
+            <div class="container m-2">
+              <div class="container text-light">
+                <p>Fantastic site for quick and easy snack recipes. The suggestions are creative and perfect for
+                  when I'm in a rush! I've tried a few recipes here and they’ve all turned out amazing. A great
+                  place for quick snack ideas that satisfy!</p>
+                <div class="d-flex align-items-center gap-1">
+                  <i class='bx bxs-message-dots'></i> Reply
+                  <i class='bx bxs-message-dots ms-5'></i> 98
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    
+  </section>
 
-    <!-- !---------------- Recipe Section End ------------->
 
-    <!-- Info:------------------ Footer Start --------------------->
-    <footer class="w-100 text-white">
-      <div
-        class="footer-container d-flex flex-wrap justify-content-around gap-5 py-5 px-4"
-      >
-        <div class="footer-sec d-flex flex-column">
-          <h3 class="fw-bold">
-            Quick<span style="color: var(--primary-color)">Snacks</span>
-          </h3>
-          <p class="footer-p-tag">
-            Your go-to destination for fast, delicious, and healthy recipes.
-            Fuel your day with easy-to-make snacks that fit every lifestyle.
-            Stay connected and snack smarter!
-          </p>
-        </div>
-        <div class="footer-sec mx-3">
-          <h5 class="fw-bold" style="color: var(--primary-color)">
-            Quick Links
-          </h5>
-          <ul class="list-unstyled">
-            <li>Home</li>
-            <li>Recipes</li>
-            <li>Categories</li>
-            <li>Gallery</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-        <div class="footer-sec mx-3">
-          <h5 class="fw-bold" style="color: var(--primary-color)">Legal</h5>
-          <ul class="list-unstyled">
-            <li>Terms & Conditions</li>
-            <li>Privacy & Cookies</li>
-            <li>Sitemap</li>
-          </ul>
-        </div>
-        <div
-          class="footer-sec d-flex flex-column align-items-center mx-3 gap-1"
-        >
-          <h5 class="fw-bold">Newsletter</h5>
-          <p class="text-center">
-            Subscribe to our newsletter to get more free tips
-          </p>
-          <input
-            type="text"
-            placeholder="Enter your Email"
-            class="px-3 py-1 w-100 border-warning border-1 rounded-1"
-          />
-          <button
-            class="btn w-100 text-white"
-            style="background-color: var(--primary-color)"
-          >
-            Subscribe
-          </button>
-        </div>
+  <!-- !---------------- Recipe Section End ------------->
+
+  <!-- Info:------------------ Footer Start --------------------->
+  <footer class="w-100 text-white">
+    <div class="footer-container d-flex flex-wrap justify-content-around gap-5 py-5 px-4">
+      <div class="footer-sec d-flex flex-column">
+        <h3 class="fw-bold">
+          Quick<span style="color: var(--primary-color)">Snacks</span>
+        </h3>
+        <p class="footer-p-tag">
+          Your go-to destination for fast, delicious, and healthy recipes.
+          Fuel your day with easy-to-make snacks that fit every lifestyle.
+          Stay connected and snack smarter!
+        </p>
       </div>
-      <div
-        class="footer-copyright w-100 d-flex justify-content-between align-items-center px-5 py-2"
-      >
-        <div class="copyright fw-semibold">
-          © 2024 Souls | All Right Reserved
-        </div>
-        <div class="copyright-links fs-3 text-dark d-flex gap-2">
-          <i class="bx bxl-github"></i>
-          <i class="bx bxl-facebook-circle"></i>
-          <i class="bx bxl-instagram-alt"></i>
-        </div>
+      <div class="footer-sec mx-3">
+        <h5 class="fw-bold" style="color: var(--primary-color)">
+          Quick Links
+        </h5>
+        <ul class="list-unstyled">
+          <li>Home</li>
+          <li>Recipes</li>
+          <li>Categories</li>
+          <li>Gallery</li>
+          <li>Contact</li>
+        </ul>
       </div>
-    </footer>
-    <!-- !------------------ Footer End --------------------->
-  </body>
-  <script src="./javascript/main.js"></script>
-  <script src="./javascript/recipe.js"></script>
+      <div class="footer-sec mx-3">
+        <h5 class="fw-bold" style="color: var(--primary-color)">Legal</h5>
+        <ul class="list-unstyled">
+          <li>Terms & Conditions</li>
+          <li>Privacy & Cookies</li>
+          <li>Sitemap</li>
+        </ul>
+      </div>
+      <div class="footer-sec d-flex flex-column align-items-center mx-3 gap-1">
+        <h5 class="fw-bold">Newsletter</h5>
+        <p class="text-center">
+          Subscribe to our newsletter to get more free tips
+        </p>
+        <input type="text" placeholder="Enter your Email" class="px-3 py-1 w-100 border-warning border-1 rounded-1" />
+        <button class="btn w-100 text-white" style="background-color: var(--primary-color)">
+          Subscribe
+        </button>
+      </div>
+    </div>
+    <div class="footer-copyright w-100 d-flex justify-content-between align-items-center px-5 py-2">
+      <div class="copyright fw-semibold">
+        © 2024 Souls | All Right Reserved
+      </div>
+      <div class="copyright-links fs-3 text-dark d-flex gap-2">
+        <i class="bx bxl-github"></i>
+        <i class="bx bxl-facebook-circle"></i>
+        <i class="bx bxl-instagram-alt"></i>
+      </div>
+    </div>
+  </footer>
+  <!-- !------------------ Footer End --------------------->
+       <!-- ! Top Btn Start -->
+       <a class="top-btn" href="#">
+        <i class='bx bx-chevrons-up' style="font-size: 26px;"></i>
+    </a>
+    <!-- ! Top Btn End -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="./javascript/main.js"></script>
+<script src="./javascript/recipe.js"></script>
+
 </html>
