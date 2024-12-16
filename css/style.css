@@ -855,11 +855,15 @@ footer .footer-copyright {
 footer .footer-sec ul li {
   font-size: 14px;
   line-height: 1.7;
-  transition: all 0.3s ease;
-  cursor: pointer;
-
-  &:hover {
-    color: var(--primary-color);
+  a{
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: var(--accent-color);
+    text-decoration: none;
+    
+      &:hover {
+        color: var(--primary-color);
+      }
   }
 }
 .footer-sec > input {

@@ -1,896 +1,564 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Info: Title -->
     <title>Quick-Snacks</title>
     <!-- Info: Boxicons Cdn -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- Info: Bootstrap 5 Cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
     <!-- Info: Custom Css -->
-    <link rel="stylesheet" href="./css/toast.css">
-    <link rel="stylesheet" href="./css/gallery.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/toast.css" />
+    <link rel="stylesheet" href="./css/gallery.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <!-- Info: Header -->
     <header>
-        <a href="./" id="logo">
-            Quick<span style="color: var(--primary-color);">Snacks</span>
-        </a>
+      <a href="./" id="logo">
+        Quick<span style="color: var(--primary-color)">Snacks</span>
+      </a>
 
-        <i class='bx bx-menu' id="menu-icon"></i>
+      <i class="bx bx-menu" id="menu-icon"></i>
 
-        <nav class="navbar">
-            <ul class="nav__links m-0">
-                <li><a href="./" target="_self">Home</a></li>
-                <li><a href="recipes.html">Recipes</a></li>
-                <li>
-                    <span class="categories">
-                        <a href="#categories" class="categories-action">
-                            Categories <i class='bx bx-chevron-down'></i>
-                        </a>
-                        <ul class="categories-list hide">
-                            <li class="category-body" data-cat="healthy-snacks">Healthy Snacks</li>
-                            <li class="category-body" data-cat="snacks-for-kids">Snacks for Kids</li>
-                            <li class="category-body" data-cat="easy-on-stomach">Easy on Stomach Snacks</li>
-                            <li class="category-body" data-cat="appetizer">Appetizer recipes</li>
-                            <li class="category-body" data-cat="salad">Salad recipes</li>
-                            <li class="category-body" data-cat="pizza">Pizza recipes</li>
-                            <li class="category-body" data-cat="smoothies">Smoothie recipes</li>
-                            <li class="category-body" data-cat="pasta">Pasta recipes</li>
-                        </ul>
-                    </span>
+      <nav class="navbar">
+        <ul class="nav__links m-0">
+          <li><a href="./">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li>
+            <span class="categories">
+              <a href="#categories" class="categories-action">
+                Categories <i class="bx bx-chevron-down"></i>
+              </a>
+              <ul class="categories-list hide">
+                <li class="category-body" data-cat="healthy-snacks">
+                  Healthy Snacks
                 </li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+                <li class="category-body" data-cat="snacks-for-kids">
+                  Snacks for Kids
+                </li>
+                <li class="category-body" data-cat="easy-on-stomach">
+                  Easy on Stomach Snacks
+                </li>
+                <li class="category-body" data-cat="appetizer">
+                  Appetizer recipes
+                </li>
+                <li class="category-body" data-cat="salad">Salad recipes</li>
+                <li class="category-body" data-cat="pizza">Pizza recipes</li>
+                <li class="category-body" data-cat="smoothies">
+                  Smoothie recipes
+                </li>
+                <li class="category-body" data-cat="pasta">Pasta recipes</li>
+              </ul>
+            </span>
+          </li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <!-- Info:------------------ Hero Section Start --------------------->
     <section class="hero-section d-flex align-items-center" id="home">
-        <div class="container w-100 d-flex flex-wrap align-items-center justify-content-center my-3">
-            <div class="hero-content sec w-50 d-flex flex-column text-white gap-3">
-                <h1 class="fw-bold">Fuel Your Day With Something <span id="anim-words" class="h1 fw-bold">dfsdf</span></h1> 
-                <p>Discover snacks that are quick, delicious, and perfect for any time of the day. Whether you're craving something light or indulgent, our selection is made to keep you energized and satisfied.</p>
-                <div class="hero-btn">
-                   <a href="recipes.html"><button class="btn fw-semibold px-5 py-2 text-white">Explore Recipes</button></a>
-                </div>
-            </div>
-
-            <div class="hero-img-wrp sec  d-flex justify-content-evenly align-items-center p-3 overflow-hidden">
-                <img src="./assets/images/blob2.png" class="blob position-absolute z-n1  end-0" alt="">
-                <img class="w-100 pizza"
-                src="./assets/images/pizza2.png"
-                alt="">
-            </div>
+      <div
+        class="container w-100 d-flex flex-wrap align-items-center justify-content-center my-3"
+      >
+        <div class="hero-content sec w-50 d-flex flex-column text-white gap-3">
+          <h1 class="fw-bold">
+            Fuel Your Day With Something
+            <span id="anim-words" class="h1 fw-bold">dfsdf</span>
+          </h1>
+          <p>
+            Discover snacks that are quick, delicious, and perfect for any time
+            of the day. Whether you're craving something light or indulgent, our
+            selection is made to keep you energized and satisfied.
+          </p>
+          <div class="hero-btn">
+            <a href="recipes.html"
+              ><button class="btn fw-semibold px-5 py-2 text-white">
+                Explore Recipes
+              </button></a
+            >
+          </div>
         </div>
+
+        <div
+          class="hero-img-wrp sec d-flex justify-content-evenly align-items-center p-3 overflow-hidden"
+        >
+          <img
+            src="./assets/images/blob2.png"
+            class="blob position-absolute z-n1 end-0"
+            alt=""
+          />
+          <img class="w-100 pizza" src="./assets/images/pizza2.png" alt="" />
+        </div>
+      </div>
     </section>
     <!-- !------------------Hero Section End--------------------->
 
     <!-- Info:----------------- Trending Section Start --------------------->
     <section id="trending">
-        <div class="container py-5 d-flex flex-column gap-3">
-            <h2 class="trend-head fs-1 text-center fw-bold">Trending<span style="color: var(--primary-color);"> Recipes</span></h2>
-            <div class="card-container w-100 d-flex flex-wrap align-items-center justify-content-evenly gap-5">
-                <!-- ?------------------Card 1--------------------->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/avacado-toast-2.jpg">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column justify-content-between">
-                        <small class="cat-title">Healthy Snacks</small>
-                        <h5 class="card-title">Avacado Toast Recipe</h5>                    
-                        <p class="card-text">A simple, creamy avocado spread on toasted whole grain bread. Perfect for a healthy breakfast or snack.</p>
-                    
-                        <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bx-star'></i>
-                        </div>
-                        <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-user text-danger'></i>
-                                <span>John Doe</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bx-stopwatch text-danger'></i>
-                                <span>10 min</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-hot text-danger'></i>
-                                <span>250 kcal</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ?------------------Card 2--------------------->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/mango-smoothie.jpeg">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column justify-content-between">
-                        <small class="cat-title">Smoothies</small>
-                        <h5 class="card-title">Mango Smoothie Bowl</h5>                    
-                        <p class="card-text">A refreshing blend of mango and yogurt topped with granola, seeds, and fresh fruit.</p>
-                    
-                        <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                        <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-user text-danger'></i>
-                                <span>Jane Smith</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bx-stopwatch text-danger'></i>
-                                <span>5 min</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-hot text-danger'></i>
-                                <span>300 kcal</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ?------------------Card 3--------------------->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/mini-veggies.jpg">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column justify-content-between">
-                        <small class="cat-title">Snacks for Kids</small>
-                        <h5 class="card-title">Mini Veggie Wraps</h5>                    
-                        <p class="card-text">Bite-sized wraps filled with fresh veggies and hummus, perfect for a quick, healthy snack.</p>
-                    
-                        <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bx-star'></i>
-                            <i class='bx bx-star'></i>
-                        </div>
-                        <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-user text-danger'></i>
-                                <span>Emily Johnson</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bx-stopwatch text-danger'></i>
-                                <span>15 min</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-hot text-danger'></i>
-                                <span>150 kcal</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ?------------------Card 4--------------------->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/delicious-cookies-banana.jpg">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column justify-content-between">
-                        <small class="cat-title">Healthy Snacks</small>
-                        <h5 class="card-title">Banana Oatmeal Cookies</h5>                    
-                        <p class="card-text">Soft, chewy cookies made with ripe bananas and oats, a sweet and healthy treat.</p>
-                    
-                        <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bx-star'></i>
-                        </div>
-                        <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-user text-danger'></i>
-                                <span>Sarah Lee</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bx-stopwatch text-danger'></i>
-                                <span>20 min</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-hot text-danger'></i>
-                                <span>120 kcal</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ?------------------Card 5--------------------->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/greek-yougurt.jpg">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column justify-content-between">
-                        <small class="cat-title">Healthy Snacks</small>
-                        <h5 class="card-title">Greek Yogurt Parfait</h5>                    
-                        <p class="card-text">A layered treat of creamy Greek yogurt, honey, and fresh berries. A nutritious snack or breakfast.</p>
-                    
-                        <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bx-star'></i>
-                        </div>
-                        <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-user text-danger'></i>
-                                <span>Michael Brown</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bx-stopwatch text-danger'></i>
-                                <span>10 min</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-hot text-danger'></i>
-                                <span>180 kcal</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ?------------------Card 6--------------------->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/sweet-potato.jpg">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column justify-content-between">
-                        <small class="cat-title">Healthy Snacks</small>
-                        <h5 class="card-title">Sweet Potato Fries</h5>                    
-                        <p class="card-text">Crispy, oven-baked sweet potato fries, seasoned with a pinch of salt and served with a dip.</p>
-                    
-                        <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                        <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-user text-danger'></i>
-                                <span>Linda Davis</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bx-stopwatch text-danger'></i>
-                                <span>30 min</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-hot text-danger'></i>
-                                <span>200 kcal</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="container py-5 d-flex flex-column gap-3">
+        <h2 class="trend-head fs-1 text-center fw-bold">
+          Trending<span style="color: var(--primary-color)"> Recipes</span>
+        </h2>
+        <div
+          class="card-container w-100 d-flex flex-wrap align-items-center justify-content-evenly gap-5"
+        ></div>
+      </div>
     </section>
     <!-- !------------------ Trending Section End --------------------->
 
     <!-- Info:---------------- Slide Section Start ------------------>
     <section id="slides">
-        <div class="slide-container">
+      <div class="slide-container">
         <div class="bg-slide active">
-            <div class="circle bg">
-                <img src="./assets/images/avacado-toast.jpg">
-            </div>
-            <div class="circle large">
-                <img src="./assets/images/avacado-toast.jpg">
-            </div>
-            <div class="circle small">
-                <img src="./assets/images/avacado-toast.jpg">
+          <div class="circle bg">
+            <img src="./assets/images/avacado-toast.jpg" />
+          </div>
+          <div class="circle large">
+            <img src="./assets/images/avacado-toast.jpg" />
+          </div>
+          <div class="circle small">
+            <img src="./assets/images/avacado-toast.jpg" />
+          </div>
+
+          <div class="content-text">
+            <div class="place">
+              <h1 class="fs-1">Avacado Toast</h1>
             </div>
 
-            <div class="content-text">
-
-                <div class="place">
-                    <h1 class="fs-1">Avacado Toast</h1>
-                </div>
-
-                <div class="country">
-                    <h2>Healthy</h2>
-                </div>
+            <div class="country">
+              <h2>Healthy</h2>
             </div>
+          </div>
         </div>
 
         <!-- * Slide 2 -->
 
-        <div class="bg-slide ">
-            <div class="circle bg">
-                <img src="./assets/images/healthy-snacks.jpg">
-            </div>
-            <div class="circle large">
-                <img src="./assets/images/healthy-snacks.jpg">
-            </div>
-            <div class="circle small">
-                <img src="./assets/images/healthy-snacks.jpg">
+        <div class="bg-slide">
+          <div class="circle bg">
+            <img src="./assets/images/healthy-snacks.jpg" />
+          </div>
+          <div class="circle large">
+            <img src="./assets/images/healthy-snacks.jpg" />
+          </div>
+          <div class="circle small">
+            <img src="./assets/images/healthy-snacks.jpg" />
+          </div>
+
+          <div class="content-text">
+            <div class="place">
+              <h1 class="fs-1">Snack Smart</h1>
             </div>
 
-            <div class="content-text">
-
-                <div class="place">
-                    <h1 class="fs-1">Snack Smart</h1>
-                </div>
-
-                <div class="country">
-                    <h2>Feel Great</h2>
-                </div>
+            <div class="country">
+              <h2>Feel Great</h2>
             </div>
+          </div>
         </div>
 
         <!-- * slide 3 -->
 
         <div class="bg-slide">
-            <div class="circle bg">
-                <img src="./assets/images/fruit-skewers.jpg">
-            </div>
-            <div class="circle large">
-                <img src="./assets/images/fruit-skewers.jpg">
-            </div>
-            <div class="circle small">
-                <img src="./assets/images/fruit-skewers.jpg">
+          <div class="circle bg">
+            <img src="./assets/images/fruit-skewers.jpg" />
+          </div>
+          <div class="circle large">
+            <img src="./assets/images/fruit-skewers.jpg" />
+          </div>
+          <div class="circle small">
+            <img src="./assets/images/fruit-skewers.jpg" />
+          </div>
+
+          <div class="content-text">
+            <div class="place">
+              <h1 class="fs-1">Tasty</h1>
             </div>
 
-            <div class="content-text">
-
-                <div class="place">
-                    <h1 class="fs-1">Tasty</h1>
-                </div>
-
-                <div class="country">
-                    <h2 class="fs-2">Fruit Skewers</h2>
-                </div>
+            <div class="country">
+              <h2 class="fs-2">Fruit Skewers</h2>
             </div>
+          </div>
         </div>
 
         <!--* slide 4 -->
 
         <div class="bg-slide">
-            <div class="circle bg">
-                <img src="./assets/images/smoothies-large.jpg">
-            </div>
-            <div class="circle large">
-                <img src="./assets/images/smoothies-large.jpg">
-            </div>
-            <div class="circle small">
-                <img src="./assets/images/smoothies-large.jpg">
+          <div class="circle bg">
+            <img src="./assets/images/smoothies-large.jpg" />
+          </div>
+          <div class="circle large">
+            <img src="./assets/images/smoothies-large.jpg" />
+          </div>
+          <div class="circle small">
+            <img src="./assets/images/smoothies-large.jpg" />
+          </div>
+
+          <div class="content-text">
+            <div class="place">
+              <h1 class="fs-1">Eat Fresh</h1>
             </div>
 
-            <div class="content-text">
-
-                <div class="place">
-                    <h1 class="fs-1">Eat Fresh</h1>
-                </div>
-
-                <div class="country">
-                    <h2 class="fs-2">Live Well</h2>
-                </div>
+            <div class="country">
+              <h2 class="fs-2">Live Well</h2>
             </div>
+          </div>
         </div>
 
-                <!-- * slide 5 -->
+        <!-- * slide 5 -->
 
-                <div class="bg-slide">
-                    <div class="circle bg">
-                        <img src="./assets/images/sweet-snacks-large.jpg">
-                    </div>
-                    <div class="circle large">
-                        <img src="./assets/images/sweet-snacks-large.jpg">
-                    </div>
-                    <div class="circle small">
-                        <img src="./assets/images/sweet-snacks-large.jpg">
-                    </div>
-        
-                    <div class="content-text">
-        
-                        <div class="place">
-                            <h1 class="fs-1">Grab Snacks</h1>
-                        </div>
-        
-                        <div class="country">
-                            <h2 class="fs-2">Go Strong</h2>
-                        </div>
-                    </div>
-                </div>
+        <div class="bg-slide">
+          <div class="circle bg">
+            <img src="./assets/images/sweet-snacks-large.jpg" />
+          </div>
+          <div class="circle large">
+            <img src="./assets/images/sweet-snacks-large.jpg" />
+          </div>
+          <div class="circle small">
+            <img src="./assets/images/sweet-snacks-large.jpg" />
+          </div>
 
+          <div class="content-text">
+            <div class="place">
+              <h1 class="fs-1">Grab Snacks</h1>
+            </div>
+
+            <div class="country">
+              <h2 class="fs-2">Go Strong</h2>
+            </div>
+          </div>
+        </div>
 
         <div class="circle-dark"></div>
 
         <span class="line"></span>
-
-    </div>
+      </div>
     </section>
     <!-- !-------------------- Slide Section End -------------------------->
-    
+
     <!-- Info:----------------- Explore Section Start --------------------->
     <section id="explore">
-        <div class="container py-5 d-flex flex-column gap-3">
-            <h2 class="explore-head fs-1 text-center fw-bold">Explore<span style="color: var(--primary-color);"> Recipes</span></h2>
-            <div class="card-container w-100 d-flex flex-wrap align-items-center justify-content-evenly gap-5">
-                <!-- ?------------------Card 1--------------------->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/avacado-toast-2.jpg">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column justify-content-between">
-                        <small class="cat-title">Healthy Snacks</small>
-                        <h5 class="card-title">Avacado Toast Recipe</h5>                    
-                        <p class="card-text">A simple, creamy avocado spread on toasted whole grain bread. Perfect for a healthy breakfast or snack.</p>
-                    
-                        <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bx-star'></i>
-                        </div>
-                        <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-user text-danger'></i>
-                                <span>John Doe</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bx-stopwatch text-danger'></i>
-                                <span>10 min</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-hot text-danger'></i>
-                                <span>250 kcal</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ?------------------Card 2--------------------->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/mango-smoothie.jpeg">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column justify-content-between">
-                        <small class="cat-title">Smoothies</small>
-                        <h5 class="card-title">Mango Smoothie Bowl</h5>                    
-                        <p class="card-text">A refreshing blend of mango and yogurt topped with granola, seeds, and fresh fruit.</p>
-                    
-                        <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                        <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-user text-danger'></i>
-                                <span>Jane Smith</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bx-stopwatch text-danger'></i>
-                                <span>5 min</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-hot text-danger'></i>
-                                <span>300 kcal</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ?------------------Card 3--------------------->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/mini-veggies.jpg">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column justify-content-between">
-                        <small class="cat-title">Snacks for Kids</small>
-                        <h5 class="card-title">Mini Veggie Wraps</h5>                    
-                        <p class="card-text">Bite-sized wraps filled with fresh veggies and hummus, perfect for a quick, healthy snack.</p>
-                    
-                        <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bx-star'></i>
-                            <i class='bx bx-star'></i>
-                        </div>
-                        <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-user text-danger'></i>
-                                <span>Emily Johnson</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bx-stopwatch text-danger'></i>
-                                <span>15 min</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-hot text-danger'></i>
-                                <span>150 kcal</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ?------------------Card 4--------------------->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/delicious-cookies-banana.jpg">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column justify-content-between">
-                        <small class="cat-title">Healthy Snacks</small>
-                        <h5 class="card-title">Banana Oatmeal Cookies</h5>                    
-                        <p class="card-text">Soft, chewy cookies made with ripe bananas and oats, a sweet and healthy treat.</p>
-                    
-                        <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bx-star'></i>
-                        </div>
-                        <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-user text-danger'></i>
-                                <span>Sarah Lee</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bx-stopwatch text-danger'></i>
-                                <span>20 min</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-hot text-danger'></i>
-                                <span>120 kcal</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ?------------------Card 5--------------------->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/greek-yougurt.jpg">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column justify-content-between">
-                        <small class="cat-title">Healthy Snacks</small>
-                        <h5 class="card-title">Greek Yogurt Parfait</h5>                    
-                        <p class="card-text">A layered treat of creamy Greek yogurt, honey, and fresh berries. A nutritious snack or breakfast.</p>
-                    
-                        <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bx-star'></i>
-                        </div>
-                        <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-user text-danger'></i>
-                                <span>Michael Brown</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bx-stopwatch text-danger'></i>
-                                <span>10 min</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-hot text-danger'></i>
-                                <span>180 kcal</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ?------------------Card 6--------------------->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-img  overflow-hidden d-flex">
-                        <img class="w-100 object-fit-cover" src="./assets/images/sweet-potato.jpg">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column justify-content-between">
-                        <small class="cat-title">Healthy Snacks</small>
-                        <h5 class="card-title">Sweet Potato Fries</h5>                    
-                        <p class="card-text">Crispy, oven-baked sweet potato fries, seasoned with a pinch of salt and served with a dip.</p>
-                    
-                        <div class="card-rating px-2 d-flex justify-content-center fs-5">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                        <div class="detail-bx p-2 d-flex align-items-center justify-content-evenly mt-3 gap-2 rounded">
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-user text-danger'></i>
-                                <span>Linda Davis</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bx-stopwatch text-danger'></i>
-                                <span>30 min</span>
-                            </div>
-                            <div class="bx d-flex align-items-center gap-1">
-                                <i class='bx bxs-hot text-danger'></i>
-                                <span>200 kcal</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="container py-5 d-flex flex-column gap-3">
+        <h2 class="explore-head fs-1 text-center fw-bold">
+          Explore<span style="color: var(--primary-color)"> Recipes</span>
+        </h2>
+        <div
+          class="card-container w-100 d-flex flex-wrap align-items-center justify-content-evenly gap-5"
+        ></div>
+      </div>
     </section>
     <!-- !------------------ Explore Section End --------------------->
 
     <!-- Info:-------------- Categories Section Start ------------------>
-    <section id="categories" class="position-relative d-flex justify-content-center align-items-center overflow-hidden">
-        <div class="container py-5 d-flex flex-column gap-3">
-            <h2 class="cat-head fs-1 text-center fw-bold">Popular<span style="color: var(--primary-color);"> Categories</span></h2>
-            <div class="categories-container w-100 d-flex flex-wrap justify-content-center gap-4">
-                <div class="category-body d-flex flex-column align-items-center gap-2" data-cat="healthy-snacks">
-                    <div class="category-img">
-                        <img src="./assets/images/healthy-snacks-category.png"
-                            class="w-100" alt="">
-                    </div>
-                    <div class="category-txt">
-                        <p>Healthy Snacks</p>
-                    </div>
-                </div>
-                <div class="category-body d-flex flex-column align-items-center gap-2" data-cat="snacks-for-kids">
-                    <div class="category-img">
-                        <img src="./assets/images/snacks-kids.jpg"
-                            class="w-100" alt="">
-                    </div>
-                    <div class="category-txt">
-                        <p>Snacks for Kids</p>
-                    </div>
-                </div>
-                <div class="category-body d-flex flex-column align-items-center gap-2" data-cat="easy-on-stomach">
-                    <div class="category-img"><img
-                            src="./assets/images/easy-snack.jpeg"
-                            class="w-100" alt=""></div>
-                    <div class="category-txt">
-                        <p>Easy on the Stomach Snacks</p>
-                    </div>
-                </div>
-                <div class="category-body d-flex flex-column align-items-center gap-2" data-cat="appetizer">
-                    <div class="category-img"><img
-                            src="./assets/images/appetizer.png"
-                            class="w-100" alt=""></div>
-                    <div class="category-txt">
-                        <p>Appetizer recipes</p>
-                    </div>
-                </div>
-                <div class="category-body d-flex flex-column align-items-center gap-2" data-cat="salad">
-                    <div class="category-img"><img
-                            src="./assets/images/salad.png"
-                            class="w-100" alt=""></div>
-                    <div class="category-txt">
-                        <p>Salad recipes</p>
-                    </div>
-                </div>
-                <div class="category-body d-flex flex-column align-items-center gap-2" data-cat="pizza">
-                    <div class="category-img"><img
-                            src="./assets/images/pizza3.jpg"
-                            class="w-100" alt=""></div>
-                    <div class="category-txt">
-                        <p>Pizza recipes</p>
-                    </div>
-                </div>
-                <div class="category-body d-flex flex-column align-items-center gap-2" data-cat="smoothies">
-                    <div class="category-img"><img
-                            src="./assets/images/smoothies-cat2.png"
-                            class="w-100" alt=""></div>
-                    <div class="category-txt">
-                        <p>Smoothie recipes</p>
-                    </div>
-                </div>
-                <div class="category-body d-flex flex-column align-items-center gap-2" data-cat="pasta">
-                    <div class="category-img"><img
-                            src="./assets/images/pasta.jpg"
-                            class="w-100" alt=""></div>
-                    <div class="category-txt">
-                        <p>Pasta recipes</p>
-                    </div>
-                </div>
+    <section
+      id="categories"
+      class="position-relative d-flex justify-content-center align-items-center overflow-hidden"
+    >
+      <div class="container py-5 d-flex flex-column gap-3">
+        <h2 class="cat-head fs-1 text-center fw-bold">
+          Popular<span style="color: var(--primary-color)"> Categories</span>
+        </h2>
+        <div
+          class="categories-container w-100 d-flex flex-wrap justify-content-center gap-4"
+        >
+          <div
+            class="category-body d-flex flex-column align-items-center gap-2"
+            data-cat="healthy-snacks"
+          >
+            <div class="category-img">
+              <img
+                src="./assets/images/healthy-snacks-category.png"
+                class="w-100"
+                alt=""
+              />
             </div>
+            <div class="category-txt">
+              <p>Healthy Snacks</p>
+            </div>
+          </div>
+          <div
+            class="category-body d-flex flex-column align-items-center gap-2"
+            data-cat="snacks-for-kids"
+          >
+            <div class="category-img">
+              <img src="./assets/images/snacks-kids.jpg" class="w-100" alt="" />
+            </div>
+            <div class="category-txt">
+              <p>Snacks for Kids</p>
+            </div>
+          </div>
+          <div
+            class="category-body d-flex flex-column align-items-center gap-2"
+            data-cat="easy-on-stomach"
+          >
+            <div class="category-img">
+              <img src="./assets/images/easy-snack.jpeg" class="w-100" alt="" />
+            </div>
+            <div class="category-txt">
+              <p>Easy on the Stomach Snacks</p>
+            </div>
+          </div>
+          <div
+            class="category-body d-flex flex-column align-items-center gap-2"
+            data-cat="appetizer"
+          >
+            <div class="category-img">
+              <img src="./assets/images/appetizer.png" class="w-100" alt="" />
+            </div>
+            <div class="category-txt">
+              <p>Appetizer recipes</p>
+            </div>
+          </div>
+          <div
+            class="category-body d-flex flex-column align-items-center gap-2"
+            data-cat="salad"
+          >
+            <div class="category-img">
+              <img src="./assets/images/salad.png" class="w-100" alt="" />
+            </div>
+            <div class="category-txt">
+              <p>Salad recipes</p>
+            </div>
+          </div>
+          <div
+            class="category-body d-flex flex-column align-items-center gap-2"
+            data-cat="pizza"
+          >
+            <div class="category-img">
+              <img src="./assets/images/pizza3.jpg" class="w-100" alt="" />
+            </div>
+            <div class="category-txt">
+              <p>Pizza recipes</p>
+            </div>
+          </div>
+          <div
+            class="category-body d-flex flex-column align-items-center gap-2"
+            data-cat="smoothies"
+          >
+            <div class="category-img">
+              <img
+                src="./assets/images/smoothies-cat2.png"
+                class="w-100"
+                alt=""
+              />
+            </div>
+            <div class="category-txt">
+              <p>Smoothie recipes</p>
+            </div>
+          </div>
+          <div
+            class="category-body d-flex flex-column align-items-center gap-2"
+            data-cat="pasta"
+          >
+            <div class="category-img">
+              <img src="./assets/images/pasta.jpg" class="w-100" alt="" />
+            </div>
+            <div class="category-txt">
+              <p>Pasta recipes</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- !----------------- Categories Section End -------------------->
-     <!-- Info:------------ Gallery Section Start -------------------->
+    <!-- Info:------------ Gallery Section Start -------------------->
     <section class="visits pt-5" id="gallery">
-        <h2 class="cat-head fs-1 text-center fw-bold text-white">Our Snack<span style="color: var(--primary-color);"> Gallery</span></h2>
+      <h2 class="cat-head fs-1 text-center fw-bold text-white">
+        Our Snack<span style="color: var(--primary-color)"> Gallery</span>
+      </h2>
 
-  <div class="visit-container">
-          <!-- carousel -->
-    <div class="carousel">
-        <!-- list item -->
-        <div class="list">
+      <div class="visit-container">
+        <!-- carousel -->
+        <div class="carousel">
+          <!-- list item -->
+          <div class="list">
             <!-- item 1 -->
             <div class="item">
-                <img src="./assets/images/gallery-1.jpg">
-                <div class="content">
-                    <div class="author">Chef Maria Santos</div>
-                    <h2 class="title">Delicious</h2>
-                    <h3 class="topic">Snack Creations</h3>
-                    <p class="des">
-                        A vibrant collection of our signature snacks, beautifully plated and ready to enjoy. Explore the tasty variety that awaits you!
-                    </p>
-                </div>
+              <img src="./assets/images/gallery-1.jpg" />
+              <div class="content">
+                <div class="author">Chef Maria Santos</div>
+                <h2 class="title">Delicious</h2>
+                <h3 class="topic">Snack Creations</h3>
+                <p class="des">
+                  A vibrant collection of our signature snacks, beautifully
+                  plated and ready to enjoy. Explore the tasty variety that
+                  awaits you!
+                </p>
+              </div>
             </div>
             <!-- item 2 -->
-          <div class="item">
-            <img src="./assets/images/gallery-2.jpg">
-            <div class="content">
+            <div class="item">
+              <img src="./assets/images/gallery-2.jpg" />
+              <div class="content">
                 <div class="author">Nutritionist Alice Green</div>
                 <h2 class="title">Smoothie</h2>
                 <h3 class="topic">Delights</h3>
                 <p class="des">
-                    Refresh yourself with our irresistible smoothie creations. Packed with nutrients and bursting with flavor, they’re perfect for any time of the day.
+                  Refresh yourself with our irresistible smoothie creations.
+                  Packed with nutrients and bursting with flavor, they’re
+                  perfect for any time of the day.
                 </p>
+              </div>
             </div>
-          </div>
             <!-- item 3 -->
-          <div class="item">
-            <img src="./assets/images/gallery-3.jpg">
-            <div class="content">
+            <div class="item">
+              <img src="./assets/images/gallery-3.jpg" />
+              <div class="content">
                 <div class="author">Chef Daniel Lopez</div>
                 <h2 class="title">Snack</h2>
-                <h3 class="topic"> Making</h3>
+                <h3 class="topic">Making</h3>
                 <p class="des">
-                    A sneak peek into our kitchen where all the magic happens. Watch as we prepare your favorite snacks from scratch!
+                  A sneak peek into our kitchen where all the magic happens.
+                  Watch as we prepare your favorite snacks from scratch!
                 </p>
-            </div>
-            </div>
-          <!-- item 4 -->
-          <div class="item">
-            <img src="./assets/images/gallery-4.jpg">
-            <div class="content">
-                <div class="author">Event Planner Ella Brooks</div>
-                <h2 class="title">Snack Time </h2>
-                <h3 class="topic">Celebrations</h3>
-                <p class="des">
-                    Our snacks are perfect for every celebration! Whether it's a birthday, party, or casual gathering, these snacks make every occasion special.
-                </p>
-            </div>
-          </div>
-          <!-- item 5 -->
-          <div class="item">
-            <img src="./assets/images/gallery-5.jpg">
-            <div class="content">
-                <div class="author">Customer Community</div>
-                <h2 class="title">Snack </h2>
-                <h3 class="topic">Moments</h3>
-                <p class="des">
-                    Real moments from our customers enjoying our snacks. See how they make every snack time more fun and memorable.
-                </p>
-            </div>
-            </div>
-        </div>
-        <!-- thumbnail -->
-        <div class="thumbnail">
-            <!-- item 2 -->
-            <div class="item">
-                <img src="./assets/images/gallery-2.jpg">
-                <div class="content">
-                    <div class="title">
-                        Smoothie Delights
-                    </div>
-                    <div class="des">
-                        Refresh yours...
-                    </div>
-                </div>
-            </div>
-            <!-- item 3 -->
-            <div class="item">
-                <img src="./assets/images/gallery-3.jpg">
-                <div class="content">
-                    <div class="title">
-                        Snack Making
-                    </div>
-                    <div class="des">
-                        A sneak...
-                    </div>
-                </div>
+              </div>
             </div>
             <!-- item 4 -->
             <div class="item">
-                <img src="./assets/images/gallery-4.jpg">
-                <div class="content">
-                    <div class="title">
-                        Snack Time...
-                    </div>
-                    <div class="des">
-                        Our snacks...
-                    </div>
-                </div>
+              <img src="./assets/images/gallery-4.jpg" />
+              <div class="content">
+                <div class="author">Event Planner Ella Brooks</div>
+                <h2 class="title">Snack Time</h2>
+                <h3 class="topic">Celebrations</h3>
+                <p class="des">
+                  Our snacks are perfect for every celebration! Whether it's a
+                  birthday, party, or casual gathering, these snacks make every
+                  occasion special.
+                </p>
+              </div>
             </div>
             <!-- item 5 -->
             <div class="item">
-                <img src="./assets/images/gallery-5.jpg">
-                <div class="content">
-                    <div class="title">
-                        Snack Moments
-                    </div>
-                    <div class="des">
-                        Real moments...
-                    </div>
-                </div>
+              <img src="./assets/images/gallery-5.jpg" />
+              <div class="content">
+                <div class="author">Customer Community</div>
+                <h2 class="title">Snack</h2>
+                <h3 class="topic">Moments</h3>
+                <p class="des">
+                  Real moments from our customers enjoying our snacks. See how
+                  they make every snack time more fun and memorable.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- thumbnail -->
+          <div class="thumbnail">
+            <!-- item 2 -->
+            <div class="item">
+              <img src="./assets/images/gallery-2.jpg" />
+              <div class="content">
+                <div class="title">Smoothie Delights</div>
+                <div class="des">Refresh yours...</div>
+              </div>
+            </div>
+            <!-- item 3 -->
+            <div class="item">
+              <img src="./assets/images/gallery-3.jpg" />
+              <div class="content">
+                <div class="title">Snack Making</div>
+                <div class="des">A sneak...</div>
+              </div>
+            </div>
+            <!-- item 4 -->
+            <div class="item">
+              <img src="./assets/images/gallery-4.jpg" />
+              <div class="content">
+                <div class="title">Snack Time...</div>
+                <div class="des">Our snacks...</div>
+              </div>
+            </div>
+            <!-- item 5 -->
+            <div class="item">
+              <img src="./assets/images/gallery-5.jpg" />
+              <div class="content">
+                <div class="title">Snack Moments</div>
+                <div class="des">Real moments...</div>
+              </div>
             </div>
             <!-- item 1 -->
             <div class="item">
-                <img src="./assets/images/gallery-1.jpg">
-                <div class="content">
-                    <div class="title">
-                        Delicious Snack
-                    </div>
-                    <div class="des">
-                        A vibrant...
-                    </div>
-                </div>
+              <img src="./assets/images/gallery-1.jpg" />
+              <div class="content">
+                <div class="title">Delicious Snack</div>
+                <div class="des">A vibrant...</div>
+              </div>
             </div>
+          </div>
+          <!-- arrows -->
+          <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+          </div>
+          <div class="time"></div>
         </div>
-            <!-- arrows -->
-            <div class="arrows">
-                <button id="prev"><</button>
-                <button id="next">></button>
-            </div>
-            <div class="time"></div>
-    </div>
-
-  </div>
-  </section>
+      </div>
+    </section>
     <!-- Info: Toast Popup -->
     <div class="toast-bx">
-        <div class="content">
-            <i class='bx bx-check check'></i>
+      <div class="content">
+        <i class="bx bx-check check"></i>
 
         <div class="message">
-            <span class="text text-1">Success</span>
-            <span class="text text-2">Your changes has been saved</span>
+          <span class="text text-1">Success</span>
+          <span class="text text-2">Your changes has been saved</span>
         </div>
-        <i class='bx bx-x close'></i>
-        
+        <i class="bx bx-x close"></i>
+
         <div class="progress"></div>
-        
-        </div>
+      </div>
     </div>
 
     <!-- Info:-------------- Contact Section Start-------------------->
     <section class="contact_section d-flex flex-column gap-3" id="contact">
-
-    <div class="contact-heading">
-        <h2 class="fs-1 text-center fw-bold">Contact<span style="color: var(--primary-color);"> Us</span>
+      <div class="contact-heading">
+        <h2 class="fs-1 text-center fw-bold">
+          Contact<span style="color: var(--primary-color)"> Us</span>
         </h2>
-    </div>
-    <div class="contact-container">
+      </div>
+      <div class="contact-container">
         <div class="form_container">
-        <!-- form -->
-        <form id="contact_form">
+          <!-- form -->
+          <form id="contact_form">
             <div class="inp_grp">
-            <input type="text" id="name" name="name" autocomplete="off">
-            <label for="name">*Name</label>
-            <i class='bx bxs-user position-absolute top-50 end-0'></i>
+              <input type="text" id="name" name="name" autocomplete="off" />
+              <label for="name">*Name</label>
+              <i class="bx bxs-user position-absolute top-50 end-0"></i>
             </div>
             <div class="inp_grp">
-            <input type="email" id="email" name="email" autocomplete="off">
-            <label for="email">*Email</label>
-            <i class='bx bxs-envelope position-absolute top-50 end-0' ></i>
+              <input type="email" id="email" name="email" autocomplete="off" />
+              <label for="email">*Email</label>
+              <i class="bx bxs-envelope position-absolute top-50 end-0"></i>
             </div>
             <div class="inp_grp">
-            <input type="text" id="phone" name="phone" autocomplete="off">
-            <label for="phone">Phone</label>
-            <i class='bx bxs-phone position-absolute top-50 end-0' ></i>
+              <input type="text" id="phone" name="phone" autocomplete="off" />
+              <label for="phone">Phone</label>
+              <i class="bx bxs-phone position-absolute top-50 end-0"></i>
             </div>
             <div class="msg_grp">
-            <textarea name="msg" id="msg" autocomplete="off"></textarea>
-            <label>*Message</label>
+              <textarea name="msg" id="msg" autocomplete="off"></textarea>
+              <label>*Message</label>
             </div>
 
             <div class="sub-btn">
-            <button id="send" type="submit" class="btn fw-semibold px-5 py-2 text-white d-flex justify-content-center align-items-center rounded gap-2">
-                <div class="loader">
-                    <div class="truckWrapper">
-                        <div class="truckBody">
+              <button
+                id="send"
+                type="submit"
+                class="btn fw-semibold px-5 py-2 text-white d-flex justify-content-center align-items-center rounded gap-2"
+              >
+                <!-- <div class="loader"> -->
+                <!-- <div class="truckWrapper"> -->
+                <!-- <div class="truckBody">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 198 93"
                                 class="trucksvg">
                                 <path stroke-width="3" stroke="#282828" fill="#ef783c"
@@ -927,75 +595,116 @@
                             </svg>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 Send
-            </button>
+              </button>
             </div>
-        </form>
-        <!-- form end -->
+          </form>
+          <!-- form end -->
         </div>
         <!-- google map -->
-        <div class="g-map" id='map'>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192857.4618731065!2d17.043883546802228!3d40.9508626281328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1346352fa3627447%3A0xfb97acffdf770db1!2sQuick%20Snack%20H24%20-%20Monopoli!5e0!3m2!1sen!2s!4v1732795476141!5m2!1sen!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" crossorigin="anonymous"></iframe>
+        <div class="g-map" id="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192857.4618731065!2d17.043883546802228!3d40.9508626281328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1346352fa3627447%3A0xfb97acffdf770db1!2sQuick%20Snack%20H24%20-%20Monopoli!5e0!3m2!1sen!2s!4v1732795476141!5m2!1sen!2s"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            crossorigin="anonymous"
+          ></iframe>
         </div>
-
-    </div>
-
+      </div>
     </section>
     <!-- !--------------- Contact Section End ------------------->
 
     <!-- Info:------------------ Footer Start --------------------->
-    <footer class="w-100 text-white ">
-        <div class="footer-container d-flex flex-wrap justify-content-around gap-5 py-5 px-4">
-            <div class="footer-sec d-flex flex-column">
-                <h3 class="fw-bold">Quick<span style="color: var(--primary-color);">Snacks</span></h3>
-                <p class="footer-p-tag">Your go-to destination for fast, delicious, and healthy recipes. Fuel your day with easy-to-make snacks that fit every lifestyle. Stay connected and snack smarter!</p>
-            </div>
-            <div class="footer-sec mx-3">
-                <h5 class="fw-bold" style="color: var(--primary-color);">Quick Links</h5>
-                <ul class="list-unstyled">
-                    <li>Home</li>
-                    <li>Recipes</li>
-                    <li>Categories</li>
-                    <li>Gallery</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div class="footer-sec mx-3">
-                <h5 class="fw-bold"  style="color: var(--primary-color);">Legal</h5>
-                <ul class="list-unstyled">
-                    <li>Terms & Conditions</li>
-                    <li>Privacy & Cookies</li>
-                    <li>Sitemap</li>
-                </ul>
-            </div>
-            <div class="footer-sec d-flex flex-column align-items-center mx-3 gap-1">
-                <h5 class="fw-bold">Newsletter</h5>
-                <p class="text-center">Subscribe to our newsletter to get more free tips</p>
-                <input type="text" placeholder="Enter your Email" class="px-3 py-1 w-100 border-warning border-1 rounded-1">
-                <button class="news-letter btn w-100 text-white" style="background-color: var(--primary-color);">Subscribe</button>
-            </div>
+    <footer class="w-100 text-white">
+      <div
+        class="footer-container d-flex flex-wrap justify-content-around gap-5 py-5 px-4"
+      >
+        <div class="footer-sec d-flex flex-column">
+          <h3 class="fw-bold">
+            Quick<span style="color: var(--primary-color)">Snacks</span>
+          </h3>
+          <p class="footer-p-tag">
+            Your go-to destination for fast, delicious, and healthy recipes.
+            Fuel your day with easy-to-make snacks that fit every lifestyle.
+            Stay connected and snack smarter!
+          </p>
         </div>
-        <div class="footer-copyright w-100 d-flex justify-content-between align-items-center px-5 py-2">
-            <div class="copyright fw-semibold">© 2024 Souls | All Right Reserved</div>
-            <div class="copyright-links fs-3 text-dark d-flex gap-2">
-                <i class='bx bxl-github'></i>
-                <i class='bx bxl-facebook-circle'></i>
-                <i class='bx bxl-instagram-alt'></i>
-            </div>
+        <div class="footer-sec mx-3">
+          <h5 class="fw-bold" style="color: var(--primary-color)">
+            Quick Links
+          </h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="recipes.html">Recipes</a>
+            </li>
+            <li>
+              <a href="#categories">Categories</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+        <div class="footer-sec mx-3">
+          <h5 class="fw-bold" style="color: var(--primary-color)">Legal</h5>
+          <ul class="list-unstyled">
+            <li>Terms & Conditions</li>
+            <li>Privacy & Cookies</li>
+            <li>Sitemap</li>
+          </ul>
+        </div>
+        <div
+          class="footer-sec d-flex flex-column align-items-center mx-3 gap-1"
+        >
+          <h5 class="fw-bold">Newsletter</h5>
+          <p class="text-center">
+            Subscribe to our newsletter to get more free tips
+          </p>
+          <input
+            type="text"
+            placeholder="Enter your Email"
+            class="px-3 py-1 w-100 border-warning border-1 rounded-1"
+          />
+          <button
+            class="news-letter btn w-100 text-white"
+            style="background-color: var(--primary-color)"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+      <div
+        class="footer-copyright w-100 d-flex justify-content-between align-items-center px-5 py-2"
+      >
+        <div class="copyright fw-semibold">
+          © 2024 QuickSnacks | All Rights Reserved
+        </div>
+        <div class="copyright-links fs-3 text-dark d-flex gap-2">
+          <i class="bx bxl-github"></i>
+          <i class="bx bxl-facebook-circle"></i>
+          <i class="bx bxl-instagram-alt"></i>
+        </div>
+      </div>
     </footer>
     <!-- !------------------ Footer End --------------------->
-    
-    <!-- ! Top Btn Start -->
-    <a class="top-btn" href="#">
-        <i class='bx bx-chevrons-up' style="font-size: 26px;"></i>
-    </a>
-    <!-- ! Top Btn End -->
 
-</body>
-<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
-<script src="./javascript/main.js"></script>
-<script src="./javascript/gallery.js"></script>
-<script type="module" src="./javascript/restriction.js"></script>
+    <!-- ! Top Btn Start -->
+    <!-- <a class="top-btn" href="#">
+      <i class="bx bx-chevrons-up" style="font-size: 26px"></i>
+    </a> -->
+    <!-- ! Top Btn End -->
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="./javascript/gallery.js"></script>
+  <script type="module" src="./javascript/restriction.js"></script>
+  <script src="./javascript/app.js"></script>
+  <script src="./javascript/main.js"></script>
 </html>
