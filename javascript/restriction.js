@@ -81,6 +81,16 @@ document.addEventListener("DOMContentLoaded", () => {
         "Your message has been sent successfully."
       );
       form.reset();
+      const inputBox =form.querySelectorAll("input, textarea");
+      inputBox.forEach( e => e.classList.remove("filled"));
+      res.send_btn.firstElementChild.classList.add("send-email");
+        let parms = {
+          name: sndr_name,
+          email: sndr_email,
+          phone: sndr_phone,
+          message: sndr_msg,
+        };
+        emailjs.send("service_ugwl7ggk", "template_ovq9e0k", parms).then();
     }
   });
 });

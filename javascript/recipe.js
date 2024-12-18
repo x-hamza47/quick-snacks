@@ -294,15 +294,15 @@ const data_container = document.querySelector(".data-container");
                     </div>
                     <div class="rating-recipe">
                     <span class='d-flex align-items-center justify-content-center'>
-                    <img src="../assets/images/mango-smoothie.jpeg"/>
+                    <img src="${recipe.img}"/>
                     ${recipe.name}
                     </span>                  
                     </div>
 
                   </div>
-                  <textarea placeholder="Type here..."></textarea>
+                  <textarea placeholder="Type here..." class="feedback"></textarea>
                   <div class="d-flex justify-content-end">
-                    <button class="btn-feed">Post</button>
+                    <button class="btn-feed" onclick="sendPost()">Post</button>
                   </div>
                 </div>
               </div>
@@ -364,6 +364,3 @@ categorie.forEach( ( category ) => {
   })
 })
 
-document.querySelector('.btn-feed').addEventListener('click',()=>{
-  alert('Feedback Posted !!')
-})

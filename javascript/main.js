@@ -113,21 +113,7 @@ document.querySelector(".categories-action").addEventListener("click", (e) => {
   }
 });
 
-// ! Email Js function Start
-document.querySelector("#send").addEventListener("click", (e) => {
-  e.preventDefault();
-  e.target.firstElementChild.classList.add("send-mail");
-  let parms = {
-    name: document.querySelector("#name").value,
-    email: document.querySelector("#email").value,
-    phone: document.querySelector("#phone").value,
-    message: document.querySelector("#msg").value,
-  };
-  emailjs
-    .send("service_ugwl7ggk", "{template_ovq9e0k}", parms)
-    .then();
-});
-// ! Email Js function End
+
 
 document.querySelector('.news-letter').addEventListener('click',function () {
   confetti({
@@ -143,4 +129,14 @@ document.querySelector('.news-letter').addEventListener('click',function () {
     spread: 55,
     origin: { x: 1 }
   });
+})
+
+const scrollBtn = document.querySelector(".top-btn");
+
+window.addEventListener("scroll", () => {
+  if(window.scrollY > 300) {
+    scrollBtn.style.display = "flex";
+  }else{
+    scrollBtn.style.display = "none";
+  }
 })

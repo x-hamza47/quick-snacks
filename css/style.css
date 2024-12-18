@@ -13,6 +13,9 @@
   --primary-color: #f07b26;
   --secondary-color: #535a60;
 }
+html::-webkit-scrollbar{
+  display: none;
+}
 body {
   background: #212121;
 }
@@ -776,75 +779,6 @@ form .sub-btn button {
   position: relative;
 }
 
-/* ? Truck Animation Start*/
-.loader {
-  width: fit-content;
-  height: fit-content;
-  position: absolute;
-  left: -100%;
-  transform: translate(-50%, 0%);
-}
-
-.send-mail {
-  left: 0%;
-  animation: truck-send 3s forwards;
-}
-
-@keyframes truck-send {
-  0% {
-    left: -100%;
-  }
-
-  35%,
-  65% {
-    left: 50%;
-  }
-
-  100% {
-    left: 150%;
-  }
-}
-
-.truckWrapper {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  align-items: center;
-  justify-content: flex-end;
-  overflow-x: hidden;
-}
-.truckBody {
-  width: 60px;
-  height: fit-content;
-  margin-bottom: 6px;
-  animation: motion 1s linear infinite;
-}
-@keyframes motion {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(3px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-
-.truckTires {
-  width: 110%;
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  position: absolute;
-  bottom: 0;
-}
-.truckTires svg {
-  width: 12px;
-}
-/* ? Truck Animation End */
-
 /* Info: Footer Css */
 footer {
   border-top: 3px solid var(--primary-color);
@@ -1010,7 +944,6 @@ footer .footer-sec ul li {
 .top-btn {
   text-decoration: none;
   position: fixed;
-  display: grid;
   place-items: center;
   z-index: 100000;
   bottom: 20px;
